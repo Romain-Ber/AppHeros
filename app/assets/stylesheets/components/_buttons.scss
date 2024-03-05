@@ -1,0 +1,30 @@
+body {
+  background-color: $brown;
+}
+
+.button-home {
+  border: none;
+  background: $primary;
+  color: $white;
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.2s;
+  border-radius: 5px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  box-shadow: $gold 0px 7px 2px, $brown 0px 8px 5px;
+}
+
+.button-home p{
+  text-decoration: none;
+  color: $brown;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.button-home:hover {
+  background: $gold
+}
