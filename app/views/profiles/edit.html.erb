@@ -1,0 +1,26 @@
+<h1>Profiles - edit</h1>
+
+<%= form_with(model: @profile, url: profile_path(@profile), method: :patch) do |form| %>
+  <div class="field">
+    <%= form.label :nom %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :age %>
+    <%= form.number_field :age %>
+  </div>
+
+  <div class="field">
+    <p>photo de profil: <%= form.file_field :photo %></p>
+  </div>
+
+  <div class="field">
+    <%= form.label :bio %>
+    <%= form.text_area :bio %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Save" %>
+  </div>
+<% end %>
