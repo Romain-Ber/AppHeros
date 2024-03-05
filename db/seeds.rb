@@ -12,6 +12,16 @@ User.destroy_all
     )
 end
 
+User.create!(
+  username: Faker::Fantasy::Tolkien.character,
+  email: "admin@gmail.com",
+  password: "123456",
+  age: rand(18..60),
+  description: Faker::Fantasy::Tolkien.poem,
+  latitude: rand(48.094380..48.136752),
+  longitude: rand(-1.629610..-1.703168)
+  )
+
 puts("Seeded #{User.count} users")
 
 Bar.destroy_all
