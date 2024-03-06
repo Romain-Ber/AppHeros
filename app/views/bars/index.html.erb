@@ -1,1 +1,10 @@
-<h1>bars - index</h1>
+<div class="container" >
+  <h1 style="text-align: center">Conquête</h1>
+  <%= render "bars/search"%>
+  <%= render "bars/category"%>
+
+  <% @bars.each do |bar| %>
+    <%= render "card", bar: bar %>
+  <% end %>
+
+</div>
