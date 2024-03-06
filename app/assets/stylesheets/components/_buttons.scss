@@ -20,11 +20,3 @@
   justify-content: center;
   text-align: center;
 }
-
-.button-home:hover {
-  background: $red-dark;
-  border: 4px solid $gold;
-  color: white;
-  transition: 1s;
-  border-image: linear-gradient(to right, $white, $primary, $gold, $primary, $white) 1;
-}
