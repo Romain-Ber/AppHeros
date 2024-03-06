@@ -1,12 +1,21 @@
-<div class="container d-flex flex-column gap-4 py-4">
-  <h1 class="text-center">Conquête</h1>
-  <%= render "bars/search"%>
-  <%= render "bars/category"%>
+<div class="bar-layout">
+  <div class="bar-content-wrapper">
+    <div class="bar-content">
 
-  <div class="d-flex flex-column gap-4">
-    <% @bars.each do |bar| %>
-      <%= render "card", bar: bar %>
-    <% end %>
+      <div class="container d-flex flex-column gap-4 py-4">
+        <h1 class="text-center">Conquête</h1>
+        <%= render "bars/search"%>
+        <%= render "bars/category"%>
+
+        <div class="d-flex flex-column gap-4">
+          <% @bars.each do |bar| %>
+            <%= link_to bar_path(bar), class:"text-decoration-none", style: "color: inherit;"  do %>
+              <%= render "card", bar: bar %>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+
+    </div>
   </div>
-
 </div>
