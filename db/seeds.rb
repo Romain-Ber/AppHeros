@@ -20,9 +20,8 @@ puts("Seeded #{Bar.count} bars")
 
 User.destroy_all
 
-bar_id = Bar.first.id
-
-10.times do
+50.times do
+  bar_id = Bar.all.sample
   User.create!(
     username: Faker::Fantasy::Tolkien.character,
     email: Faker::Internet.email,
@@ -33,7 +32,7 @@ bar_id = Bar.first.id
     longitude: rand(-1.629610..-1.703168),
     first_login: false,
     status: "available",
-    bar_id: bar_id
+    nearest_bar_id: bar_id
     )
 end
 
@@ -46,8 +45,7 @@ User.create!(
   latitude: rand(48.094380..48.136752),
   longitude: rand(-1.629610..-1.703168),
   first_login: false,
-  status: "available",
-  bar_id: bar_id
+  status: "available"
   )
 
 puts("Seeded #{User.count} users")
