@@ -8,7 +8,8 @@ User.destroy_all
     age: rand(18..60),
     description: Faker::Fantasy::Tolkien.poem,
     latitude: rand(48.094380..48.136752),
-    longitude: rand(-1.629610..-1.703168)
+    longitude: rand(-1.629610..-1.703168),
+    first_login: false
     )
 end
 
@@ -19,7 +20,8 @@ User.create!(
   age: rand(18..60),
   description: Faker::Fantasy::Tolkien.poem,
   latitude: rand(48.094380..48.136752),
-  longitude: rand(-1.629610..-1.703168)
+  longitude: rand(-1.629610..-1.703168),
+  first_login: false
   )
 
 puts("Seeded #{User.count} users")
@@ -38,6 +40,7 @@ ADDRESSES = [
     name: Faker::Fantasy::Tolkien.location,
     address: ADDRESSES.sample,
     description: Faker::Fantasy::Tolkien.poem
+    bar_type: "Bar à bières"
   )
 end
 
