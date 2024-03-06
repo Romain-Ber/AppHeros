@@ -1,16 +1,24 @@
-<div class="container d-flex flex-column gap-4 py-4">
-  <div>
-    <%= link_to "retour", "#", class: "btn btn-primary" %>
-    <h1 class="text-center">Challenges</h1>
-  </div>
-  <div class="d-flex flex-column gap-4">
-    <% @users.each do |user| %>
-      <div class="d-flex gap-2">
-        <%= render "card", user: user %>
-        <div class="flex-end">
-          <%= image_tag("players/icone_defier.png", width: "60", height: "60" ) %>
+<div class="bar-layout">
+  <div class="bar-content-wrapper">
+    <div class="bar-content">
+
+      <div class="container d-flex flex-column gap-4 py-4">
+        <div>
+          <%= link_to "retour", "#", class: "btn btn-primary" %>
+          <h1 class="text-center">Challenges</h1>
+        </div>
+        <div class="d-flex flex-column gap-4">
+          <% @users.each do |user| %>
+            <div class="d-flex gap-2">
+              <%= render "card", user: user %>
+              <div class="flex-end">
+                <%= image_tag("players/icone_defier.png", width: "60", height: "60" ) %>
+              </div>
+            </div>
+          <% end %>
         </div>
       </div>
-    <% end %>
+
+    </div>
   </div>
 </div>
