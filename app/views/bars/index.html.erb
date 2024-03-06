@@ -1,1 +1,12 @@
-<h1>bars - index</h1>
+<div class="container d-flex flex-column gap-4 py-4">
+  <h1 class="text-center">Conquête</h1>
+  <%= render "bars/search"%>
+  <%= render "bars/category"%>
+
+  <div class="d-flex flex-column gap-4">
+    <% @bars.each do |bar| %>
+      <%= render "card", bar: bar %>
+    <% end %>
+  </div>
+
+</div>
