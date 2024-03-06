@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get "home", to: "pages#home"
   resource :profile, only: [:show, :update, :edit]
   resources :bars, only: [:index, :show] do
+    resources :players, only: [:index]
     member do
       get :hero
     end
