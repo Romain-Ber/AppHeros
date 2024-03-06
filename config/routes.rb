@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: "pages#login"
+  get "home", to: "pages#home"
   resource :profile, only: [:show, :update, :edit]
   resources :bars, only: [:index, :show] do
     member do
