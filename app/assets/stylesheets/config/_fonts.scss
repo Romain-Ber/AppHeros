@@ -1,16 +1,43 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: "Montserrat", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "GoudyRegular";
+  src: font-url('GoudyRegular') format('woff')
+}
+
+@font-face {
+  font-family: "GoudyBold";
+  src: font-url('GoudyBold') format('woff')
+}
+
+$goudy-regular: "GoudyRegular";
+$goudy-bold: "GoudyBold";
+
+
+h1 {
+  font-family: $goudy-regular;
+  font-size: 48px !important;
+}
+
+h2 {
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom:0 !important;
+  font-family: $goudy-regular;
+}
+
+.text-small {
+  font-family: 'Montserrat', "sans-serif";
+  font-size: 12px;
+  line-height: 100%;
+}

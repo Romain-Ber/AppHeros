@@ -1,7 +1,21 @@
 .avatar {
-  width: 40px;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
 }
+
+.avatar-gold {
+  border:4px solid $primary;
+}
+
+.avatar-silver {
+  border: 3px solid $light-gray
+}
+
+.avatar-bronze {
+  border: 3px solid $red
+}
+
 .avatar-large {
   width: 56px;
   border-radius: 50%;
