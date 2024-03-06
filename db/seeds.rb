@@ -39,7 +39,7 @@ ADDRESSES = [
   Bar.create!(
     name: Faker::Fantasy::Tolkien.location,
     address: ADDRESSES.sample,
-    description: Faker::Fantasy::Tolkien.poem
+    description: Faker::Fantasy::Tolkien.poem,
     bar_type: "Bar à bières"
   )
 end
