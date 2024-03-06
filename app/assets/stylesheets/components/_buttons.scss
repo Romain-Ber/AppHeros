@@ -1,4 +1,4 @@
-.button-home {
+.button {
   border: 4px solid $gold;
   border-image: linear-gradient(to right, $gold, $primary, $white, $primary, $gold) 1;
   background: linear-gradient($red, $red-dark);
@@ -13,18 +13,10 @@
   // box-shadow: $gold 0px 7px 2px, $brown 0px 8px 5px;
 }
 
-.button-home p{
+.button p{
   text-decoration: none;
   color: $white;
   display: flex;
   justify-content: center;
   text-align: center;
-}
-
-.button-home:hover {
-  background: $red-dark;
-  border: 4px solid $gold;
-  color: white;
-  transition: 1s;
-  border-image: linear-gradient(to right, $white, $primary, $gold, $primary, $white) 1;
 }

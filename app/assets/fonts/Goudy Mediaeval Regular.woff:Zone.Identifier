@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/0f4d31f5-db7e-4bb5-94e2-9e5d5939bc96/Goudy%20Mediaeval%20Regular.woff?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240306%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240306T112505Z&X-Amz-Expires=86400&X-Amz-Signature=d65dc90d2d34e073057b8782017ca8f85b2a86bdce328dd13b9abbc9aa66b2b3&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Goudy%20Mediaeval%20Regular.woff%22&response-content-type=font%2Fwoff&x-id=GetObject
