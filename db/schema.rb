@@ -76,6 +76,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_03_07_121905) do
 
   create_table "games", force: :cascade do |t|
     t.string "name"
+    t.string "slug"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
