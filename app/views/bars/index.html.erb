@@ -1,26 +1,18 @@
-<div class="bar-layout">
-  <div class="bar-content-wrapper">
-    <div class="bar-content">
-      <div class="container d-flex flex-column gap-4 py-4">
-        <h1 class="text-center">Conquête</h1>
-        <%= render "bars/search"%>
-        <%= render "bars/category"%>
+<% content_for :title, "Les Tavernes" %>
+  <div class="container d-flex flex-column gap-4 py-4">
+    <%= render "bars/search"%>
+    <%= render "bars/category"%>
 
-        <div class="d-flex flex-column gap-4">
-          <% @bars.each do |bar| %>
-            <%= link_to bar_path(bar), class:"text-decoration-none", style: "color: inherit;"  do %>
-              <%= render "card", bar: bar %>
-            <% end %>
-          <% end %>
-        <div style="width: 100%; height: 600px;"
+    <div class="d-flex flex-column gap-4">
+      <% @bars.each do |bar| %>
+        <%= link_to bar_path(bar), class:"text-decoration-none", style: "color: inherit;"  do %>
+          <%= render "card", bar: bar %>
+        <% end %>
+      <% end %>
+    </div>
+    <div style="width: 100%; height: 600px;"
           data-controller="map"
           data-map-markers-value="<%= @markers.to_json %>"
           data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
         </div>
-
-
-        </div>
-      </div>
-    </div>
   </div>
-</div>

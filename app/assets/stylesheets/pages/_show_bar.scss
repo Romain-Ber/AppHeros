@@ -1,0 +1,33 @@
+.bar-content-info-image {
+  border: solid 2px $brown-ultradark;
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.bar-content-text {
+  background-color: $light-gray;
+  padding-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:12px;
+  padding:24px 0;
+  color: $brown-ultradark;
+  border-radius: 0px 0px 8px 8px;
+
+  span {
+    color:$brown;
+  }
+}
+
+.bar-content-bottom {
+  width:100%;
+  padding:0 16px;
+  padding-bottom:16px;
+}
+
+.bar-content .button {
+  width:100%;
+}

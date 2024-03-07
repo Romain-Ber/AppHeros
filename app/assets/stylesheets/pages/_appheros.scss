@@ -1,11 +1,11 @@
-.bar-layout {
+.appheros-layout {
   background:$brown-ultradark;
   padding: 16px;
   width:100vw;
   height:100vh;
 }
 
-.bar-content-wrapper {
+.appheros-content-wrapper {
   background-image: asset-url('noise-texture.png');
   background-size: cover;
   width:100%;
@@ -14,7 +14,7 @@
   border-radius:$border-radius-sm;
 }
 
-.bar-content {
+.appheros-content {
   background-color: $primary-light;
   border-radius:$border-radius-sm;
   border: 1px solid $primary;
@@ -26,7 +26,7 @@
   overflow: hidden;
 }
 
-.bar-content-head {
+.appheros-content-head {
   width:100%;
   position:relative;
 
@@ -37,7 +37,7 @@
   }
 }
 
-.bar-content-title {
+.appheros-content-title {
   background-color: $brown-dark;
   width: 100%;
   display: flex;
@@ -52,10 +52,24 @@
   }
 }
 
-.bar-content-subtitle {
+.appheros-content-infos {
+  padding:0 16px;
+  width:100%;
+  position: relative;
+}
+
+.appheros-content-subtitle-wrapper {
   position: absolute;
+  top:-26px;
+  left:0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appheros-content-subtitle {
 	width: fit-content;
-  bottom:-26px;
   height:50px;
 	color: $primary-light;
   background: $brown;
@@ -63,10 +77,11 @@
   padding: 16px;
 	font-weight: bold;
   font-family: $goudy-regular;
+  position: relative;
   // border: 2px solid $brown-ultradark;
 }
 
-.bar-content-subtitle:before {
+.appheros-content-subtitle:before {
   content:"";
   position: absolute;
   right: 100%;
@@ -80,7 +95,7 @@
   // border: 2px solid $brown-ultradark;
 }
 
-.bar-content-subtitle:after {
+.appheros-content-subtitle:after {
   content:"";
   position: absolute;
   left: 100%;
@@ -92,43 +107,4 @@
   border-bottom:25px solid transparent;
   color:$brown;
   // border: 2px solid $brown-ultradark;
-}
-
-.bar-content-infos {
-  padding:0 16px;
-  width:100%;
-}
-
-.bar-content-info-image {
-  border: solid 2px $brown-ultradark;
-  height: 300px;
-  width: 100%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-}
-
-.bar-content-text {
-  background-color: $light-gray;
-  padding-bottom: 2vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap:12px;
-  padding:24px 0;
-  color: $brown-ultradark;
-  border-radius: 0px 0px 8px 8px;
-
-  span {
-    color:$brown;
-  }
-}
-
-.bar-content-bottom {
-  width:100%;
-  padding:0 16px;
-  padding-bottom:16px;
-}
-
-.bar-content .button {
-  width:100%;
 }
