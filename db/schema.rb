@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_03_06_161313) do
+ActiveRecord::Schema[7.1].define(version: 2024_03_07_121905) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -65,11 +65,19 @@ ActiveRecord::Schema[7.1].define(version: 2024_03_06_161313) do
     t.bigint "to_id"
     t.bigint "winner_id"
     t.bigint "loser_id"
+    t.bigint "game_id", null: false
     t.index ["bar_id"], name: "index_challenges_on_bar_id"
     t.index ["from_id"], name: "index_challenges_on_from_id"
+    t.index ["game_id"], name: "index_challenges_on_game_id"
     t.index ["loser_id"], name: "index_challenges_on_loser_id"
     t.index ["to_id"], name: "index_challenges_on_to_id"
     t.index ["winner_id"], name: "index_challenges_on_winner_id"
+  end
+
+  create_table "games", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "scores", force: :cascade do |t|
@@ -105,6 +113,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_03_06_161313) do
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "challenges", "bars"
+  add_foreign_key "challenges", "games"
   add_foreign_key "challenges", "users", column: "from_id"
   add_foreign_key "challenges", "users", column: "loser_id"
   add_foreign_key "challenges", "users", column: "to_id"
