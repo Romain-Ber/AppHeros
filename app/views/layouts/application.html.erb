@@ -10,12 +10,12 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body><%= render "shared/navbar" %>
-    <%= render "shared/flashes" %>
-
-
-    <%= yield %>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+  <body>
+    <%= render "shared/appheros-layout" do %>
+      <%= yield %>
+      <%= render "shared/flashes" %>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    <% end %>
   </body>
 </html>

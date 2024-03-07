@@ -1,0 +1,19 @@
+<div class="appheros-layout">
+  <div class="appheros-content-wrapper">
+    <div class="appheros-content">
+      <div class="appheros-content-head">
+        <div class="appheros-content-title">
+          <div class="back">
+            <% link_to :back do %>
+              <%= image_tag('icons/manicule.svg') %>
+            <% end  %>
+          </div>
+          <h1><%= yield :title %></h1>
+        </div>
+        <div class="appheros-content-infos">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

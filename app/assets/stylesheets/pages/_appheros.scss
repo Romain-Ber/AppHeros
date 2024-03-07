@@ -1,0 +1,58 @@
+.appheros-layout {
+  background:$brown-ultradark;
+  padding: 16px;
+  width:100vw;
+  height:100vh;
+}
+
+.appheros-content-wrapper {
+  background-image: asset-url('noise-texture.png');
+  background-size: cover;
+  width:100%;
+  height:100%;
+  padding:8px;
+  border-radius:$border-radius-sm;
+}
+
+.appheros-content {
+  background-color: $primary-light;
+  border-radius:$border-radius-sm;
+  border: 1px solid $primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height:100%;
+  overflow: hidden;
+}
+
+.appheros-content-head {
+  width:100%;
+  position:relative;
+
+  .back {
+    position:absolute;
+    top:12px;
+    left:12px;
+  }
+}
+
+.appheros-content-title {
+  background-color: $brown-dark;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:24px 0;
+  position:relative;
+  h1 {
+    text-align: center;
+    color: $primary-light;
+  }
+}
+
+.appheros-content-infos {
+  padding:0 16px;
+  width:100%;
+}
