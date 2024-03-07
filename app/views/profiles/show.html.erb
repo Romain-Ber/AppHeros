@@ -1,0 +1,29 @@
+<% content_for :title, "#{@profile.username}" %>
+<div class="appheros-content-infos">
+  <img src="https://picsum.photos/200/300" alt="" class="bar-content-info-image">
+  <div class="bar-content-text profile-content-text">
+    <div class="badges">
+      <div class="badge">
+        <div class="status-dot connected"></div>
+        <p>Héro Légendaire</p>
+        <%# 2 badges, en space between, position absolute, check la position relative du parent %>
+      </div>
+
+      <div class="badge">
+        <p><%= @profile.age %> ans</p>
+        <%# 2 badges, en space between, position absolute, check la position relative du parent %>
+      </div>
+    </div>
+    <p>
+      <%= @profile.description %>
+    </p>
+  </div>
+  <div class="achievment-text">
+    <h2>Vos succès</h2>
+  </div>
+  <div class="achievement-cards">
+    <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Héros de La Piste 15/03/2024</p>
+    <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Héros de La Piste 15/03/2024</p>
+    <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Héros de La Piste 15/03/2024</p>
+  </div>
+</div>
