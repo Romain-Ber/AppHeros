@@ -1,13 +1,19 @@
-<div class="d-flex gap-2 w-100">
+<div class="player-card">
   <img src="https://picsum.photos/60/60"/>
-  <div class="d-flex flex-column w-100">
-    <div class="d-flex">
-      <h2 class="w-100"><%= user.username %></h2>
-      <%= image_tag("players/icone_clan.png", width: "60", height: "20" ) %>
+  <div class="player-card-details">
+    <div class="player-card-details-username">
+      <h2><%= user.username %></h2>
     </div>
-    <div class="d-flex gap-2">
-      <p class="w-100">Héros légendaire</p>
-      <p><%= user.age %>ans</p>
+    <div class="player-card-details-tags">
+      <div class="player-card-details-tags-hero">
+        <div class="player-card-details-tags-online"></div>
+        <div class="player-card-details-tags-online-shine"></div>
+        <p>Héros Légendaire</p>
+      </div>
+      <div class="player-card-details-tags-spacer"></div>
+      <div class="player-card-details-tags-age">
+        <p><%= user.age %> ans</p>
+      </div>
     </div>
   </div>
 </div>
