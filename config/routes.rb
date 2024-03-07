@@ -9,8 +9,8 @@ Rails.application.routes.draw do
     end
     resources :challenges, only: [:new, :create]
   end
-  resources :challenges, only: [:update] do
+  resources :challenges, only: [:update, :show] do
     resources :challenge_requests, only: [:create, :destroy]
-    resources :games, only: [:index]
+    resources :games, only: [:show]
   end
 end
