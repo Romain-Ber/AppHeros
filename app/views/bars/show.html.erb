@@ -1,41 +1,44 @@
 <% content_for :title, "#{@bar.name}" %>
-<div class="appheros-content-infos">
-  <img src="https://picsum.photos/200/300" alt="" class="bar-content-info-image">
-  <div class="bar-content-text">
-    <p>
-      <%= @bar.description %>
-    </p>
-    <span class="text-small">
-      <%= @bar.address %>
-    </span>
+<div class="appheros-content-subtitle-wrapper">
+  <div class="appheros-content-subtitle">
+    <%= @bar.bar_type %>
   </div>
-  <div class="bar-content-bottom">
-    <div class="leaderboard">
-      <div class="leaderboard-player first-player">
-        <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-gold') %>
-        <div class="leadearboard-player-infos">
-          <p>Supernom</p>
-          <span class="text-small">6789 points</span>
-        </div>
-      </div>
-      <div class="leaderboard-player second-player">
-        <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-silver') %>
-        <div class="leadearboard-player-infos">
-          <p>Supernom</p>
-          <span class="text-small">6789 points</span>
-        </div>
-      </div>
-      <div class="leaderboard-player third-player">
-        <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-bronze') %>
-        <div class="leadearboard-player-infos">
-          <p>Supernom</p>
-          <span class="text-small">6789 points</span>
-        </div>
+</div>
+<img src="https://picsum.photos/200/300" alt="" class="bar-content-info-image">
+<div class="bar-content-text">
+  <p>
+    <%= @bar.description %>
+  </p>
+  <span class="text-small">
+    <%= @bar.address %>
+  </span>
+</div>
+<div class="bar-content-bottom">
+  <div class="leaderboard">
+    <div class="leaderboard-player first-player">
+      <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-gold') %>
+      <div class="leadearboard-player-infos">
+        <p>Supernom</p>
+        <span class="text-small">6789 points</span>
       </div>
     </div>
-    <div>
-      <%= image_tag("icons/feet.svg") %>
-      <%= link_to 'Se rapprocher', bar_players_path(@bar), class:'btn button' %>
+    <div class="leaderboard-player second-player">
+      <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-silver') %>
+      <div class="leadearboard-player-infos">
+        <p>Supernom</p>
+        <span class="text-small">6789 points</span>
+      </div>
     </div>
+    <div class="leaderboard-player third-player">
+      <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-bronze') %>
+      <div class="leadearboard-player-infos">
+        <p>Supernom</p>
+        <span class="text-small">6789 points</span>
+      </div>
+    </div>
+  </div>
+  <div>
+    <%= image_tag("icons/feet.svg") %>
+    <%= link_to 'Se rapprocher', bar_players_path(@bar), class:'btn button' %>
   </div>
 </div>
