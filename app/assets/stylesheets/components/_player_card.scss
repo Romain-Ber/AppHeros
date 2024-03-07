@@ -1,0 +1,106 @@
+.player-card {
+  display: flex;
+  gap: 2;
+  width: 100%;
+  background-color: #634016;
+  border-radius: 8px;
+  padding: 3px;
+  margin-bottom: 16px;
+}
+
+.player-card img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #FFD363;
+}
+
+.player-card-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.player-card-details-username {
+  width: 100%;
+}
+
+.player-card-details-username h2 {
+  font-size: 24px;
+  color: #FFC581;
+  margin: 0;
+}
+
+.player-card-details-tags {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-card-details-tags-hero {
+  height: 20px;
+  padding: 4px;
+  padding-left: 16px;
+  background-color: #ED6418;
+  border-radius: 50px;
+  border: 1px solid #826645;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  white-space: nowrap;
+  position: relative;
+}
+
+.player-card-details-tags-hero p {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+}
+
+.player-card-details-tags-spacer {
+  flex-grow: 9999;
+}
+
+.player-card-details-tags-age {
+  height: 20px;
+  padding: 4px;
+  background-color: #FFAC4A;
+  border-radius: 50px;
+  border: 1px solid #826645;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+
+.player-card-details-tags-age p {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+}
+
+.player-card-details-tags-online {
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background-color: #71CB2B;
+  border: 1px solid #FFD363;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  filter: blur(0.2px);
+}
+
+.player-card-details-tags-online-shine {
+  height: 1.5px;
+  width: 1.5px;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  outline: 0.2px solid #b4beb3;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  filter: blur(0.2px);
+}
