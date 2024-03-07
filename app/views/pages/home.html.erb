@@ -1,6 +1,6 @@
 <% content_for :title, "Bienvenue" %>
 <div class="container d-flex flex-column align-item-center gap-4 py-4">
-  <%= render "shared/card-profile", user: @user %>
+  <%= render "shared/card-profile", user: @user if @user != nil %>
   <div class="logo d-flex align-item-center">
     <%= cl_image_tag("ap8r1mclgllt57iaysd2", alt: "Logo de l'application", class:'mx-auto') %>
   </div>
