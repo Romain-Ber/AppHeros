@@ -11,7 +11,7 @@
           <h1><%= yield :title %></h1>
         </div>
       </div>
-      <div class="appheros-content-infos">
+      <div class="appheros-content-infos <%= "appheros-content-infos-overflow" if action_name == "index" %>">
         <%= yield %>
       </div>
     </div>
