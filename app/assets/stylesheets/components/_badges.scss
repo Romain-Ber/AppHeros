@@ -1,0 +1,50 @@
+.appheros-content-infos {
+  position: relative;
+}
+
+.bar-content-text {
+  position: relative;
+}
+
+.bar-content-text.profile-content-text {
+  padding-top: 30px;
+}
+
+.badges {
+  position: absolute;
+  top: -12px;
+  width:100%;
+  padding:0 8px;
+  display: flex;
+  justify-content: space-between;
+
+  .badge {
+    background-color: #FFAC4A;
+    border: 1px solid $brown-ultradark;
+    padding: 6px 8px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+  }
+
+  .status-dot {
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+  }
+
+  .status-dot.connected {
+    background:green;
+  }
+  .status-dot.not-connected {
+    background:$red;
+  }
+}
+
+.achievment-text {
+  text-align: center;
+  padding-top: 40px;
+  font-size: x-large;
+}
