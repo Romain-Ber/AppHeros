@@ -1,4 +1,8 @@
+Challenge.destroy_all
 Bar.destroy_all
+User.destroy_all
+Game.destroy_all
+
 
 ADDRESSES = [
   "La Piste, Rennes",
@@ -17,8 +21,6 @@ ADDRESSES = [
 end
 
 puts("Seeded #{Bar.count} bars")
-
-User.destroy_all
 
 50.times do
   User.create!(
@@ -49,16 +51,12 @@ User.create!(
 
 puts("Seeded #{User.count} users")
 
-Game.destroy_all
-
 Game.create!(
   name: "Partie Personnalisée",
   slug: "custom_game"
 )
 
 puts("Seeded #{Game.count} games")
-
-Challenge.destroy_all
 
 Challenge.create!(
   location: "4ème table à gauche à l'entrée du bar",
