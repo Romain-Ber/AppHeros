@@ -64,8 +64,8 @@ Challenge.create!(
   status: "accepted",
   game: Game.all.sample,
   bar: Bar.all.sample,
-  from: User.all.sample,
-  to: User.all.sample
+  challenger: User.all.sample,
+  challenged: User.all.sample
 )
 
 puts("Seeded #{Challenge.count} challenges")
