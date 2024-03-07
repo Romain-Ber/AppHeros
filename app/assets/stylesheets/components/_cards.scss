@@ -12,3 +12,15 @@
     padding: 9px;
   }
 }
+
+.content-subtitle-card-profile {
+  width: fit-content;
+  height:50px;
+	color: $primary-light;
+  background: $brown;
+	text-align: center;
+  padding: 16px;
+	font-weight: bold;
+  font-family: $goudy-regular;
+  position: relative;
+}
