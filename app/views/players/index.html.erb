@@ -6,7 +6,7 @@
     <div class="d-flex flex-column gap-4">
       <% @users.each do |user| %>
         <div class="d-flex gap-2">
-          <%= render "card", user: user %>
+          <%= render "shared/card-profile", user: user %>
           <div class="flex-end">
             <%= image_tag("players/icone_defier.png", width: "60", height: "60" ) %>
           </div>

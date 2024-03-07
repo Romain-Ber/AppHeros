@@ -1,5 +1,8 @@
 class GamesController < ApplicationController
   def show
-    @game = Game.find(params[:id])
+    @challenge = Challenge.first
+    @game = @challenge.game.slug
+    @sender = @challenge.from
+    @receiver = @challenge.to
   end
 end
