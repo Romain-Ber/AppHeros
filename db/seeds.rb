@@ -1,4 +1,9 @@
+Challenge.destroy_all
+Score.destroy_all
 Bar.destroy_all
+User.destroy_all
+Game.destroy_all
+
 
 ADDRESSES = [
   "La Piste, Rennes",
@@ -18,11 +23,14 @@ end
 
 puts("Seeded #{Bar.count} bars")
 
-User.destroy_all
-
-50.times do
+100.times do
+  bar = Bar.all.sample
+  username = Faker::Fantasy::Tolkien.character
+  while username.length >= 15
+    username = Faker::Fantasy::Tolkien.character
+  end
   User.create!(
-    username: Faker::Fantasy::Tolkien.character,
+    username: username,
     email: Faker::Internet.email,
     password: "123456",
     age: rand(18..60),
@@ -31,7 +39,7 @@ User.destroy_all
     longitude: rand(-1.629610..-1.703168),
     first_login: false,
     status: "available",
-    nearest_bar_id: Bar.all.sample
+    nearest_bar_id: bar.id
     )
 end
 
@@ -49,8 +57,6 @@ User.create!(
 
 puts("Seeded #{User.count} users")
 
-Game.destroy_all
-
 Game.create!(
   name: "Partie Personnalisée",
   slug: "custom_game"
@@ -58,15 +64,23 @@ Game.create!(
 
 puts("Seeded #{Game.count} games")
 
-Challenge.destroy_all
-
 Challenge.create!(
   location: "4ème table à gauche à l'entrée du bar",
   status: "accepted",
   game: Game.all.sample,
   bar: Bar.all.sample,
-  from: User.all.sample,
-  to: User.all.sample
+  challenger: User.all.sample,
+  challenged: User.all.sample
 )
 
 puts("Seeded #{Challenge.count} challenges")
+
+1000.times do
+  Score.create!(
+    score: rand(10..50),
+    bar: Bar.all.sample,
+    user: User.all.sample
+  )
+end
+
+puts("Seeded #{Score.count} scores")

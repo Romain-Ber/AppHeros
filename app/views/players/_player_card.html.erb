@@ -1,0 +1,35 @@
+<div class="player-card">
+  <img src="https://picsum.photos/60/60"/>
+  <div class="player-card-details">
+    <div class="player-card-details-username">
+      <h2><%= user.username %></h2>
+    </div>
+    <div class="player-card-details-tags">
+      <% playerScore = Score.where(user: user, bar: @bar).sum(:score) %>
+      <% case %>
+      <% when playerScore < 15 %>
+      <div class="player-card-details-tags-hero", style="background-color: #4C9540;">
+        <p>Héros Sans Alcool</p>
+      <% when playerScore < 30 %>
+      <div class="player-card-details-tags-hero", style="background-color: #405395;">
+        <p>Héros Présentable</p>
+      <% when playerScore < 45 %>
+      <div class="player-card-details-tags-hero", style="background-color: #7F4095;">
+        <p>Héros Jovial</p>
+      <% when playerScore < 60 %>
+      <div class="player-card-details-tags-hero", style="background-color: #ED6418;">
+        <p>Héros Fêtard</p>
+      <% else %>
+      <div class="player-card-details-tags-hero", style="background-color: #ED1818;">
+        <p>Héros Pillier</p>
+      <% end %>
+        <div class="player-card-details-tags-online"></div>
+        <div class="player-card-details-tags-online-shine"></div>
+      </div>
+      <div class="player-card-details-tags-spacer"></div>
+      <div class="player-card-details-tags-age">
+        <p><%= user.age %> ans</p>
+      </div>
+    </div>
+  </div>
+</div>

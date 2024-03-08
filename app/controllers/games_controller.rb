@@ -1,5 +1,8 @@
 class GamesController < ApplicationController
-  def index
-    @games = Game.all
+  def show
+    @challenge = Challenge.first
+    @game = @challenge.game.slug
+    @sender = @challenge.from
+    @receiver = @challenge.to
   end
 end

@@ -1,0 +1,11 @@
+<% content_for :title, "Challenges" %>
+
+<%= render "shared/player-card", user: @sender %>
+
+<h1>Versus</h1>
+
+<%= render "shared/player-card", user: @receiver %>
+
+<%= link_to 'Soumettre le résultat', profile_path, class:'btn button w-100' %>
+
+<h1>lala</h1>
