@@ -15,4 +15,5 @@
   <div class="challenger-card", style="margin-top: 10px;">
     <%= render "players/player_card", user: @challenge.challenger %>
   </div>
+  <%= link_to 'Continuer le duel', challenge_game_path(@challenge), class: 'btn button' %>
 </div>
