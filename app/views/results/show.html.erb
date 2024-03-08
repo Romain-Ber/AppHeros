@@ -4,13 +4,13 @@
   <%= render "players/player_card", user: @challenge.challenged %>
   </div>
   <div class="users-scores">
-    <% if @winner == @challenge.challenger %>
-      <p>Gagnant: <%= @challenge.winner_score %></p>
-      <p>Perdant: <%= @challenge.loser_score %></p>
-    <% else %>
-      <p>Gagnant: <%= @challenge.loser_score %></p>
-      <p>Perdant: <%= @challenge.winner_score %></p>
-    <% end %>
+    <!--% if @winner == @challenge.challenger %-->
+      <p>Gagnant: 15 pts<!--%= @challenge.winner_score %></p-->
+      <p>Perdant: 6 pts<!--%= @challenge.loser_score %></p-->
+    <!--% else %-->
+      <!--p>Gagnant: <%= @challenge.loser_score %></!-->
+      <!--p>Perdant: <%= @challenge.winner_score %></!-->
+    <!--% end %-->
   </div>
   <div class="challenger-card", style="margin-top: 10px;">
     <%= render "players/player_card", user: @challenge.challenger %>
