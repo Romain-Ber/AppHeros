@@ -11,12 +11,15 @@
   opacity: 0.8;
   letter-spacing: 1px;
   // box-shadow: $gold 0px 7px 2px, $brown 0px 8px 5px;
+  align-items: center;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
 }
 
 .button p{
   text-decoration: none;
   color: $white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
+
+
