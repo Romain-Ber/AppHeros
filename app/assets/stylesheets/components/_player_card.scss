@@ -30,6 +30,9 @@
   font-size: 24px;
   color: #FFC581;
   margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .player-card-details-tags {
@@ -41,7 +44,7 @@
   height: 20px;
   padding: 4px;
   padding-left: 16px;
-  background-color: #ED6418;
+  padding-right: 6px;
   border-radius: 50px;
   border: 1px solid #826645;
   display: flex;

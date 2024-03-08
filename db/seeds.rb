@@ -1,4 +1,5 @@
 Challenge.destroy_all
+Score.destroy_all
 Bar.destroy_all
 User.destroy_all
 Game.destroy_all
@@ -22,10 +23,14 @@ end
 
 puts("Seeded #{Bar.count} bars")
 
-50.times do
+100.times do
   bar = Bar.all.sample
+  username = Faker::Fantasy::Tolkien.character
+  while username.length >= 15
+    username = Faker::Fantasy::Tolkien.character
+  end
   User.create!(
-    username: Faker::Fantasy::Tolkien.character,
+    username: username,
     email: Faker::Internet.email,
     password: "123456",
     age: rand(18..60),
@@ -69,3 +74,13 @@ Challenge.create!(
 )
 
 puts("Seeded #{Challenge.count} challenges")
+
+1000.times do
+  Score.create!(
+    score: rand(10..50),
+    bar: Bar.all.sample,
+    user: User.all.sample
+  )
+end
+
+puts("Seeded #{Score.count} scores")
