@@ -1,0 +1,18 @@
+<% content_for :title, "Challenge" %>
+<div class="d-flex flex-column">
+  <div class="challenged-card" style="margin-top: 10px;">
+  <%= render "players/player_card", user: @challenge.challenged %>
+  </div>
+  <div class="users-scores">
+    <% if @winner == @challenge.challenger %>
+      <p>Gagnant: <%= @challenge.winner_score %></p>
+      <p>Perdant: <%= @challenge.loser_score %></p>
+    <% else %>
+      <p>Gagnant: <%= @challenge.loser_score %></p>
+      <p>Perdant: <%= @challenge.winner_score %></p>
+    <% end %>
+  </div>
+  <div class="challenger-card", style="margin-top: 10px;">
+    <%= render "players/player_card", user: @challenge.challenger %>
+  </div>
+</div>
