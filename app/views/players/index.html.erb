@@ -8,7 +8,9 @@
         <div class="d-flex">
           <%= render "player_card", user: user %>
           <div class="flex-end", style="margin-left: 8px;">
-            <%= image_tag("players/icone_defier.png", width: "60", height: "60" ) %>
+            <%= button_to bar_challenges_path(@bar, challenged_id: user.id, game_slug: :custom_game), method: :post do %>
+              <%= image_tag("players/icone_defier.png", width: "60", height: "60") %>
+            <% end %>
           </div>
         </div>
     <% end %>
