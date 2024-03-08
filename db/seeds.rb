@@ -56,11 +56,11 @@ User.create!(
 )
 
 User.create!(
-  username: Faker::Fantasy::Tolkien.character,
+  username: "Knnll",
   email: "knnll@gmail.com",
   password: "123456",
-  age: rand(18..60),
-  description: Faker::Fantasy::Tolkien.poem,
+  age: 24,
+  description: "C'est moi",
   latitude: rand(48.094380..48.136752),
   longitude: rand(-1.629610..-1.703168),
   first_login: false,
