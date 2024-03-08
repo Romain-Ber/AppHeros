@@ -1,0 +1,29 @@
+.bars-filters {
+  display: flex;
+  gap:8px;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+
+  button {
+  background-color: $primary;
+  border: 1px solid $brown-ultradark;
+  border-radius: 50px;
+  text-align: center;
+  }
+}
+
+.bars-filters-btn {
+  background-color: $primary-light;
+  border: 1px solid $brown-ultradark;
+  border-radius: 50px;
+  color: $brown-ultradark;
+  text-decoration: none;
+  padding: 2px 8px;
+  white-space: nowrap;
+
+}
+
+.bars-filters-btn.active {
+  background-color: $brown-ultradark;
+  color: $primary-light;
+}
