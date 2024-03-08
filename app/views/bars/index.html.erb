@@ -8,7 +8,7 @@
 <div class="d-flex flex-column gap-2">
   <%# <div class="card-info-bar-index"> %>
     <% @bars.each do |bar| %>
-      <%= link_to bar_path(bar), class:"text-decoration-none" do %>
+      <%= link_to bar_path(bar), class:"bar-card" do %>
         <%= render "card", bar: bar %>
       <% end %>
     <% end %>
