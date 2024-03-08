@@ -32,21 +32,44 @@
   border-radius: 5px;
 }
 
-.image-bar-index {
-  width: 30vw;
-  height: 30vh;
-  padding: 5px 0 5px 5px;
+
+
+.bar-card {
+  background-color: $brown;
+  width: 100%;
+  height: 120px;
+  padding-right:12px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow:hidden;
+  color:$white;
+  gap: 16px;
+  border: 1px solid $brown-dark;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.15);
+  opacity:0;
+  animation: fadeIn 1s cubic-bezier(0.075, 0.22, 0.85, 1);
+  animation-fill-mode: forwards; 
 }
 
-.d-flex .gap-2 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: $brown-ultradark;
-  width: 100%;
-  height: 146px;
-  border-radius: 5px;
+.bar-card-head {
+  display: flex;
   justify-content: space-between;
-  position: relative;
+  width:100%;
+}
+
+.bar-card-image {
+  height:100%;
+  width:100px;
+  object-fit: cover;
+}
+
+.bar-card-infos {
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .d-flex .flex-column .w-100 {
@@ -59,10 +82,35 @@
   font-size: 20px;
 }
 
-.flex-flex-shrink-1 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 60px;
-  height: 60px;
+.bar-card-count {
+
+  span {
+    font-size: 23px !important;
+    position: absolute;
+    font-family: "GoudyBold";
+    color: #45220A;
+    top: 8px;
+    left: 31px;
+  }
+  .bar-card-count-losange {
+    position: relative;
+  }
+}
+
+/* ANIMATION */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@for $i from 1 through 10 {
+  .bar-card:nth-child(#{$i}) {
+    animation-delay:(#{$i*0.15s}); 
+  }
 }

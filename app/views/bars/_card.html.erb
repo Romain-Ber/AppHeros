@@ -1,15 +1,17 @@
-<div class="d-flex gap-2">
-  <div class="image-bar-index">
-    <img src="https://picsum.photos/120/120"/>
-  </div>
-  <div class="d-flex flex-column w-100">
-    <div class="d-flex">
-    <h2 class="w-100"><%= bar.name %></h2>
-      <div class="flex-flex-shrink-1">
-        <%= image_tag("bars/icone_bar.png") %>
-      </div>
-    </div>
-    <p style="padding-left: 5px;"><%= bar.bar_type %></p>
-    <p style="padding-left: 5px;"><%= bar.address %></p>
+
+<img src="https://picsum.photos/120/120" class="bar-card-image"/>
+
+<div class="bar-card-infos">
+  <h2>
+    <%= bar.name %>
+  </h2>
+  <p class="text-small font-bold"><%= bar.bar_type %></p>
+  <p class="text-x-small"><%= bar.address %></p>
+</div>
+
+<div class="bar-card-count">  
+  <div class="bar-card-count-losange"> 
+    <span>7</span>   
+    <%= image_tag("bars/icone_bar.svg") %>
   </div>
 </div>

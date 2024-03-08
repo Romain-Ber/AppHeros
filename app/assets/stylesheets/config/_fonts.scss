@@ -22,12 +22,15 @@ $goudy-bold: "GoudyBold";
 h1 {
   font-family: $goudy-regular;
   font-size: 48px !important;
+  margin-bottom:0 !important;
 }
 
 h2 {
   font-family: $goudy-bold;
-  font-size: 18px;
-  letter-spacing: 3px;
+  font-size: 28px !important;
+  letter-spacing: 1px;
+  margin-bottom: 0 !important;
+  line-height: 90% !important;
 }
 
 p {
@@ -39,6 +42,24 @@ p {
 
 .text-small {
   font-family: 'Montserrat', "sans-serif";
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-x-small {
+  font-family: 'Montserrat', "sans-serif";
   font-size: 12px;
   line-height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
 }
