@@ -1,11 +1,26 @@
 <% content_for :title, "Challenges" %>
 
-<%= render "shared/player-card", user: @sender %>
+<div class="py-5">
+  <%= render "players/player_card", user: @sender %>
 
-<h1>Versus</h1>
+  <div>
+    <%= image_tag("challenges/icone_defier.png") %>
+    <h1>Versus</h1>
+  </div>
 
-<%= render "shared/player-card", user: @receiver %>
+  <%= render "players/player_card", user: @receiver %>
 
-<%= link_to 'Soumettre le résultat', profile_path, class:'btn button w-100' %>
+  <div>
+    <%= link_to 'Déclarer le vainqueur', profile_path, class:'btn button w-100' %>
+  </div>
+</div>
 
-<h1>lala</h1>
+<div>
+  <%= link_to challenge_result_path(@challenge), class:"text-decoration-none" do %>
+    <%= render "players/player_card", user: @sender %>
+  <% end %>
+
+  <%= link_to challenge_result_path(@challenge), class:"text-decoration-none" do %>
+    <%= render "players/player_card", user: @receiver %>
+  <% end %>
+</div>
