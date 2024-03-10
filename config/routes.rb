@@ -11,7 +11,11 @@ Rails.application.routes.draw do
   end
   resources :challenges, only: [:update, :show] do
     resources :challenge_requests, only: [:create, :destroy]
-    resource :game, only: [:show]
+    resource :game, only: [:show] do
+      member do
+        get :memory, to: "games#memory"
+      end
+    end
     resource :result, only: [:show]
   end
 end

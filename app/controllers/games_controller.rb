@@ -7,4 +7,7 @@ class GamesController < ApplicationController
     @winner_score = @challenge.winner_score
     @loser_score = @challenge.loser_score
   end
+
+  def memory
+  end
 end
