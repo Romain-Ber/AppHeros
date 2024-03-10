@@ -9,5 +9,6 @@ class GamesController < ApplicationController
   end
 
   def memory
+    @challenge = Challenge.find(params[:challenge_id])
   end
 end

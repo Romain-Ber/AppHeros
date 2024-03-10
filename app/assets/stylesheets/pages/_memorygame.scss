@@ -3,7 +3,6 @@
   position: relative;
   height: 100%;
   min-height: 500px;
-
 }
 
 .game {
@@ -21,10 +20,10 @@
 
 @keyframes matchAnim {
 	0% {
-		background: #bcffcc;
+		background: #adffc0;
 	}
 	100% {
-		background: white;
+		background: linear-gradient($primary-light, $brown-light);
 	}
 }
 
@@ -52,8 +51,7 @@
 		display: block;
 		transform-style: preserve-3d;
 		transition: .4s ease-in-out;
-		background: $primary-light;
-
+		background-image: linear-gradient($primary-light, $brown-light);
 		&.picked, &.matched {
 			transform: rotateY(180deg);
 		}
@@ -83,7 +81,6 @@
   	}
   }
   .front {
-    background: linear-gradient($primary-light, $brown-light);
   	transform: rotateY(-180deg);
   	@include width(800px){
   		padding: 5px;
@@ -117,30 +114,8 @@
 	max-width: 90%;
 	min-height: 380px;
 	margin: 0 auto;
-	background: white;
+	background: $primary-light;
 	top: 50%;
 	transform: translateY(-50%);
 	padding: 30px 10px;
-	.winner {
-		font-size: 80px;
-		text-align: center;
-		color: #4d4d4d;
-		text-shadow: 0px 3px 0 black;
-		@include width(480px){
-			font-size: 60px;
-		}
-	}
-	.restart {
-		margin: 30px auto;
-		padding: 20px 30px;
-		display: block;
-		font-size: 30px;
-		border: none;
-		background: #4d4d4d;
-		background: linear-gradient(#4d4d4d, #222);
-		border: 1px solid #222;
-		border-radius: 5px;
-		color: white;
-		text-shadow: 0px 1px 0 black;
-	}
 }
