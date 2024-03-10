@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     resource :game, only: [:show] do
       member do
         get :memory, to: "games#memory"
+        get :taptabiere, to: "games#taptabiere"
       end
     end
     resource :result, only: [:show]
