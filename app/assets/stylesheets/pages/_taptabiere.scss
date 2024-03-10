@@ -1,9 +1,27 @@
 #game-container {
   margin-top: 50px;
+  position: relative;
 }
 
 #score {
   font-size: 24px;
+}
+
+.title-page {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+#start-button {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#instructions {
+  text-align: center;
 }
 
 #beer-glass {
@@ -13,6 +31,7 @@
   border: 5px solid brown;
   margin: 20px auto;
   position: relative;
+  padding-bottom: 20px;
 }
 
 #beer-level {
@@ -21,4 +40,13 @@
   left: 0;
   width: 100%;
   background-color: yellow;
+}
+
+#countdown {
+  text-align: center;
+  font-size: 45px;
+}
+
+#score {
+  text-align: center;
 }

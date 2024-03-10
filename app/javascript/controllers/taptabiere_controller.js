@@ -33,6 +33,7 @@ export default class extends Controller {
     alert('Temps écoulé! Votre score est de ' + this.score + '!');
     this.startButtonTarget.disabled = false;
     this.scoreTarget.innerText = 'Score: ' + this.score;
+    document.getElementById('continue-button').style.display = 'block'
   }
 
   tap() {
