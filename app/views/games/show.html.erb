@@ -11,8 +11,8 @@
   <%= render "players/player_card", user: @receiver %>
 
   <div>
-    <!--%= link_to 'Déclarer le vainqueur', profile_path, class:'btn button w-100' %-->
-    <div class="btn button w-100">Déclarer le vainqueur</div>
+    <%= link_to 'Déclarer le vainqueur', memory_challenge_game_path(@challenge), class:'btn button w-100' %>
+    <!--div class="btn button w-100">Déclarer le vainqueur</!--div-->
   </div>
 </div>
 
