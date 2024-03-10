@@ -11,8 +11,19 @@
           <h1><%= yield :title %></h1>
         </div>
       </div>
-      <div class="appheros-content-infos <%= "appheros-content-infos-overflow" if action_name == "index" %>">
-        <%= yield %>
+      <div class="appheros-content-infos <%= "appheros-content-infos-overflow" if action_name == "index" %>" data-controller="parchment">
+        <div class="main">
+          <div id="parchment"></div>
+          <div id="contain">
+            <%= yield %>
+          </div>
+        </div>
+        <svg>
+          <filter id="wavy2">
+            <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1" />
+            <feDisplacementMap in="SourceGraphic" scale="20" />
+          </filter>
+        </svg>
       </div>
     </div>
   </div>
