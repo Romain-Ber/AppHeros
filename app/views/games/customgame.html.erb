@@ -1,0 +1,9 @@
+<div>
+  <%= link_to challenge_result_path(@challenge), class:"text-decoration-none" do %>
+    <%= render "players/player_card", user: @sender %>
+  <% end %>
+
+  <%= link_to challenge_result_path(@challenge), class:"text-decoration-none" do %>
+    <%= render "players/player_card", user: @receiver %>
+  <% end %>
+</div>

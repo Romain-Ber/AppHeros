@@ -12,8 +12,6 @@ class ChallengesController < ApplicationController
       status: "ongoing",
       game: @game
     )
-
-
     if @challenge.save!
       redirect_to challenge_game_path(@challenge)
     end
