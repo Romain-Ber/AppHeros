@@ -1,10 +1,11 @@
 <div id="game-container" data-controller="taptabiere">
-  <h1>Tapez le plus vite possible!</h1>
-  <button id="start-button" data-taptabiere-target="startButton" data-action="taptabiere#startGame">Commencer</button>
-  <p id="instructions">Appuyez sur le bouton dès que vous êtes prêt!</p>
+  <h1 class="title-page">Remplis le plus possible ta bière!</h1>
+  <p id="instructions">Appuie sur le bouton dès que tu es prêt!</p>
+  <button class="button" data-taptabiere-target="startButton" data-action="taptabiere#startGame">Commencer</button>
   <div id="countdown" data-taptabiere-target="countDown"></div>
   <p id="score" data-taptabiere-target="score"></p>
   <div id="beer-glass" data-action="click->taptabiere#tap">
-    <div id="beer-level" data-taptabiere-target="beerLevel"></div>
+  <div id="beer-level" data-taptabiere-target="beerLevel"></div>
   </div>
+  <%= link_to "Continue", challenge_result_path(@challenge), class:'btn button w-100', id: 'continue-button', style: 'display: none;' %>
 </div>
