@@ -86,6 +86,16 @@ Game.create!(
   slug: "custom_game"
 )
 
+Game.create!(
+  name: "Memory",
+  slug: "memory_game"
+)
+
+Game.create!(
+  name: "Tap Ta Bière",
+  slug: "taptabiere_game"
+)
+
 puts("Seeded #{Game.count} games")
 
 Challenge.create!(
