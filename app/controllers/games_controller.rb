@@ -11,4 +11,8 @@ class GamesController < ApplicationController
   def memory
     @challenge = Challenge.find(params[:challenge_id])
   end
+
+  def taptabiere
+    @challenge = Challenge.find(params[:challenge_id])
+  end
 end
