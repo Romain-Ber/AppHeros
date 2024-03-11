@@ -1,0 +1,2 @@
+var r={};var trim=function(r){return r.replace(/^\s+|\s+$/g,"")},isArray=function(r){return"[object Array]"===Object.prototype.toString.call(r)};r=function(r){if(!r)return{};var e={};var t=trim(r).split("\n");for(var n=0;n<t.length;n++){var a=t[n];var o=a.indexOf(":"),i=trim(a.slice(0,o)).toLowerCase(),u=trim(a.slice(o+1));"undefined"===typeof e[i]?e[i]=u:isArray(e[i])?e[i].push(u):e[i]=[e[i],u]}return e};var e=r;export{e as default};
+
