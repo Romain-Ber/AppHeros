@@ -28,6 +28,7 @@ precision highp float;
 uniform vec2 u_resolution;
 uniform vec2 u_mouse;
 uniform float u_time;
+uniform float u_fire;
 
 
 
@@ -212,14 +213,14 @@ vec3 layeredParticles(in vec2 uv, in float sizeMod, in float alphaMod, in int la
 void main() {
     // Normalize screen coordinates
     //vec2 uv = gl_FragCoord.xy / u_resolution;
-    vec2 uv = (2.0 * gl_FragCoord.xy - u_resolution.xy) / u_resolution.x;
+    vec2 uv = (1.0 * gl_FragCoord.xy / u_resolution.xy) - 0.5;
     float vignette = 1.0 - smoothstep(0.4, 1.4, length(uv + vec2(0.0, 0.3)));
 
     // Create time variable
     float t = u_time * 0.1;
 
     float smokeIntensity = layeredNoise1_2(uv * 10.0 + u_time * 4.0 * MOVEMENT_DIRECTION * MOVEMENT_SPEED, 1.7, 0.7, 6, 0.2);
-    smokeIntensity *= pow(1.0 - smoothstep(-1.0, 1.6, uv.y), 2.0); 
+    smokeIntensity *= pow(u_fire - smoothstep(-1.0, 1.6, uv.y), 2.0); 
     vec3 smoke = smokeIntensity * SMOKE_COLOR * 0.8 * vignette;
 
     smoke *= pow(layeredNoise1_2(uv * 4.0 + u_time * 0.5 * MOVEMENT_DIRECTION * MOVEMENT_SPEED, 1.8, 0.5, 3, 0.2), 2.0) * 1.5;

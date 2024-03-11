@@ -1,20 +1,19 @@
 import { Controller } from "@hotwired/stimulus"
 import glslCanvas from "glslCanvas"
 
+let sandbox;
 // Connects to data-controller="timer"
 export default class extends Controller {
   static targets = ["title", "firstPlayer", "secondPlayer", "duel", "gamesChoice", "glslCanvas", "animateSword"]
-
   connect() {
-    const sandbox = new glslCanvas(this.glslCanvasTarget);
-    // setTimeout(function(){
-    //   this.glslCanvasTarget.classList.add('show');
-    // },100);
-    var string_frag_code = `void main() { gl_FragColor = vec4(1.0, 1.0, 0.0, 1.0); }`;
-    //sandbox.load(string_frag_code);
+    sandbox = new glslCanvas(this.glslCanvasTarget);
+    //const sandbox = new glslCanvas(this.glslCanvasTarget);
+    sandbox.setUniform("u_fire",1.0); 
   }
+
   buttonClick(event){
     event.preventDefault()
+    sandbox.setUniform("u_fire",2.0); 
     const path = event.currentTarget.getAttribute("href")
     const firstPlayer = this.firstPlayerTarget.children[0]
     firstPlayer.style.backgroundColor="#008000"
