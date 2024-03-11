@@ -2,8 +2,14 @@ import { Controller } from "@hotwired/stimulus"
 
 // Connects to data-controller="timer"
 export default class extends Controller {
-  static targets = ["title", "firstPlayer", "secondPlayer", "duel", "gamesChoice"]
+  static targets = ["title", "firstPlayer", "secondPlayer", "duel", "gamesChoice", "glslCanvas"]
 
+  connect() {
+    const sandbox = new GlslCanvas(this.glslCanvasTarget);
+    setTimeout(function(){
+      this.glslCanvasTarget.classList.add('show');
+    },100);
+  }
   buttonClick(event){
     event.preventDefault()
     const path = event.currentTarget.getAttribute("href")

@@ -3,15 +3,11 @@
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
 
 <script>
-    const canvas = document.getElementById("glslCanvas");
-    const sandbox = new GlslCanvas(canvas);
-    setTimeout(function(){
-      canvas.classList.add('show');
-    },100);
+    
 </script>
 
 <div class="games-show" data-controller="timer" >
-  <canvas id="glslCanvas" data-fragment-url="
+  <canvas id="glslCanvas" data-timer-target="glslCanvas" data-fragment-url="
 #ifdef GL_ES
 precision highp float;
 #endif
