@@ -1,6 +1,8 @@
 .appheros-layout {
   background:$brown-dark;
-  padding: 12px;
+  background-image: asset-url('wood-texture.png');
+  background-size: cover;
+  padding: 4px;
   width:100vw;
   height:100vh;
 }
@@ -15,8 +17,17 @@
   border-radius:$border-radius-sm;
 }
 
+.appheros-content-wrapper-2 {
+  background:$brown-dark;
+  background-image: asset-url('wood-texture.png');
+  background-size: cover;
+  padding: 4px;
+  width:100%;
+  height:100%;
+}
+
 .appheros-content {
-  background-color: $primary-light;
+  background: $primary-light;
   border-radius:$border-radius-sm;
   border: 1px solid $brown-ultradark;
   display: flex;
@@ -28,9 +39,9 @@
 }
 
 .appheros-content-head {
+  background:$brown-dark;
   width:100%;
   position:relative;
-
   .back {
     position:absolute;
     top:12px;
@@ -39,7 +50,7 @@
 }
 
 .appheros-content-title {
-  background-color: $brown-dark;
+  background: $brown-dark;
   width: 100%;
   display: flex;
   flex-direction: column;
