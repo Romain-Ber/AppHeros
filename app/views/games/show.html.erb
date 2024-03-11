@@ -3,7 +3,6 @@
 
 <div class="games-show" data-controller="timer" >
   <canvas id="glslCanvas" data-timer-target="glslCanvas" data-fragment-url="/fragment.glsl"></canvas>
-
   <div class="d-none" data-timer-target="duel">
     <div data-timer-target="firstPlayer">
       <%= render "players/player_card", user: @sender %>
