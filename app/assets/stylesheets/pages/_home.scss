@@ -1,1 +1,6 @@
-// Specific CSS for your home-page
+.home-layout {
+  height: 100vh;
+  width: 100%;
+  background-image: asset-url('login-bg-1.png');
+  background-size: cover;
+}
