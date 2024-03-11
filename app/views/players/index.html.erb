@@ -6,8 +6,13 @@
       <div class="d-flex">
         <%= render "player_card", user: user %>
         <div class="flex-end", style="margin-left: 8px;">
-          <%= button_to bar_challenges_path(@bar, challenged_id: user.id, game_slug: :custom_game), method: :post do %>
-            <%= image_tag("players/icone_defier.png", width: "60", height: "60") %>
+          <div class="defier-component">
+            <%= button_to bar_challenges_path(@bar, challenged_id: user.id, game_slug: :custom_game), method: :post, class:"remove-apparence" do %>
+              <div class="square">
+                <%= image_tag('icons/swords.svg') %>
+                <p>Défier</p>
+              </div>
+            </div>
           <% end %>
         </div>
       </div>
