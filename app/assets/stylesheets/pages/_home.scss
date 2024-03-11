@@ -3,4 +3,30 @@
   width: 100%;
   background-image: asset-url('login-bg-1.png');
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-head {
+
+}
+
+.home-head-title {
+
+}
+
+.home-head-title h2 {
+  font-size: 8px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.home-content {
+  flex-grow: 9999;
+}
+
+.home-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
