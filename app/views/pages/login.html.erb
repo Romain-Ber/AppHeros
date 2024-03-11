@@ -1,11 +1,5 @@
-<% content_for :title, "Login" %>
-<div class="container d-flex flex-column align-item-center gap-4 py-4">
-  <div class="logo d-flex align-item-center" style="padding-bottom:225px;">
-    <%= cl_image_tag("ap8r1mclgllt57iaysd2", alt: "Logo de l'application", class:'mx-auto') %>
-  </div>
-
-  <div class="d-flex flex-column gap-4" style="height: 100px;">
-    <%= link_to 'Connexion', new_user_session_path, class:'btn button w-100' %>
-    <%= link_to 'Inscription', profile_path, class:' btn button w-100' %>
-  </div>
+<div class="home-layout">
+  <%= cl_image_tag("ap8r1mclgllt57iaysd2", alt: "Logo de l'application", class:'mx-auto') %>
+  <%= link_to 'Connexion', new_user_session_path, class:'btn button w-100' %>
+  <%= link_to 'Inscription', profile_path, class:' btn button w-100' %>
 </div>
