@@ -12,17 +12,21 @@
 	border-radius:1em;
 	background-color:#344262;
 }
-input{
+
+.sword-container {
+  width: 100%;
+}
+.sword-container input{
 	position:absolute;
 	left:-99rem;
 }
-label{
+.sword-container label{
 	display:inline-block;
 	width:100%;
 	height:100%;
 	cursor:pointer;
 }
-label:before{
+.sword-container label:before{
 	content:'';
 	position:absolute;
 	left:0;
@@ -34,7 +38,7 @@ label:before{
 	transform:translate(0,0);
 	transition:left 0.5s, transform 0.5s;
 }
-input:checked + label:before{
+.sword-container input:checked + label:before{
 	left:100%;
 	transform:translate(-100%,0);
 }
@@ -55,11 +59,11 @@ input:checked + label:before{
 	transform:translate(-50%, 0) rotate(125deg);
 	animation:animateback2 1.5s;
 }
-input:checked ~ .sword {
+.sword-container input:checked ~ .sword {
 	animation: animate 1.5s;
 	transform: translate(-50%, -40%) rotate(-45deg);
 }
-input:checked ~ .sword2 {
+.sword-container input:checked ~ .sword2 {
 	animation: animate2 1.5s;
 	transform: translate(-50%, -40%) rotate(225deg);
 }
@@ -152,7 +156,7 @@ input:checked ~ .sword2 {
 	left:0;
 	transform:translate(0, -50%);
 }
-input:checked{
+.sword-container input:checked{
 	animation:split 1.75s;
 	opacity:0;
 	width:150px;
@@ -200,7 +204,7 @@ input:checked{
 	transform:rotate(20deg) translate(0, -50%);
 }
 
-input:checked ~ .ground{
+.sword-container input:checked ~ .ground{
 	margin-top:8rem;
 	animation:disappear 1.5s;
 	opacity:0;
