@@ -1,20 +1,20 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
 .navbar {
   position: fixed;
-  bottom: 24px;
-  left: 24px;
-  width: 87%;
-  background: white;
+  bottom: 1px;
+  left: 1px;
+  width: 99%;
+  background: #826645;
+  border: solid #FFD363 3px;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width:32px;
+    height:32px;
+  }
+}
+
+.map-icon {
+
 }
