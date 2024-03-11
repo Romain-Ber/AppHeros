@@ -37,8 +37,9 @@
       </div>
     </div>
   </div>
-  <div>
+  <%= link_to bar_players_path(@bar), class: 'btn button' do %>
     <%= image_tag("icons/feet.svg") %>
-    <%= link_to 'Se rapprocher', bar_players_path(@bar), class:'btn button' %>
-  </div>
+    Se rapprocher
+    <%= image_tag("icons/feet.svg") %>
+  <% end %>
 </div>

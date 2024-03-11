@@ -1,17 +1,21 @@
-<% content_for :title, "Challenges" %>
+<% content_for :title, "Choisi un jeu" %>
 
-<div class="py-5">
-  <%= render "players/player_card", user: @sender %>
-
-  <div>
-    <%= image_tag("challenges/icone_defier.png") %>
-    <h1>Versus</h1>
+<div class="" data-controller="timer" >
+  <div class="d-none" data-timer-target="duel">
+    <div data-timer-target="firstPlayer">
+      <%= render "players/player_card", user: @sender %>
+    </div>
+    <div class = "text-center">
+      <%= image_tag("challenges/icone_defier.png")%>
+    </div>
+    <div data-timer-target="secondPlayer">
+      <%= render "players/player_card", user: @receiver %>
+    </div>
   </div>
 
-  <%= render "players/player_card", user: @receiver %>
-
-  <div>
-    <%= link_to 'Memory Game !', memory_challenge_game_path(@challenge), class:'btn button w-100' %>
-    <%= link_to 'Tap ta bière !', taptabiere_challenge_game_path(@challenge), class:'btn button w-100' %>
+  <div data-timer-target="gamesChoice">
+    <%= link_to 'Memory', memory_challenge_game_path(@challenge), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
+    <%= link_to 'Tap ta bière !', taptabiere_challenge_game_path(@challenge), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
+    <%= link_to 'Jeu de ton bar', customgame_challenge_game_path(@challenge), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
   </div>
 </div>
