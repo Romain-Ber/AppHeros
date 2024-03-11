@@ -1,12 +1,29 @@
 <% content_for :title, "Tap Ta Bière!" %>
 <div id="game-container" data-controller="taptabiere">
-  <h1 class="title-page">Remplis le plus possible ta bière!</h1>
-  <p id="instructions">Appuie sur le bouton dès que tu es prêt!</p>
-  <button class="button" data-taptabiere-target="startButton" data-action="taptabiere#startGame">Commencer</button>
-  <div id="countdown" data-taptabiere-target="countDown"></div>
-  <p id="score" data-taptabiere-target="score"></p>
-  <div id="beer-glass" data-action="click->taptabiere#tap">
-  <div id="beer-level" data-taptabiere-target="beerLevel"></div>
+  <h2 class="title-page" data-taptabiere-target="title">Sois le plus rapide à remplir ta bière</h2>
+
+  <div id="beer-container">
+    <div class="pour"></div>
+    <div id="beaker" data-action="click->taptabiere#tap">
+      <div class="beer-foam" data-taptabiere-target="foam">
+        <div class="foam-1"></div>
+        <div class="foam-2"></div>
+        <div class="foam-3"></div>
+        <div class="foam-4"></div>
+        <div class="foam-5"></div>
+        <div class="foam-6"></div>
+        <div class="foam-7"></div>
+      </div>
+
+      <div id="liquid" data-taptabiere-target="beerLevel">
+
+        <div class="bubble bubble1"></div>
+        <div class="bubble bubble2"></div>
+        <div class="bubble bubble3"></div>
+        <div class="bubble bubble4"></div>
+        <div class="bubble bubble5"></div>
+      </div>
+    </div>
   </div>
-  <%= link_to "Continue", challenge_result_path(@challenge), class:'btn button w-100', id: 'continue-button', style: 'display: none;' %>
+  <%= link_to "Continue", challenge_result_path(@challenge), class:'btn button w-100', 'data-taptabiere-target' => "continueButton", style: 'display: none;' %>
 </div>
