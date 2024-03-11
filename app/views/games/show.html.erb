@@ -11,7 +11,8 @@
   <%= render "players/player_card", user: @receiver %>
 
   <div>
-    <%= link_to 'Memory Game !', memory_challenge_game_path(@challenge), class:'btn button w-100' %>
+    <%= link_to 'Memory', memory_challenge_game_path(@challenge), class:'btn button w-100' %>
     <%= link_to 'Tap ta bière !', taptabiere_challenge_game_path(@challenge), class:'btn button w-100' %>
+    <%= link_to 'Jeu de ton bar', customgame_challenge_game_path(@challenge), class:'btn button w-100' %>
   </div>
 </div>
