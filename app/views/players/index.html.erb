@@ -6,22 +6,8 @@
       <div class="d-flex">
         <%= render "player_card", user: user %>
         <div class="flex-end", style="margin-left: 8px;">
-          <button class="challenge-button" data-action="click->challenge-request#showModal">
-            <%= image_tag("players/icone_defier.png", width: "60", height: "60") %>
-          </button>
-        </div>
-      </div>
-      <div class="modal-overlay" data-challenge-request-target="modalOverlay">
-        <div class="modal" data-challenge-request-target="modal">
-          <h2>Choisi ton jeu dans la liste</h2>
-          <%= button_to bar_challenges_path(@bar, challenged_id: user.id, game_slug: :memory_game), method: :post do %>
-            <div class="btn button w-100">Memory Game</div>
-          <% end %>
-          <%= button_to bar_challenges_path(@bar, challenged_id: user.id, game_slug: :taptabiere_game), method: :post do %>
-            <div class="btn button w-100">Tap Ta Bière</div>
-          <% end %>
           <%= button_to bar_challenges_path(@bar, challenged_id: user.id, game_slug: :custom_game), method: :post do %>
-            <div class="btn button w-100">Custom Game</div>
+            <%= image_tag("players/icone_defier.png", width: "60", height: "60") %>
           <% end %>
         </div>
       </div>

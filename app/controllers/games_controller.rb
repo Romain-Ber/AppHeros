@@ -15,4 +15,10 @@ class GamesController < ApplicationController
   def taptabiere
     @challenge = Challenge.find(params[:challenge_id])
   end
+
+  def customgame
+    @challenge = Challenge.find(params[:challenge_id])
+    @sender = @challenge.challenger
+    @receiver = @challenge.challenged
+  end
 end
