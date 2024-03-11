@@ -3,7 +3,7 @@ import glslCanvas from "glslCanvas"
 
 // Connects to data-controller="timer"
 export default class extends Controller {
-  static targets = ["title", "firstPlayer", "secondPlayer", "duel", "gamesChoice", "glslCanvas"]
+  static targets = ["title", "firstPlayer", "secondPlayer", "duel", "gamesChoice", "glslCanvas", "animateSword"]
 
   connect() {
     const sandbox = new glslCanvas(this.glslCanvasTarget);
@@ -27,13 +27,19 @@ export default class extends Controller {
 
     setTimeout(() => {
       window.location.href = path;
-    }, 7000);
+    }, 9000);
 
 
     setTimeout(() => {
       const secondPlayer = this.secondPlayerTarget.children[0]
       secondPlayer.style.backgroundColor="#008000"
       pageTitle.innerText = "Chargement";
-    }, 4000);
+
+    }, 6000);
+
+
+      setInterval(() => {
+        this.animateSwordTarget.checked = !this.animateSwordTarget.checked;
+      }, 2000);
   }
 }
