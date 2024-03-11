@@ -50,7 +50,7 @@
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.15);
   opacity:0;
   animation: fadeIn 1s cubic-bezier(0.075, 0.22, 0.85, 1);
-  animation-fill-mode: forwards; 
+  animation-fill-mode: forwards;
 }
 
 .bar-card-head {
@@ -84,6 +84,8 @@
 
 .bar-card-count {
 
+  margin-top: 10px;
+
   span {
     font-size: 23px !important;
     position: absolute;
@@ -92,9 +94,36 @@
     top: 8px;
     left: 31px;
   }
-  .bar-card-count-losange {
+
+  .big-losange {
     position: relative;
+    width: 35px;
+    height: 35px;
+    transform: rotate(45deg);
+    background-color: white;
+    border: solid 0.7px $primary;
   }
+  .big-losange-interior {
+    position: absolute;
+    top: 1.3px;
+    left: 1.3px;
+    width: 31px;
+    height: 31px;
+    transform: rotate(90deg);
+    background-color: $primary;
+    border: solid 0.7px $brown-ultradark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .big-losange-interior h2 {
+    transform: rotate(225deg);
+  }
+
+  // .bar-card-count h2 {
+  //   font-size: 10px;
+  // }
 }
 
 /* ANIMATION */
@@ -111,6 +140,6 @@
 
 @for $i from 1 through 10 {
   .bar-card:nth-child(#{$i}) {
-    animation-delay:(#{$i*0.15s}); 
+    animation-delay:(#{$i*0.15s});
   }
 }

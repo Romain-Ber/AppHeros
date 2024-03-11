@@ -1,0 +1,21 @@
+.remove-apparence {
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.square {
+  width: 56px;
+  height: 56px;
+  background-color: $brown-dark;
+  border: solid 2px $primary;
+  border-radius: 5px;
+
+  p {
+    color: $primary
+  }
+}
