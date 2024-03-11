@@ -61,7 +61,7 @@ export default class extends Controller {
   }
 
   updateBeerGlass(score) {
-    let increment = 15; // Augmenter de 20 pixels à chaque clic
+    let increment = 10; // Augmenter de 20 pixels à chaque clic
     let beerLevel = parseFloat(this.beerLevelTarget.style.height) || 0;
     let newBeerLevel = beerLevel + increment;
     let beerLevelMax = 400; // Hauteur maximale de la barre en pixels

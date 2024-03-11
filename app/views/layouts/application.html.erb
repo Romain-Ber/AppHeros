@@ -12,11 +12,18 @@
   </head>
 
   <body>
-    <%= render "shared/appheros-layout" do %>
+    <% unless action_name == "login" %>
+      <%= render "shared/appheros-layout" do %>
+        <%= yield %>
+        <%#= render "shared/flashes" %>
+        <!--p class="notice"><%= notice %></p>
+        <p-- class="alert"><%= alert %></p-->
+      <% end %>
+    <% else %>
       <%= yield %>
+      <!--p class="notice"><%= notice %></p>
+      <p-- class="alert"><%= alert %></p-->
       <%# = render "shared/flashes" %>
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
     <% end %>
       <%= render "shared/navbar" %>
     </div>

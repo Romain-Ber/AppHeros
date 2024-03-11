@@ -1,29 +1,31 @@
 <div class="appheros-layout">
   <div class="appheros-content-wrapper">
-    <div class="appheros-content">
-      <div class="appheros-content-head">
-        <div class="appheros-content-title">
-          <div class="back">
-            <% link_to :back do %>
-              <%= image_tag('icons/manicule.svg') %>
-            <% end  %>
-          </div>
-          <h1><%= yield :title %></h1>
-        </div>
-      </div>
-      <div class="appheros-content-infos <%= "appheros-content-infos-overflow" if action_name == "index" %>" data-controller="parchment">
-        <div class="main">
-          <div id="parchment"></div>
-          <div id="contain">
-            <%= yield %>
+    <div class="appheros-content-wrapper-2">
+      <div class="appheros-content">
+        <div class="appheros-content-head">
+          <div class="appheros-content-title">
+            <div class="back">
+              <% link_to :back do %>
+                <%= image_tag('icons/manicule.svg') %>
+              <% end  %>
+            </div>
+            <h1><%= yield :title %></h1>
           </div>
         </div>
-        <svg>
-          <filter id="wavy2">
-            <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1" />
-            <feDisplacementMap in="SourceGraphic" scale="20" />
-          </filter>
-        </svg>
+        <div class="appheros-content-infos <%= "appheros-content-infos-overflow" if action_name == "index" || action_name == "show" %>" data-controller="parchment">
+          <div class="main">
+            <div id="parchment"></div>
+            <div id="contain">
+              <%= yield %>
+            </div>
+          </div>
+          <svg>
+            <filter id="wavy2">
+              <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1" />
+              <feDisplacementMap in="SourceGraphic" scale="20" />
+            </filter>
+          </svg>
+        </div>
       </div>
     </div>
   </div>
