@@ -10,22 +10,25 @@
         "check_date": "2023-07-14"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "12"
+        "addr:housenumber": "12"
       },
       {
-        "contact:phone": "+33 2 99 53 94 30"
+        "phone": "+33 2 99 53 94 30"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Galerie Du Théâtre"
+        "addr:street": "Galerie Du Théâtre"
       },
       {
         "name": "Les Jardins D'avalon"
+      },
+      {
+        "address": "Les Jardins D'avalon, 12 Galerie Du Théâtre 35000 Rennes"
       }
     ]
   },
@@ -71,6 +74,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "The Penny Lane, 1 Rue de Coëtquen 35000 Rennes"
       }
     ]
   },
@@ -95,6 +101,9 @@
       },
       {
         "ref:FR:SIRET": "85261630900013"
+      },
+      {
+        "address": "Upper place, 7 Allée Rallier du Baty Rennes"
       }
     ]
   },
@@ -131,6 +140,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "La Place, 7 Rue du Champ Jacquet 35000 Rennes"
       }
     ]
   },
@@ -158,6 +170,9 @@
       },
       {
         "ref:FR:SIRET": "45307045000011"
+      },
+      {
+        "address": "Tio Paquito, 16 Rue Rallier du Baty Rennes"
       }
     ]
   },
@@ -200,6 +215,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Progrès, 7 Rue de La Chalotais 35000 Rennes"
       }
     ]
   },
@@ -245,6 +263,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Cactus Café, 3 Rue Pongérard 35000 Rennes"
       }
     ]
   },
@@ -284,6 +305,9 @@
       },
       {
         "ref:FR:SIRET": "90166112400015"
+      },
+      {
+        "address": "Uzine, 13 Quai Lamennais 35000 Rennes"
       }
     ]
   },
@@ -311,6 +335,9 @@
       },
       {
         "website": "https://le-peacock-rennes.fr/"
+      },
+      {
+        "address": "Peacock, 8 Rue Saint-Sauveur Rennes"
       }
     ]
   },
@@ -323,6 +350,12 @@
       },
       {
         "name": "Cuci Bar"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Cuci Bar, Rennes"
       }
     ]
   },
@@ -346,7 +379,7 @@
         "amenity": "bar"
       },
       {
-        "contact:phone": "+33 2 99 79 55 87"
+        "phone": "+33 2 99 79 55 87"
       },
       {
         "name": "La Cour"
@@ -359,6 +392,9 @@
       },
       {
         "source": "survey"
+      },
+      {
+        "address": "La Cour, 18 Rue de Penhoët 35000 Rennes"
       }
     ]
   },
@@ -398,6 +434,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le P'tit Vélo, 8 Place Saint-Michel 35000 Rennes"
       }
     ]
   },
@@ -449,6 +488,9 @@
       },
       {
         "website": "https://barexpo-restaurant.com/"
+      },
+      {
+        "address": "Barex'po, 2 Rue Jules Simon 35000 Rennes"
       }
     ]
   },
@@ -467,6 +509,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Scoop, Rennes"
       }
     ]
   },
@@ -478,22 +526,25 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "3"
+        "addr:housenumber": "3"
       },
       {
-        "contact:phone": "+33 2 99 50 33 48"
+        "phone": "+33 2 99 50 33 48"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Place Des Lices"
+        "addr:street": "Place Des Lices"
       },
       {
         "name": "L'equinoxe"
+      },
+      {
+        "address": "L'equinoxe, 3 Place Des Lices 35000 Rennes"
       }
     ]
   },
@@ -512,6 +563,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "L'Equinoxe, Rennes"
       }
     ]
   },
@@ -530,6 +587,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Zing, Rennes"
       }
     ]
   },
@@ -542,6 +605,12 @@
       },
       {
         "name": "Monsieur Le Zinc"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Monsieur Le Zinc, Rennes"
       }
     ]
   },
@@ -578,6 +647,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "L'Annexe, 18 Rue Saint-Michel 35000 Rennes"
       }
     ]
   },
@@ -614,6 +686,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Caveau du Chapitre, 1 Rue de la Psalette 35000 Rennes"
       }
     ]
   },
@@ -650,6 +725,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Chez ma tante, 13 Rue Jules Simon 35000 Rennes"
       }
     ]
   },
@@ -698,6 +776,9 @@
       },
       {
         "website": "http://lesparadisperdus.fr/"
+      },
+      {
+        "address": "Les paradis perdus, 20 Rue Vasselot 35000 Rennes"
       }
     ]
   },
@@ -752,6 +833,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Avalon, 19 Rue Poullain Duparc 35000 Rennes"
       }
     ]
   },
@@ -767,6 +851,12 @@
       },
       {
         "name": "Les Innocents"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Les Innocents, Rennes"
       }
     ]
   },
@@ -806,6 +896,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Nabuchodonosor, 12 Rue Hoche 35000 Rennes"
       }
     ]
   },
@@ -817,19 +910,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "1"
+        "addr:housenumber": "1"
       },
       {
-        "contact:phone": "+33 2 99 38 94 65"
+        "phone": "+33 2 99 38 94 65"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue Saint-Louis"
+        "addr:street": "Rue Saint-Louis"
       },
       {
         "cuisine": "caribbean"
@@ -869,6 +962,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Black Temple Food, 1 Rue Saint-Louis 35000 Rennes"
       }
     ]
   },
@@ -890,6 +986,12 @@
       },
       {
         "ref:FR:SIRET": "75237975000017"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le p'tit bar, Rennes"
       }
     ]
   },
@@ -908,6 +1010,12 @@
       },
       {
         "ref:FR:SIRET": "48213423600017"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Ty Anna, Rennes"
       }
     ]
   },
@@ -932,6 +1040,9 @@
       },
       {
         "name": "Fougue !"
+      },
+      {
+        "address": "Fougue !, 52 Rue Poullain Duparc 35000 Rennes"
       }
     ]
   },
@@ -968,6 +1079,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Tivoli, 19 Rue Saint-Georges 35000 Rennes"
       }
     ]
   },
@@ -1004,6 +1118,9 @@
       },
       {
         "toilets:access": "customers"
+      },
+      {
+        "address": "Le Saint-Germain, 9 Place Saint-Germain Rennes"
       }
     ]
   },
@@ -1019,6 +1136,12 @@
       },
       {
         "opening_hours": "Tu-Sa 18:00-01:00"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Ruche, Rennes"
       }
     ]
   },
@@ -1042,19 +1165,16 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:housenumber": "37"
       },
       {
-        "contact:housenumber": "37"
+        "phone": "+33 6 68 68 62 62"
       },
       {
-        "contact:phone": "+33 6 68 68 62 62"
+        "addr:postcode": "35000"
       },
       {
-        "contact:postcode": "35000"
-      },
-      {
-        "contact:street": "Rue Saint-Georges"
+        "addr:street": "Rue Saint-Georges"
       },
       {
         "name": "Aux Plaisirs Démodés"
@@ -1067,6 +1187,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Aux Plaisirs Démodés, 37 Rue Saint-Georges 35000 Rennes"
       }
     ]
   },
@@ -1109,6 +1232,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Faubourg, 42 Rue Vasselot 35000 Rennes"
       }
     ]
   },
@@ -1148,6 +1274,9 @@
       },
       {
         "ref:FR:SIRET": "80466468800020"
+      },
+      {
+        "address": "Le Klub, 18 Quai Émile Zola 35000 Rennes"
       }
     ]
   },
@@ -1159,22 +1288,25 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
         "contact:facebook": "https://www.facebook.com/latrinquetterennes/"
       },
       {
-        "contact:housenumber": "26"
+        "addr:housenumber": "26"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Saint-Malo"
+        "addr:street": "Rue de Saint-Malo"
       },
       {
         "name": "La Trinquette"
+      },
+      {
+        "address": "La Trinquette, 26 Rue de Saint-Malo 35000 Rennes"
       }
     ]
   },
@@ -1211,6 +1343,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Les 3 couleurs, 1 Place du Bas des Lices 35000 Rennes"
       }
     ]
   },
@@ -1222,19 +1357,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "9"
+        "addr:housenumber": "9"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Saint-Malo"
+        "addr:street": "Rue de Saint-Malo"
       },
       {
         "name": "Le Bar de la Plage"
+      },
+      {
+        "address": "Le Bar de la Plage, 9 Rue de Saint-Malo 35000 Rennes"
       }
     ]
   },
@@ -1262,6 +1400,9 @@
       },
       {
         "opening_hours": "Mo-Th 12:00-14:00,19:00-21:30; Fr 12:00-14:00,19:00-22:30; Sa 12:00-15:00,19:00-22:30; Su 12:00-15:00,19:00-21:30"
+      },
+      {
+        "address": "Onolulu, 8 Rue d'Isly 35000 Rennes"
       }
     ]
   },
@@ -1289,6 +1430,9 @@
       },
       {
         "ref:FR:SIRET": "81915500300018"
+      },
+      {
+        "address": "Melody Nelson, 4 Rue Saint-Thomas Rennes"
       }
     ]
   },
@@ -1303,22 +1447,22 @@
         "brewery": "16_bières_pression"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
         "contact:facebook": "https://www.facebook.com/BlackBearRennes/"
       },
       {
-        "contact:housenumber": "40"
+        "addr:housenumber": "40"
       },
       {
-        "contact:phone": "+336 76 51 37 43"
+        "phone": "+336 76 51 37 43"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Saint-Malo"
+        "addr:street": "Rue de Saint-Malo"
       },
       {
         "drink:beer": "served"
@@ -1337,6 +1481,9 @@
       },
       {
         "sport": "darts"
+      },
+      {
+        "address": "Black Bear, 40 Rue de Saint-Malo 35000 Rennes"
       }
     ]
   },
@@ -1373,6 +1520,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le gazoline, 24 Rue Nantaise 35000 Rennes"
       }
     ]
   },
@@ -1384,19 +1534,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "16"
+        "addr:housenumber": "16"
       },
       {
-        "contact:phone": "+33 9 74 64 02 16"
+        "phone": "+33 9 74 64 02 16"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue D'isly"
+        "addr:street": "Rue D'isly"
       },
       {
         "name": "Little Délirium Café Rennes"
@@ -1406,6 +1556,9 @@
       },
       {
         "website": "https://www.privateaser.com/lieu/45897-little-delirium-cafe-rennes"
+      },
+      {
+        "address": "Little Délirium Café Rennes, 16 Rue D'isly 35000 Rennes"
       }
     ]
   },
@@ -1427,6 +1580,12 @@
       },
       {
         "ref:FR:SIRET": "85289575400012"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Doujezu, Rennes"
       }
     ]
   },
@@ -1442,6 +1601,12 @@
       },
       {
         "name": "Au Tri Plaisir"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Au Tri Plaisir, Rennes"
       }
     ]
   },
@@ -1453,25 +1618,28 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "33"
+        "addr:housenumber": "33"
       },
       {
-        "contact:phone": "+33 6 18 01 75 26"
+        "phone": "+33 6 18 01 75 26"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue Saint-Melaine"
+        "addr:street": "Rue Saint-Melaine"
       },
       {
         "name": "L'été Indien"
       },
       {
         "opening_hours": "We-Sa 19:00-20:00"
+      },
+      {
+        "address": "L'été Indien, 33 Rue Saint-Melaine 35000 Rennes"
       }
     ]
   },
@@ -1511,6 +1679,9 @@
       },
       {
         "website": "https://www.le-beret.fr/"
+      },
+      {
+        "address": "La Bamboche du béret, 4 Boulevard de la Liberté 35000 Rennes"
       }
     ]
   },
@@ -1544,6 +1715,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "L'attrape-rêve, 37 Rue Saint-Melaine 35000 Rennes"
       }
     ]
   },
@@ -1558,25 +1732,25 @@
         "check_date:currency:XBT": "2023-05-22"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:email": "lehangarbbc@gmail.com"
+        "email": "lehangarbbc@gmail.com"
       },
       {
         "contact:facebook": "https://www.facebook.com/lehangarrennes/"
       },
       {
-        "contact:housenumber": "1"
+        "addr:housenumber": "1"
       },
       {
-        "contact:phone": "+33 2 99 31 11 11"
+        "phone": "+33 2 99 31 11 11"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Dinan"
+        "addr:street": "Rue de Dinan"
       },
       {
         "currency:XBT": "yes"
@@ -1607,6 +1781,9 @@
       },
       {
         "sport": "darts"
+      },
+      {
+        "address": "Le Hangar, 1 Rue de Dinan 35000 Rennes"
       }
     ]
   },
@@ -1652,6 +1829,9 @@
       },
       {
         "website": "http://www.papier-timbre.org/"
+      },
+      {
+        "address": "Le Papier Timbré, 39 Rue de Dinan 35000 Rennes"
       }
     ]
   },
@@ -1691,6 +1871,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Vieux Saint-Étienne, 43 Rue de Dinan 35000 Rennes"
       }
     ]
   },
@@ -1742,6 +1925,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "La Maison, 18 Rue de Robien 35000 Rennes"
       }
     ]
   },
@@ -1784,6 +1970,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "L'Amaryllis, 12 Carrefour Jouaust Rennes"
       }
     ]
   },
@@ -1823,6 +2012,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Milk Lounge, 8 Place du Colombier 35000 Rennes"
       }
     ]
   },
@@ -1850,6 +2042,9 @@
       },
       {
         "opening_hours": "Mo-Fr 16:00-01:00; Sa 11:00-01:00; Su 16:00-01:00; "
+      },
+      {
+        "address": "Le Maestro, 18 Carrefour Jouaust 35000 Rennes"
       }
     ]
   },
@@ -1892,6 +2087,9 @@
       },
       {
         "website": "https://checkpoint-bar-rennes.business.site/"
+      },
+      {
+        "address": "Checkpoint Bar, 27 Rue Legraverend 35000 Rennes"
       }
     ]
   },
@@ -1903,7 +2101,7 @@
         "amenity": "bar"
       },
       {
-        "contact:email": "contact@lecoinmousse.com"
+        "email": "contact@lecoinmousse.com"
       },
       {
         "contact:facebook": "https://www.facebook.com/lecoinmousse"
@@ -1928,6 +2126,12 @@
       },
       {
         "website": "https://www.lecoinmousse.com/"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Coin Mousse, Rennes"
       }
     ]
   },
@@ -1955,6 +2159,12 @@
       },
       {
         "source:version": "2016-01-29"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La 2e Chaussette, 73 Rue de Dinan Rennes"
       }
     ]
   },
@@ -1997,6 +2207,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Mod Koz, 3 bis Rue Jean-Marie Duhamel 35000 Rennes"
       }
     ]
   },
@@ -2027,6 +2240,12 @@
       },
       {
         "source:version": "2016-01-29"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Delta, 36 Rue Legraverend Rennes"
       }
     ]
   },
@@ -2069,6 +2288,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Hibou Grand Duc, 10 Rue Dupont des Loges 35000 Rennes"
       }
     ]
   },
@@ -2120,6 +2342,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Balzac, 10 Rue de l'Alma 35000 Rennes"
       }
     ]
   },
@@ -2140,10 +2365,10 @@
         "amenity": "bar"
       },
       {
-        "contact:phone": "+33 2 99 31 43 48"
+        "phone": "+33 2 99 31 43 48"
       },
       {
-        "contact:website": "http://www.lheuredujeu.fr/"
+        "website": "http://www.lheuredujeu.fr/"
       },
       {
         "name": "L'Heure du Jeu"
@@ -2159,6 +2384,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "L'Heure du Jeu, 11 Boulevard Magenta Rennes"
       }
     ]
   },
@@ -2186,6 +2414,9 @@
       },
       {
         "opening_hours": "Mo-Sat 18:00-01:00"
+      },
+      {
+        "address": "L'Autruche, 44 Rue Legraverend 35000 Rennes"
       }
     ]
   },
@@ -2204,6 +2435,12 @@
       },
       {
         "opening_hours": "Mo 12:00-24:00, Tu-Fr 12:00-01:00, Sa 16:00-01:00"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Cavale, Rennes"
       }
     ]
   },
@@ -2246,6 +2483,9 @@
       },
       {
         "website": "https://www.facebook.com/combi.bar.9/"
+      },
+      {
+        "address": "Combi Bar, 55 Rue Legraverend 35000 Rennes"
       }
     ]
   },
@@ -2294,6 +2534,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "La Goutte d'Or, 3 Boulevard Beaumont 35000 Rennes"
       }
     ]
   },
@@ -2339,6 +2582,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le 23, 24 Rue Saint-Hélier 35000 Rennes"
       }
     ]
   },
@@ -2399,6 +2645,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "L'OKAL, 69 Boulevard de la Tour d'Auvergne 35000 Rennes"
       }
     ]
   },
@@ -2438,6 +2687,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le Gabier Noir, 29 Rue Paul Féval 35000 Rennes"
       }
     ]
   },
@@ -2453,6 +2705,12 @@
       },
       {
         "name": "Beltane"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Beltane, Rennes"
       }
     ]
   },
@@ -2495,6 +2753,9 @@
       },
       {
         "website": "https://lesgrandsgamins.fr/"
+      },
+      {
+        "address": "Les Grands Gamins, 40 Mail François Mitterrand 35000 Rennes"
       }
     ]
   },
@@ -2506,22 +2767,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:email": "nakamabar@hotmail.com"
+        "email": "nakamabar@hotmail.com"
       },
       {
-        "contact:housenumber": "15"
+        "addr:housenumber": "15"
       },
       {
         "contact:instagram": "https://www.instagram.com/nakamabar"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue Paul Bert"
+        "addr:street": "Rue Paul Bert"
       },
       {
         "cuisine": "japanese"
@@ -2552,6 +2813,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Nakama, 15 Rue Paul Bert 35000 Rennes"
       }
     ]
   },
@@ -2594,6 +2858,9 @@
       },
       {
         "website": "https://cafederennes.com/"
+      },
+      {
+        "address": "Le café de Rennes, 12 Place de la Gare 35000 Rennes"
       }
     ]
   },
@@ -2609,6 +2876,12 @@
       },
       {
         "opening_hours": "We-Sa 19:00-01:00; Su 18:00+"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Là-bas Jour, Rennes"
       }
     ]
   },
@@ -2660,6 +2933,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "L'Aviation, 13 Rue Lobineau 35000 Rennes"
       }
     ]
   },
@@ -2671,10 +2947,10 @@
         "amenity": "bar"
       },
       {
-        "contact:phone": "+33 2 23 46 49 39"
+        "phone": "+33 2 23 46 49 39"
       },
       {
-        "contact:website": "http://www.lheuredujeu.fr/"
+        "website": "http://www.lheuredujeu.fr/"
       },
       {
         "name": "L'Heure du Jeu"
@@ -2687,6 +2963,12 @@
       },
       {
         "ref:FR:SIRET": "85107694300014"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "L'Heure du Jeu, Rennes"
       }
     ]
   },
@@ -2735,6 +3017,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Bengal, 92 Rue Ange Blaize 35000 Rennes"
       }
     ]
   },
@@ -2786,6 +3071,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le Vincennes, 43bis Boulevard de Verdun 35000 Rennes"
       }
     ]
   },
@@ -2801,6 +3089,12 @@
       },
       {
         "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Capitainerie, Rennes"
       }
     ]
   },
@@ -2813,6 +3107,12 @@
       },
       {
         "name": "Yermat"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Yermat, Rennes"
       }
     ]
   },
@@ -2867,6 +3167,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "La Rennes du Bal, 49 Rue Ginguené 35000 Rennes"
       }
     ]
   },
@@ -2894,6 +3197,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Jules Ferry, Rennes"
       }
     ]
   },
@@ -2905,22 +3214,25 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "39"
+        "addr:housenumber": "39"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Paris"
+        "addr:street": "Rue de Paris"
       },
       {
         "name": "Le Marquis de Sade"
       },
       {
         "ref:FR:SIRET": "79305403200016"
+      },
+      {
+        "address": "Le Marquis de Sade, 39 Rue de Paris 35000 Rennes"
       }
     ]
   },
@@ -2948,6 +3260,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Saint-Martin, Rennes"
       }
     ]
   },
@@ -2993,6 +3311,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Bar à Mines, 74 Rue Saint-Hélier 35000 Rennes"
       }
     ]
   },
@@ -3007,19 +3328,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "154 bis"
+        "addr:housenumber": "154 bis"
       },
       {
-        "contact:phone": "+33 2 30 83 60 75"
+        "phone": "+33 2 30 83 60 75"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Nantes"
+        "addr:street": "Rue de Nantes"
       },
       {
         "name": "La Madeleine"
@@ -3053,6 +3374,9 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "address": "La Madeleine, 154 bis Rue de Nantes 35000 Rennes"
       }
     ]
   },
@@ -3076,7 +3400,7 @@
         "amenity": "bar"
       },
       {
-        "contact:email": "ubuntucafe@free.fr"
+        "email": "ubuntucafe@free.fr"
       },
       {
         "contact:facebook": "https://www.facebook.com/ubuntu.labascule"
@@ -3104,6 +3428,9 @@
       },
       {
         "website": "https://labascule-rennes.jimdofree.com/"
+      },
+      {
+        "address": "La Bascule Ubuntu Café, 2 Rue de la Bascule 35000 Rennes"
       }
     ]
   },
@@ -3115,19 +3442,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "157"
+        "addr:housenumber": "157"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Nantes"
+        "addr:street": "Rue de Nantes"
       },
       {
-        "contact:website": "http://www.lalunarennes.com"
+        "website": "http://www.lalunarennes.com"
       },
       {
         "name": "La Luna"
@@ -3146,6 +3473,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "La Luna, 157 Rue de Nantes 35000 Rennes"
       }
     ]
   },
@@ -3157,16 +3487,16 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "40"
+        "addr:housenumber": "40"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Paris"
+        "addr:street": "Rue de Paris"
       },
       {
         "name": "L'Iguana"
@@ -3176,6 +3506,9 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "address": "L'Iguana, 40 Rue de Paris 35000 Rennes"
       }
     ]
   },
@@ -3218,6 +3551,9 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "address": "La Piste, 68 Mail François Mitterrand 35000 Rennes"
       }
     ]
   },
@@ -3229,16 +3565,16 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "14"
+        "addr:housenumber": "14"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Boulevard René Laënnec"
+        "addr:street": "Boulevard René Laënnec"
       },
       {
         "name": "La Bolée"
@@ -3254,6 +3590,9 @@
       },
       {
         "was:name": "Le pyranha"
+      },
+      {
+        "address": "La Bolée, 14 Boulevard René Laënnec 35000 Rennes"
       }
     ]
   },
@@ -3275,6 +3614,12 @@
       },
       {
         "ref:FR:SIRET": "50005250100011"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Synthi, Rennes"
       }
     ]
   },
@@ -3335,6 +3680,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le Saint-Hélier, 83 Rue Saint-Hélier 35000 Rennes"
       }
     ]
   },
@@ -3346,19 +3694,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "185"
+        "addr:housenumber": "185"
       },
       {
-        "contact:phone": "+33 2 99 65 10 27"
+        "phone": "+33 2 99 65 10 27"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Nantes"
+        "addr:street": "Rue de Nantes"
       },
       {
         "name": "Le Puits Jacob"
@@ -3377,6 +3725,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le Puits Jacob, 185 Rue de Nantes 35000 Rennes"
       }
     ]
   },
@@ -3398,6 +3749,12 @@
       },
       {
         "ref:FR:SIRET": "53943620400025"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Champ Palace, Rennes"
       }
     ]
   },
@@ -3449,6 +3806,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La Plaza, 63 Rue de Châtillon 35000 Rennes"
       }
     ]
   },
@@ -3460,16 +3820,16 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "191"
+        "addr:housenumber": "191"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue de Nantes"
+        "addr:street": "Rue de Nantes"
       },
       {
         "name": "Le Gibus"
@@ -3479,6 +3839,9 @@
       },
       {
         "ref:FR:SIRET": "33350118700012"
+      },
+      {
+        "address": "Le Gibus, 191 Rue de Nantes 35000 Rennes"
       }
     ]
   },
@@ -3530,6 +3893,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "WarpZone, 92 Mail François Mitterrand 35000 Rennes"
       }
     ]
   },
@@ -3545,6 +3911,12 @@
       },
       {
         "opening_hours": "Tu-Th 13:00-24:00; Fr,Sa 13:00-02:00"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Communauté, Rennes"
       }
     ]
   },
@@ -3578,6 +3950,9 @@
       },
       {
         "ref:FR:SIRET": "80349400400010"
+      },
+      {
+        "address": "BabaZula, 182 Avenue du Général George S. Patton 35700 Rennes"
       }
     ]
   },
@@ -3592,22 +3967,22 @@
         "brewery": "Ombre_Jaune;Ombre_Bleue;Ombre_Rouge"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
         "contact:facebook": "https://www.facebook.com/Les400CoupsRennes"
       },
       {
-        "contact:housenumber": "10"
+        "addr:housenumber": "10"
       },
       {
-        "contact:phone": "+33 6 65 60 57 83"
+        "phone": "+33 6 65 60 57 83"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Route De Lorient"
+        "addr:street": "Route De Lorient"
       },
       {
         "name": "400 Coups"
@@ -3620,6 +3995,9 @@
       },
       {
         "ref:FR:SIRET": "84540451600021"
+      },
+      {
+        "address": "400 Coups, 10 Route De Lorient 35000 Rennes"
       }
     ]
   },
@@ -3659,6 +4037,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le Derby, 133 Rue de Châtillon 35200 Rennes"
       }
     ]
   },
@@ -3707,6 +4088,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le Sarah, 13 Square Sarah Bernhardt 35200 Rennes"
       }
     ]
   },
@@ -3725,6 +4109,12 @@
       },
       {
         "ref:FR:SIRET": "88940882900022"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Petite Loupe, Rennes"
       }
     ]
   },
@@ -3736,19 +4126,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "10"
+        "addr:housenumber": "10"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue Guynemer"
+        "addr:street": "Rue Guynemer"
       },
       {
         "name": "Le cartier"
+      },
+      {
+        "address": "Le cartier, 10 Rue Guynemer 35000 Rennes"
       }
     ]
   },
@@ -3770,6 +4163,12 @@
       },
       {
         "ref:FR:SIRET": "32010790700067"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Terminus bar, Rennes"
       }
     ]
   },
@@ -3788,6 +4187,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bloom Pop, Rennes"
       }
     ]
   },
@@ -3818,6 +4223,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Café du Parc, 35700 Rennes"
       }
     ]
   },
@@ -3860,6 +4268,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le Crystal, 4 Rue de la Binquenais 35200 Rennes"
       }
     ]
   },
@@ -3871,25 +4282,28 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "10"
+        "addr:housenumber": "10"
       },
       {
-        "contact:phone": "+33 2 99 38 45 60"
+        "phone": "+33 2 99 38 45 60"
       },
       {
-        "contact:postcode": "35700"
+        "addr:postcode": "35700"
       },
       {
-        "contact:street": "Rue du Morbihan"
+        "addr:street": "Rue du Morbihan"
       },
       {
         "name": "Le Daily"
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Le Daily, 10 Rue du Morbihan 35700 Rennes"
       }
     ]
   },
@@ -3917,6 +4331,9 @@
       },
       {
         "ref:FR:SIRET": "80880091600013"
+      },
+      {
+        "address": "L'Équipe, 80 Rue de Lorient 35000 Rennes"
       }
     ]
   },
@@ -3932,6 +4349,12 @@
       },
       {
         "ref:FR:SIRET": "43981137300018"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le 55, Rennes"
       }
     ]
   },
@@ -3947,6 +4370,12 @@
       },
       {
         "opening_hours": "Mo-Fr 08:30-20:30; Sa,Su 09:00-13:30"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Tybreq', Rennes"
       }
     ]
   },
@@ -3962,6 +4391,12 @@
       },
       {
         "ref:FR:SIRET": "41440518300016"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Football Bar, Rennes"
       }
     ]
   },
@@ -3986,6 +4421,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Beaulieu, Rennes"
       }
     ]
   },
@@ -4004,6 +4445,12 @@
       },
       {
         "ref:FR:SIRET": "45334302200019"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Chez Marco, Rennes"
       }
     ]
   },
@@ -4049,6 +4496,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "La bulle brasserie, 20 Place Saint-Melaine 35740 Pacé"
       }
     ]
   },
@@ -4064,6 +4514,12 @@
       },
       {
         "ref:FR:SIRET": "89526659100018"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Basse Cour, Rennes"
       }
     ]
   },
@@ -4079,6 +4535,12 @@
       },
       {
         "ref:FR:SIRET": "82314837400015"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Domino, Rennes"
       }
     ]
   },
@@ -4108,7 +4570,7 @@
         "contact:facebook": "https://www.facebook.com/Chez-Marie-354113125368785/"
       },
       {
-        "contact:phone": "+33223626963"
+        "phone": "+33223626963"
       },
       {
         "lottery": "yes"
@@ -4136,6 +4598,9 @@
       },
       {
         "tobacco": "no"
+      },
+      {
+        "address": "Chez Marie, 24 Rue de Montfort 35132 Vezin-le-Coquet"
       }
     ]
   },
@@ -4151,6 +4616,12 @@
       },
       {
         "ref:FR:SIRET": "79942265400019"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Casting, Rennes"
       }
     ]
   },
@@ -4196,6 +4667,9 @@
       },
       {
         "source:version": "2016-04-01"
+      },
+      {
+        "address": "L'étoile de Cintré, 9 Rue des Iffs 35310 Cintré"
       }
     ]
   },
@@ -4229,6 +4703,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "L'impro, Place Eugène Choux 35520 La Chapelle-des-Fougeretz"
       }
     ]
   },
@@ -4259,6 +4736,9 @@
       },
       {
         "phone": "+33 2 99 69 34 77"
+      },
+      {
+        "address": "La Pause, 9 Place de l'Église 35520 La Mézière"
       }
     ]
   },
@@ -4286,6 +4766,9 @@
       },
       {
         "phone": "+33 2 23 40 17 81"
+      },
+      {
+        "address": "Le Clap, 7 Place de l'Église 35520 La Mézière"
       }
     ]
   },
@@ -4337,6 +4820,9 @@
       },
       {
         "website": "https://house.morexcustom.com/"
+      },
+      {
+        "address": "Morex Custom House, 11 Rue Lieutenant-Colonel Dubois 35132 Vezin-le-Coquet"
       }
     ]
   },
@@ -4358,6 +4844,12 @@
       },
       {
         "amenity": "bar"
+      },
+      {
+        "name": "La Détente"
+      },
+      {
+        "address": "La Détente, 181 Rue de Lorient 35132 Vezin-le-Coquet"
       }
     ]
   },
@@ -4394,6 +4886,9 @@
       },
       {
         "ref:FR:SIRET": "42460917000032"
+      },
+      {
+        "address": "Le Tamaris, 4 Route de Saint-Malo 35760 La Chapelle-des-Fougeretz"
       }
     ]
   },
@@ -4436,6 +4931,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Chez Annick et Gérard, 4 Place de l'Église 35630 Rennes"
       }
     ]
   },
@@ -4487,6 +4988,9 @@
       },
       {
         "website": "https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fwww.facebook.com%2Fpages%2FAu-Trousse-Chemise%2F1374230109553741"
+      },
+      {
+        "address": "Au Trousse Chemise, 1 Rue de Romillé 35850 Langan"
       }
     ]
   },
@@ -4529,18 +5033,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
-      }
-    ]
-  },
-  {
-    "index": 139,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/5036367546",
-    "data": [
-      {
-        "amenity": "bar"
       },
       {
-        "level": "0"
+        "address": "Madison Café, 4 Rue de la Chapelle-Chaussée 35850 Langan"
       }
     ]
   },
@@ -4574,6 +5069,12 @@
       },
       {
         "sells:tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Café de l'Étoile, Rennes"
       }
     ]
   },
@@ -4589,6 +5090,12 @@
       },
       {
         "ref:FR:SIRET": "48406574300011"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bar des Sports, Rennes"
       }
     ]
   },
@@ -4613,6 +5120,9 @@
       },
       {
         "name": "La Tulipe (Bar- Tabac Presse)"
+      },
+      {
+        "address": "La Tulipe (Bar- Tabac Presse), 3 Rue de l'Epinette 35137 Pleumeleuc"
       }
     ]
   },
@@ -4646,6 +5156,9 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "address": "Ty Gwen, 1 Place de Saint-Malo 35310 Bréal-sous-Montfort"
       }
     ]
   },
@@ -4673,6 +5186,9 @@
       },
       {
         "ref:FR:MontfortCommunaute:OC": "123"
+      },
+      {
+        "address": "Le Bronson, 38 Rue de Rennes 35137 Bédée"
       }
     ]
   },
@@ -4694,6 +5210,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Khap, Rennes"
       }
     ]
   },
@@ -4709,6 +5231,12 @@
       },
       {
         "ref:FR:SIRET": "49388256700032"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "L'Aviation, Rennes"
       }
     ]
   },
@@ -4721,6 +5249,12 @@
       },
       {
         "name": "Bar de la Forge"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bar de la Forge, Rennes"
       }
     ]
   },
@@ -4736,6 +5270,12 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Grand Gallo, Rennes"
       }
     ]
   },
@@ -4751,6 +5291,21 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Carquefou"
+      },
+      {
+        "addr:housenumber": "9"
+      },
+      {
+        "addr:postcode": "44470"
+      },
+      {
+        "addr:street": "Rue Véga"
+      },
+      {
+        "address": "Au Bon Accueil, 9 Rue Véga 44470 Carquefou"
       }
     ]
   },
@@ -4781,18 +5336,9 @@
       },
       {
         "tobacco": "yes"
-      }
-    ]
-  },
-  {
-    "index": 152,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/1741419864",
-    "data": [
-      {
-        "amenity": "bar"
       },
       {
-        "name": "L'Epoque"
+        "address": "Café de la Gare, 20 Rue de la Gare 35160 Montfort-sur-Meu"
       }
     ]
   },
@@ -4807,25 +5353,25 @@
         "brewery": "yes"
       },
       {
-        "contact:city": "Bruz"
+        "addr:city": "Bruz"
       },
       {
-        "contact:email": "lepignombruz@gmail.com"
+        "email": "lepignombruz@gmail.com"
       },
       {
         "contact:facebook": "https://www.facebook.com/lepignombruz"
       },
       {
-        "contact:phone": "+33 2 99 85 44 85"
+        "phone": "+33 2 99 85 44 85"
       },
       {
-        "contact:postcode": "35170"
+        "addr:postcode": "35170"
       },
       {
-        "contact:street": "Avenue d'Ouessant"
+        "addr:street": "Avenue d'Ouessant"
       },
       {
-        "contact:website": "https://www.lepignombruz.com/"
+        "website": "https://www.lepignombruz.com/"
       },
       {
         "microbrewery": "yes"
@@ -4835,6 +5381,9 @@
       },
       {
         "opening_hours": "Mo 10:00-15:00; Tu,Sa 10:00-14:30,17:00-00:00; We-Fr 10:00-14:30,17:00-00:30"
+      },
+      {
+        "address": "Le Pignom, Avenue d'Ouessant 35170 Bruz"
       }
     ]
   },
@@ -4862,6 +5411,9 @@
       },
       {
         "phone": "+33 2 23 43 13 93"
+      },
+      {
+        "address": "Pub Le 28, 28 Rue Saint-Nicolas 35160 Montfort-sur-Meu"
       }
     ]
   },
@@ -4904,6 +5456,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Bar le Rallye, 9 Rue de la Beurrerie 35160 Montfort-sur-Meu"
       }
     ]
   },
@@ -4934,6 +5489,9 @@
       },
       {
         "ref:FR:MontfortCommunaute:OC": "124"
+      },
+      {
+        "address": "Le Galop'1, 15 Place de la Cohue 35160 Montfort-sur-Meu"
       }
     ]
   },
@@ -4952,6 +5510,12 @@
       },
       {
         "ref:FR:SIRET": "79301895300018"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Central Bar, Rennes"
       }
     ]
   },
@@ -4967,6 +5531,12 @@
       },
       {
         "ref:FR:SIRET": "40473302400024"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Sous-Bock, Rennes"
       }
     ]
   },
@@ -4985,6 +5555,12 @@
       },
       {
         "source": "survey"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le P'tit Breton, 26 Rennes"
       }
     ]
   },
@@ -5003,6 +5579,12 @@
       },
       {
         "name": "La Vallée"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Vallée, Rennes"
       }
     ]
   },
@@ -5032,7 +5614,7 @@
         "brewery": "yes"
       },
       {
-        "contact:phone": "+33 2 99 55 91 70"
+        "phone": "+33 2 99 55 91 70"
       },
       {
         "name": "L’OPEN"
@@ -5048,6 +5630,9 @@
       },
       {
         "website": "http://www.openjm.fr/"
+      },
+      {
+        "address": "L’OPEN, 54 Rue de Rennes 35830 Betton"
       }
     ]
   },
@@ -5063,6 +5648,12 @@
       },
       {
         "ref:FR:SIRET": "83309225700017"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le PontPéannais, Rennes"
       }
     ]
   },
@@ -5081,6 +5672,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Longchamp, Rennes"
       }
     ]
   },
@@ -5093,6 +5690,12 @@
       },
       {
         "name": "Le Breizh"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Breizh, Rennes"
       }
     ]
   },
@@ -5111,6 +5714,12 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "L'Air du Temps, Rennes"
       }
     ]
   },
@@ -5153,6 +5762,9 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "address": "Le Bellevue, 2 Rue de la Mairie 35230 Noyal-Châtillon-sur-Seiche"
       }
     ]
   },
@@ -5189,6 +5801,9 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "address": "Le Mar-Mat, 30 Rue de la Libération 35190 Bécherel"
       }
     ]
   },
@@ -5201,6 +5816,12 @@
       },
       {
         "name": "La Tête d'Affiche"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Tête d'Affiche, Rennes"
       }
     ]
   },
@@ -5237,6 +5858,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Comptoir, 23 Rue du Point du Jour 35890 Laillé"
       }
     ]
   },
@@ -5291,6 +5915,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Cave à Flo, 3 Allée de Bray 35510 Cesson-Sévigné"
       }
     ]
   },
@@ -5309,6 +5936,12 @@
       },
       {
         "ref:FR:SIRET": "80767926100014"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Jef et Lee Café, Rennes"
       }
     ]
   },
@@ -5336,6 +5969,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Clipper, 17 Rue de Gaël Rennes"
       }
     ]
   },
@@ -5375,6 +6014,9 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "address": "Bar le Saint-Michel, 33 Rue du Commerce 35750 IFFENDIC"
       }
     ]
   },
@@ -5395,13 +6037,19 @@
         "amenity": "bar"
       },
       {
-        "contact:phone": "+33 2 99 61 01 36"
+        "phone": "+33 2 99 61 01 36"
       },
       {
         "name": "Café Sevestre"
       },
       {
         "source": "http://www.treffendel.fr/"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Café Sevestre, 5 Rue de Haute Bretagne 35380 Rennes"
       }
     ]
   },
@@ -5423,6 +6071,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "L'Eden, Rennes"
       }
     ]
   },
@@ -5438,6 +6092,12 @@
       },
       {
         "ref:FR:SIRET": "82089910200017"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Bistro'c, Rennes"
       }
     ]
   },
@@ -5465,6 +6125,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Thorigné, Rennes"
       }
     ]
   },
@@ -5507,6 +6173,9 @@
       },
       {
         "ref:FR:SIRET": "78845655600018"
+      },
+      {
+        "address": "Le canap, 5 Place de la Poste 35770 Vern-sur-Seiche"
       }
     ]
   },
@@ -5537,15 +6206,9 @@
       },
       {
         "phone": "+33 2 99 69 70 36"
-      }
-    ]
-  },
-  {
-    "index": 184,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/6594861328",
-    "data": [
+      },
       {
-        "amenity": "bar"
+        "address": "Bar du Centre, 11 Place de l'Église 35440 Feins"
       }
     ]
   },
@@ -5579,6 +6242,9 @@
       },
       {
         "ref:FR:SIRET": "32742509600010"
+      },
+      {
+        "address": "L'Arcoat, 2 Place de l'Église 35230 Bourgbarré"
       }
     ]
   },
@@ -5591,6 +6257,12 @@
       },
       {
         "name": "Le Rozell Breton"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Rozell Breton, Rennes"
       }
     ]
   },
@@ -5606,6 +6278,12 @@
       },
       {
         "ref:FR:SIRET": "79350991000014"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Bistrot Cornusien, Rennes"
       }
     ]
   },
@@ -5621,6 +6299,12 @@
       },
       {
         "ref:FR:SIRET": "84834515300011"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Saint-Martin, Rennes"
       }
     ]
   },
@@ -5636,6 +6320,12 @@
       },
       {
         "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-19:00; Su 09:00-12:00"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Vincennes, Rennes"
       }
     ]
   },
@@ -5651,6 +6341,12 @@
       },
       {
         "opening_hours": "Mo-Fr 06:30-20:30"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le St. Helen', Rennes"
       }
     ]
   },
@@ -5693,6 +6389,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Auprès de ma blonde, 59 Rue des comptoirs 35410 Chateaugiron"
       }
     ]
   },
@@ -5705,6 +6404,12 @@
       },
       {
         "name": "Chez Isabelle"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Chez Isabelle, Rennes"
       }
     ]
   },
@@ -5726,6 +6431,12 @@
       },
       {
         "source": "INSEE - 06/2019"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Galop Romain, Rennes"
       }
     ]
   },
@@ -5738,6 +6449,12 @@
       },
       {
         "name": "Le P'tit Comptoir"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le P'tit Comptoir, Rennes"
       }
     ]
   },
@@ -5768,6 +6485,9 @@
       },
       {
         "phone": "+33 2 99 37 41 44"
+      },
+      {
+        "address": "Les Beaux Arts, 14 Rue Saulnerie 35410 Châteaugiron"
       }
     ]
   },
@@ -5795,6 +6515,9 @@
       },
       {
         "phone": "+33 2 99 37 40 70"
+      },
+      {
+        "address": "Le Café des Halles, 6 Rue de la Trinité 35410 Châteaugiron"
       }
     ]
   },
@@ -5813,6 +6536,12 @@
       },
       {
         "name": "La Casaque"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Casaque, 7 Rue Georges Clemenceau Rennes"
       }
     ]
   },
@@ -5858,6 +6587,9 @@
       },
       {
         "phone": "+33 9 78 80 27 93"
+      },
+      {
+        "address": "Church, 5 Rue de Montfort 35000 Rennes"
       }
     ]
   },
@@ -5876,6 +6608,12 @@
       },
       {
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Contrescarpe, Rennes"
       }
     ]
   },
@@ -5897,6 +6635,12 @@
       },
       {
         "ref:FR:SIRET": "91156743600017"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Barhumètre, Rennes"
       }
     ]
   },
@@ -5933,6 +6677,9 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "address": "La Banque, 5 Allée Rallier du Baty 35000 Rennes"
       }
     ]
   },
@@ -5972,6 +6719,9 @@
       },
       {
         "website": "https://www.bar-laventure.fr/"
+      },
+      {
+        "address": "L'Aventure, 7 Allée Rallier du Baty 35000 Rennes"
       }
     ]
   },
@@ -6020,6 +6770,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Champ Jacquet, 9 Place du Champ Jacquet 35000 Rennes"
       }
     ]
   },
@@ -6044,6 +6797,12 @@
       },
       {
         "ref:FR:SIRET": "85383546000017"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Poney Club, Rennes"
       }
     ]
   },
@@ -6077,6 +6836,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "KilKenny's Pub, 3 Rue du Vau Saint-Germain 35000 Rennes"
       }
     ]
   },
@@ -6092,6 +6854,12 @@
       },
       {
         "ref:FR:SIRET": "35242211700015"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Barantic, Rennes"
       }
     ]
   },
@@ -6107,6 +6875,12 @@
       },
       {
         "ref:FR:SIRET": "82352297400018"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Alex's Tavern, Rennes"
       }
     ]
   },
@@ -6164,6 +6938,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "O'Connell's, 6-7 Place du Parlement de Bretagne 35000 Rennes"
       }
     ]
   },
@@ -6179,6 +6956,12 @@
       },
       {
         "ref:FR:SIRET": "40130696400016"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Madison Avenue, Rennes"
       }
     ]
   },
@@ -6194,6 +6977,12 @@
       },
       {
         "ref:FR:SIRET": "48079745500015"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Saint-Michel, Rennes"
       }
     ]
   },
@@ -6221,6 +7010,12 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Melting Pot, Rennes"
       }
     ]
   },
@@ -6248,6 +7043,12 @@
       },
       {
         "website": "https://www.deliriumcaferennes.fr"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Delirium Café, Rennes"
       }
     ]
   },
@@ -6278,6 +7079,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "El Teatro, 3 Rue Saint-Guillaume Rennes"
       }
     ]
   },
@@ -6290,6 +7094,12 @@
       },
       {
         "name": "Terminal 5"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Terminal 5, Rennes"
       }
     ]
   },
@@ -6305,6 +7115,12 @@
       },
       {
         "ref:FR:SIRET": "80765676400014"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Baratin, Rennes"
       }
     ]
   },
@@ -6350,6 +7166,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Fox and Friends, 13 Rue de la Monnaie 35000 Rennes"
       }
     ]
   },
@@ -6386,6 +7205,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Golden Gate, 3 Rue Saint-Georges 35000 Rennes"
       }
     ]
   },
@@ -6410,6 +7232,9 @@
       },
       {
         "ref:FR:SIRET": "88101474000024"
+      },
+      {
+        "address": "Le Bateau Ivre, Rennes"
       }
     ]
   },
@@ -6425,6 +7250,12 @@
       },
       {
         "ref:FR:SIRET": "40087713000015"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Sunset Café, Rennes"
       }
     ]
   },
@@ -6473,6 +7304,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Oan's Pub, 1 Rue Georges Dottin 35000 Rennes"
       }
     ]
   },
@@ -6494,6 +7328,12 @@
       },
       {
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bistrot de la Cité, Rennes"
       }
     ]
   },
@@ -6512,6 +7352,12 @@
       },
       {
         "ref:FR:SIRET": "52966569700023"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "L'Artiste Assoiffé, Rennes"
       }
     ]
   },
@@ -6526,16 +7372,16 @@
         "check_date": "2023-07-13"
       },
       {
-        "contact:city": "Rennes"
+        "addr:city": "Rennes"
       },
       {
-        "contact:housenumber": "2"
+        "addr:housenumber": "2"
       },
       {
-        "contact:postcode": "35000"
+        "addr:postcode": "35000"
       },
       {
-        "contact:street": "Rue Saint-Louis"
+        "addr:street": "Rue Saint-Louis"
       },
       {
         "internet_access": "wlan"
@@ -6548,6 +7394,9 @@
       },
       {
         "ref:FR:SIRET": "47873679600028"
+      },
+      {
+        "address": "L'Atelier de l'Artiste, 2 Rue Saint-Louis 35000 Rennes"
       }
     ]
   },
@@ -6581,6 +7430,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Pub Gall', 24 Place des Lices 35000 Rennes"
       }
     ]
   },
@@ -6599,6 +7451,12 @@
       },
       {
         "ref:FR:SIRET": "49284065700018"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Part des Anges, Rennes"
       }
     ]
   },
@@ -6638,6 +7496,9 @@
       },
       {
         "ref:FR:SIRET": "52275218700016"
+      },
+      {
+        "address": "La Cité d'Ys, 31 Rue Vasselot 35000 Rennes"
       }
     ]
   },
@@ -6689,6 +7550,9 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "address": "Bistrot Cocagne, 12 Rue des Dames 35000 Rennes"
       }
     ]
   },
@@ -6746,6 +7610,9 @@
       },
       {
         "source:addr:version": "2016-04-01"
+      },
+      {
+        "address": "Le Corner Shelter, 27 Rue de la Monnaie 35000 Rennes"
       }
     ]
   },
@@ -6770,6 +7637,12 @@
       },
       {
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "The Westport Inn, Rennes"
       }
     ]
   },
@@ -6797,6 +7670,12 @@
       },
       {
         "wheelchair:description": "Dérogation pour les toilettes."
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Dalle, Rennes"
       }
     ]
   },
@@ -6836,6 +7715,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La Nouba, Rue Saint-Hélier 35000 Rennes"
       }
     ]
   },
@@ -6881,6 +7763,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "The Station Pub, 26 Avenue Jean Janvier 35000 Rennes"
       }
     ]
   },
@@ -6917,6 +7802,9 @@
       },
       {
         "ref:FR:SIRET": "84791956000015"
+      },
+      {
+        "address": "Le Tiffany's Pub, 19 Rue Paul Bert 35000 Rennes"
       }
     ]
   },
@@ -6947,6 +7835,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Sablier, Rennes"
       }
     ]
   },
@@ -6968,15 +7862,12 @@
       },
       {
         "wheelchair": "no"
-      }
-    ]
-  },
-  {
-    "index": 239,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/7712886272",
-    "data": [
+      },
       {
-        "amenity": "pub"
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Coco Thym, Rennes"
       }
     ]
   },
@@ -6995,6 +7886,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bar du Centre, Rennes"
       }
     ]
   },
@@ -7021,7 +7918,13 @@
         "opening_hours": "Mo-Su 12:00-00:00"
       },
       {
-        "outdoor_seating": "garden"
+        "outdoor_seating": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Kermesse, Rennes"
       }
     ]
   },
@@ -7037,6 +7940,12 @@
       },
       {
         "ref:FR:SIRET": "51010727900018"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Mon Idée, Rennes"
       }
     ]
   },
@@ -7061,6 +7970,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Swan, Rennes"
       }
     ]
   },
@@ -7079,6 +7994,12 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Foyer, Rennes"
       }
     ]
   },
@@ -7100,6 +8021,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Kevestel, Rennes"
       }
     ]
   },
@@ -7112,18 +8039,12 @@
       },
       {
         "name": "Bar de l'Équipe"
-      }
-    ]
-  },
-  {
-    "index": 249,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/6189371899",
-    "data": [
-      {
-        "amenity": "pub"
       },
       {
-        "tobacco": "yes"
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bar de l'Équipe, Rennes"
       }
     ]
   },
@@ -7148,6 +8069,12 @@
       },
       {
         "website": "https://musikam.fr"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Musikam, Avenue du Phare de la balue Rennes"
       }
     ]
   },
@@ -7178,6 +8105,9 @@
       },
       {
         "name": "L'alchimiste"
+      },
+      {
+        "address": "L'alchimiste, 1 Rue de Romillé 35137 Pleumeleuc"
       }
     ]
   },
@@ -7199,6 +8129,12 @@
       },
       {
         "name": "Bar Tabac Presse"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bar Tabac Presse, 2 Rue de Montmuran 35630 Rennes"
       }
     ]
   },
@@ -7217,18 +8153,12 @@
       },
       {
         "restaurant": "yes"
-      }
-    ]
-  },
-  {
-    "index": 255,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/1733755443",
-    "data": [
-      {
-        "amenity": "pub"
       },
       {
-        "name": "La Bulle"
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Brasserie de la Mairie, Rennes"
       }
     ]
   },
@@ -7244,6 +8174,12 @@
       },
       {
         "ref:FR:SIRET": "82824434300012"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Blossac, Rennes"
       }
     ]
   },
@@ -7265,6 +8201,12 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Luso, Rennes"
       }
     ]
   },
@@ -7277,6 +8219,12 @@
       },
       {
         "name": "Le Bar'Cane"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Bar'Cane, Rennes"
       }
     ]
   },
@@ -7288,19 +8236,16 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Chantepie"
+        "addr:city": "Chantepie"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "59"
       },
       {
-        "contact:housenumber": "59"
+        "addr:postcode": "35135"
       },
       {
-        "contact:postcode": "35135"
-      },
-      {
-        "contact:street": "Avenue André Bonnin"
+        "addr:street": "Avenue André Bonnin"
       },
       {
         "name": "Café de la Mairie"
@@ -7310,6 +8255,9 @@
       },
       {
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009"
+      },
+      {
+        "address": "Café de la Mairie, 59 Avenue André Bonnin 35135 Chantepie"
       }
     ]
   },
@@ -7321,25 +8269,25 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Chantepie"
+        "addr:city": "Chantepie"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "66"
       },
       {
-        "contact:housenumber": "66"
+        "addr:postcode": "35135"
       },
       {
-        "contact:postcode": "35135"
-      },
-      {
-        "contact:street": "Avenue André Bonnin"
+        "addr:street": "Avenue André Bonnin"
       },
       {
         "name": "La Source"
       },
       {
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009"
+      },
+      {
+        "address": "La Source, 66 Avenue André Bonnin 35135 Chantepie"
       }
     ]
   },
@@ -7367,6 +8315,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bar Tabac PMU Longchamp, Rennes"
       }
     ]
   },
@@ -7385,6 +8339,12 @@
       },
       {
         "shop": "newsagent"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Breton, Rennes"
       }
     ]
   },
@@ -7400,6 +8360,12 @@
       },
       {
         "name": "Le Terminus"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Terminus, Rennes"
       }
     ]
   },
@@ -7412,6 +8378,12 @@
       },
       {
         "name": "Bar des Sports"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Bar des Sports, Rennes"
       }
     ]
   },
@@ -7427,6 +8399,12 @@
       },
       {
         "name": "Guillard Louisette"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Guillard Louisette, Rennes"
       }
     ]
   },
@@ -7472,6 +8450,12 @@
       },
       {
         "website": "http://leguibra.fr/"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Guibra, Rennes"
       }
     ]
   },
@@ -7499,6 +8483,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Fontaine, Rennes"
       }
     ]
   },
@@ -7514,6 +8504,12 @@
       },
       {
         "ref:FR:SIRET": "40215213600022"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le P'tit Mousse, Rennes"
       }
     ]
   },
@@ -7529,6 +8525,12 @@
       },
       {
         "ref:FR:SIRET": "80880091600021"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Jument Verte, Rennes"
       }
     ]
   },
@@ -7550,6 +8552,9 @@
       },
       {
         "name": "BEER KONG"
+      },
+      {
+        "address": "BEER KONG, Zone de l'avenue espace Bel Air 35290 Saint-Onen-la-Chapelle"
       }
     ]
   },
@@ -7562,6 +8567,12 @@
       },
       {
         "name": "Le Saint'O"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Saint'O, Rennes"
       }
     ]
   },
@@ -7574,6 +8585,12 @@
       },
       {
         "name": "Le Havana Café"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Havana Café, Rennes"
       }
     ]
   },
@@ -7586,6 +8603,12 @@
       },
       {
         "name": "Le Patton"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Patton, Rennes"
       }
     ]
   },
@@ -7598,6 +8621,12 @@
       },
       {
         "name": "Le Pélican"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Pélican, Rennes"
       }
     ]
   },
@@ -7622,6 +8651,9 @@
       },
       {
         "name": "TABAC-JOURNAUX-PRESSE-CADEAUX"
+      },
+      {
+        "address": "TABAC-JOURNAUX-PRESSE-CADEAUX, 1 Rue de la Porte 35150 Piré-Chancé"
       }
     ]
   },
@@ -7634,6 +8666,12 @@
       },
       {
         "name": "La Grosse Roche"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "La Grosse Roche, Rennes"
       }
     ]
   },
@@ -7646,6 +8684,12 @@
       },
       {
         "name": "Le Sulky"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Sulky, Rennes"
       }
     ]
   },
@@ -7661,6 +8705,12 @@
       },
       {
         "website": "http://bardac.blogspot.fr"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Bar d'à côté, Rennes"
       }
     ]
   },
@@ -7676,6 +8726,12 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "addr:city": "Rennes"
+      },
+      {
+        "address": "Le Carroir, Rennes"
       }
     ]
   },
@@ -7706,6 +8762,9 @@
       },
       {
         "wifi": "no"
+      },
+      {
+        "address": "Le Pacific, 3 Place du Prieuré 35450 Livré-sur-Changeon"
       }
     ]
   },
@@ -7729,25 +8788,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/chezpesteetchipie"
       },
       {
-        "contact:housenumber": "16"
+        "addr:housenumber": "16"
       },
       {
         "contact:instagram": "https://www.instagram.com/chez.peste.chipie"
       },
       {
-        "contact:phone": "+33 6 16 23 62 93"
+        "phone": "+33 6 16 23 62 93"
       },
       {
-        "contact:postcode": "44200"
+        "addr:postcode": "44200"
       },
       {
-        "contact:street": "Boulevard Joliot Curie"
+        "addr:street": "Boulevard Joliot Curie"
       },
       {
         "description": "Café boutique atypique. Restauration le midi, grignotage le soir. Accueille animations et concerts"
@@ -7772,6 +8828,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Chez Peste Et Chipie, 16 Boulevard Joliot Curie 44200 Nantes"
       }
     ]
   },
@@ -7808,6 +8867,9 @@
       },
       {
         "website": "https://www.lacapsule44.fr/"
+      },
+      {
+        "address": "La Capsule, 18 Rue Eugénie Cotton 44300 Nantes"
       }
     ]
   },
@@ -7832,6 +8894,9 @@
       },
       {
         "name": "Le Saint Georges"
+      },
+      {
+        "address": "Le Saint Georges, 1 Boulevard des Batignolles 44300 Nantes"
       }
     ]
   },
@@ -7862,6 +8927,12 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Sèvre, Nantes"
       }
     ]
   },
@@ -7895,6 +8966,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "La Beaujoire, 1 Route de Paris 44300 Nantes"
       }
     ]
   },
@@ -7907,6 +8981,12 @@
       },
       {
         "name": "Ze Bar"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Ze Bar, Nantes"
       }
     ]
   },
@@ -7931,6 +9011,12 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Rivoli, Nantes"
       }
     ]
   },
@@ -7955,6 +9041,9 @@
       },
       {
         "name": "Le Terminus"
+      },
+      {
+        "address": "Le Terminus, 99 Route de Clisson 44230 Saint-Sébastien-sur-Loire"
       }
     ]
   },
@@ -7976,6 +9065,9 @@
       },
       {
         "name": "Le Céleste"
+      },
+      {
+        "address": "Le Céleste, Rue Sadi Carnot 56300 Pontivy"
       }
     ]
   },
@@ -8003,6 +9095,9 @@
       },
       {
         "source": "Nantes Métropole 11/2011"
+      },
+      {
+        "address": "Despe'rade, 7 Rue Alsace-Lorraine 44400 Rezé"
       }
     ]
   },
@@ -8014,10 +9109,10 @@
         "amenity": "bar"
       },
       {
-        "contact:phone": "+33 2 28497406"
+        "phone": "+33 2 28497406"
       },
       {
-        "contact:website": "https://www.virtual-univers.fr/"
+        "website": "https://www.virtual-univers.fr/"
       },
       {
         "description": "Bar gaming, escape game VR"
@@ -8036,6 +9131,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Virtual Univers, Nantes"
       }
     ]
   },
@@ -8054,6 +9155,12 @@
       },
       {
         "name": "Shebeen"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Shebeen, Nantes"
       }
     ]
   },
@@ -8081,6 +9188,9 @@
       },
       {
         "opening_hours": "Mo-Fr 07:15-20:00; Sa 09:30-13:30"
+      },
+      {
+        "address": "Le Lion d'Or, 125 Route de Clisson 44230 Saint-Sébastien-sur-Loire"
       }
     ]
   },
@@ -8105,6 +9215,9 @@
       },
       {
         "name": "L'Eden"
+      },
+      {
+        "address": "L'Eden, 97 Rue de la Libération 44230 Saint-Sébastien-sur-Loire"
       }
     ]
   },
@@ -8132,6 +9245,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Le Guet à Pinte, 10 Place des Martyrs de la Résistance 44400 Rezé"
       }
     ]
   },
@@ -8150,6 +9266,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Driver, Nantes"
       }
     ]
   },
@@ -8180,6 +9302,9 @@
       },
       {
         "survey:date": "2018-12-09"
+      },
+      {
+        "address": "Le Miami, 8 Boulevard Adolphe Billault 44200 Nantes"
       }
     ]
   },
@@ -8204,6 +9329,9 @@
       },
       {
         "name": "Les Vesprées"
+      },
+      {
+        "address": "Les Vesprées, 313 Route de Sainte Luce 44300 Nantes"
       }
     ]
   },
@@ -8251,13 +9379,16 @@
         "opening_hours": "We-Th 17:00-00:00; Fr-Sa 17:00-02:00; Su 15:00-21:00"
       },
       {
-        "outdoor_seating": "sidewalk"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2022-12-17"
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "La Plaisir, 57 Boulevard Victor Hugo 44200 Nantes"
       }
     ]
   },
@@ -8282,6 +9413,9 @@
       },
       {
         "name": "Le Moorea"
+      },
+      {
+        "address": "Le Moorea, 45 Boulevard Victor Hugo 44200 Nantes"
       }
     ]
   },
@@ -8293,25 +9427,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/people/BBO-Café-Culturel/100090786021109"
       },
       {
-        "contact:housenumber": "16"
+        "addr:housenumber": "16"
       },
       {
         "contact:instagram": "https://www.instagram.com/bbo_cafeculturel"
       },
       {
-        "contact:postcode": "44200"
+        "addr:postcode": "44200"
       },
       {
-        "contact:street": "Rue Petite Biesse"
+        "addr:street": "Rue Petite Biesse"
       },
       {
         "live_music": "yes"
@@ -8330,6 +9461,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "BB'O Café Culturel, 16 Rue Petite Biesse 44200 Nantes"
       }
     ]
   },
@@ -8378,6 +9512,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La Guinguette du Belvedère, 19 Boulevard Gaston Doumergue 44200 Nantes"
       }
     ]
   },
@@ -8408,6 +9545,9 @@
       },
       {
         "opening_hours": "Mer-jeu 18:00 23:00 / Ven-sam 16:00 00:00"
+      },
+      {
+        "address": "Buvette des Ateliers Magellan, 12 Quai Magellan 44000 Nantes"
       }
     ]
   },
@@ -8419,22 +9559,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/Aux-3-corbeaux-Bar-à-Nantes-100094220422648"
       },
       {
-        "contact:housenumber": "8"
+        "addr:housenumber": "8"
       },
       {
-        "contact:postcode": "44200"
+        "addr:postcode": "44200"
       },
       {
-        "contact:street": "Rue Grande Biesse"
+        "addr:street": "Rue Grande Biesse"
       },
       {
         "name": "Aux 3 Corbeaux"
@@ -8459,6 +9596,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Aux 3 Corbeaux, 8 Rue Grande Biesse 44200 Nantes"
       }
     ]
   },
@@ -8498,6 +9638,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Vin te faire boire, 83 Route de Sainte-Luce 44300 Nantes"
       }
     ]
   },
@@ -8521,31 +9664,28 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/zygo.bar"
       },
       {
-        "contact:housenumber": "35"
+        "addr:housenumber": "35"
       },
       {
-        "contact:phone": "+33 2 51 83 51 34"
+        "phone": "+33 2 51 83 51 34"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue des Olivettes"
+        "addr:street": "Rue des Olivettes"
       },
       {
         "name": "Le Zygobar"
       },
       {
         "opening_hours": "We-Su 17:00-02:00"
+      },
+      {
+        "address": "Le Zygobar, 35 Rue des Olivettes 44000 Nantes"
       }
     ]
   },
@@ -8570,6 +9710,9 @@
       },
       {
         "name": "Place aux vins"
+      },
+      {
+        "address": "Place aux vins, 8 Place du Vieux Doulon 44300 Nantes"
       }
     ]
   },
@@ -8618,6 +9761,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le Petit Baigneur, 50 Quai Malakoff 44000 Nantes"
       }
     ]
   },
@@ -8647,7 +9793,7 @@
         "contact:instagram": "https://www.instagram.com/droledebargenantes/"
       },
       {
-        "contact:phone": "+33 2 40 74 61 29"
+        "phone": "+33 2 40 74 61 29"
       },
       {
         "name": "Drole de Barge"
@@ -8663,6 +9809,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Drole de Barge, 23 Quai Ferdinand Favre 44000 Nantes"
       }
     ]
   },
@@ -8689,19 +9838,16 @@
         "brewery": "affligem"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "2"
       },
       {
-        "contact:housenumber": "2"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
+        "addr:street": "Rue Biscuiterie"
       },
       {
-        "contact:street": "Rue Biscuiterie"
-      },
-      {
-        "contact:website": "https://www.restaurantlieuunique.fr/le-bar/"
+        "website": "https://www.restaurantlieuunique.fr/le-bar/"
       },
       {
         "name": "Bar du Lieu Unique"
@@ -8717,6 +9863,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Bar du Lieu Unique, 2 Rue Biscuiterie 44000 Nantes"
       }
     ]
   },
@@ -8750,6 +9899,12 @@
       },
       {
         "survey:date": "2023-06-10"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "44 Tours, Nantes"
       }
     ]
   },
@@ -8764,7 +9919,7 @@
         "contact:facebook": "https://www.facebook.com/bubarnantes"
       },
       {
-        "contact:phone": "+33 9 81 19 77 05"
+        "phone": "+33 9 81 19 77 05"
       },
       {
         "description": "Bières artisanale, microbrasserie, bar et boutique"
@@ -8792,6 +9947,12 @@
       },
       {
         "wheelchair:description": "Le bar est accessible à savoir qu'il y a une petite marche de 5 cm à l'entrée, que les wc sont de plein pied accessible mais pas adapté et assez étroit pour manoeuvrer"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Bubar, Nantes"
       }
     ]
   },
@@ -8837,6 +9998,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le D’Clic, 42 Route de Sainte Luce 44300 Nantes"
       }
     ]
   },
@@ -8848,19 +10012,16 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "15"
       },
       {
-        "contact:housenumber": "15"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Crucy"
+        "addr:street": "Rue Crucy"
       },
       {
         "indoor_seating": "yes"
@@ -8875,7 +10036,7 @@
         "opening_hours": "Mo-We 18:00-24:00, Th 18:00-01:00, Fr 18:00-02:00"
       },
       {
-        "outdoor_seating": "sidewalk"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2024-02-02"
@@ -8885,6 +10046,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Coco Bandit, 15 Rue Crucy 44000 Nantes"
       }
     ]
   },
@@ -8909,6 +10073,9 @@
       },
       {
         "name": "La Rotonde"
+      },
+      {
+        "address": "La Rotonde, 23 Rue de Bel Air 44470 Carquefou"
       }
     ]
   },
@@ -8932,25 +10099,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/ArletteCafePopRock/"
       },
       {
-        "contact:housenumber": "12"
+        "addr:housenumber": "12"
       },
       {
         "contact:instagram": "https://www.instagram.com/arlettecafe/"
       },
       {
-        "contact:phone": "+33 9 86 31 35 31"
+        "phone": "+33 9 86 31 35 31"
       },
       {
-        "contact:postcode": "44200"
+        "addr:postcode": "44200"
       },
       {
-        "contact:street": "Boulevard De La Prairie Au Duc"
+        "addr:street": "Boulevard De La Prairie Au Duc"
       },
       {
         "cuisine": "french"
@@ -8972,6 +10136,9 @@
       },
       {
         "survey:date": "2021-07-11"
+      },
+      {
+        "address": "Arlette Café, 12 Boulevard De La Prairie Au Duc 44200 Nantes"
       }
     ]
   },
@@ -8984,6 +10151,12 @@
       },
       {
         "name": "L'Orpin"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "L'Orpin, Nantes"
       }
     ]
   },
@@ -9011,6 +10184,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Brasserie du château, 20 Allée Paul Eluard 44400 Rezé"
       }
     ]
   },
@@ -9034,19 +10210,13 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "123"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "123"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Boulevard Ernest Dalby"
+        "addr:street": "Boulevard Ernest Dalby"
       },
       {
         "name": "Café de la Pompe"
@@ -9056,6 +10226,9 @@
       },
       {
         "source": "local_knowledge"
+      },
+      {
+        "address": "Café de la Pompe, 123 Boulevard Ernest Dalby 44000 Nantes"
       }
     ]
   },
@@ -9079,7 +10252,7 @@
         "contact:facebook": "https://www.facebook.com/lebainrougenantes"
       },
       {
-        "contact:phone": "+33 9 86 77 44 18"
+        "phone": "+33 9 86 77 44 18"
       },
       {
         "name": "Le Bain Rouge"
@@ -9095,6 +10268,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le Bain Rouge, Allée de la Maison Rouge 44000 Nantes"
       }
     ]
   },
@@ -9155,6 +10331,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Bras de Fer, 20 Boulevard de la Prairie au Duc 44200 Nantes"
       }
     ]
   },
@@ -9166,22 +10345,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:housenumber": "15"
+        "addr:housenumber": "15"
       },
       {
-        "contact:phone": "+33 2 40 37 73 54"
+        "phone": "+33 2 40 37 73 54"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Allée Commandant Charcot"
+        "addr:street": "Allée Commandant Charcot"
       },
       {
-        "contact:website": "https://lalsacien.com/restaurants-bar-alsacien-flammekueche/restaurant-nantes-informations-horaires-contact/"
+        "website": "https://lalsacien.com/restaurants-bar-alsacien-flammekueche/restaurant-nantes-informations-horaires-contact/"
       },
       {
         "cuisine": "alsatian"
@@ -9209,6 +10388,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "L'alsacien Nantes, 15 Allée Commandant Charcot 44000 Nantes"
       }
     ]
   },
@@ -9239,6 +10421,9 @@
       },
       {
         "phone": "+33240120113"
+      },
+      {
+        "address": "Le Wilton, 2 Rue des Brèches 44400 Rezé"
       }
     ]
   },
@@ -9263,6 +10448,9 @@
       },
       {
         "name": "Le Relax"
+      },
+      {
+        "address": "Le Relax, 52 Rue Ernest Sauvestre 44400 Rezé"
       }
     ]
   },
@@ -9295,7 +10483,7 @@
         "contact:facebook": "https://www.facebook.com/absence.nantes"
       },
       {
-        "contact:phone": "+33 2 40 75 75 07"
+        "phone": "+33 2 40 75 75 07"
       },
       {
         "indoor_seating": "yes"
@@ -9310,7 +10498,7 @@
         "opening_hours:signed": "no"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "source:bulk_purchase": "Collectif J'aime tes bocaux"
@@ -9326,6 +10514,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "L'Absence, 6 Quai François Mitterrand 44200 Nantes"
       }
     ]
   },
@@ -9343,22 +10534,19 @@
         "check_date:opening_hours": "2023-07-17"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "3"
       },
       {
-        "contact:housenumber": "3"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
+        "addr:street": "Allée du Port Maillard"
       },
       {
-        "contact:street": "Allée du Port Maillard"
-      },
-      {
-        "contact:website": "https://www.facebook.com/Planck-Bar-1135443299946899/"
+        "website": "https://www.facebook.com/Planck-Bar-1135443299946899/"
       },
       {
         "name": "Planck bar"
@@ -9368,6 +10556,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Planck bar, 3 Allée du Port Maillard 44000 Nantes"
       }
     ]
   },
@@ -9382,7 +10573,7 @@
         "contact:facebook": "https://www.facebook.com/profile.php?id=100063605651689"
       },
       {
-        "contact:phone": "+33 2 40 99 96 26"
+        "phone": "+33 2 40 99 96 26"
       },
       {
         "name": "L'Embuscade"
@@ -9398,6 +10589,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "L'Embuscade, Nantes"
       }
     ]
   },
@@ -9415,22 +10612,22 @@
         "check_date": "2023-09-28"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/lecascabel/"
       },
       {
-        "contact:housenumber": "1"
+        "addr:housenumber": "1"
       },
       {
-        "contact:phone": "+33 2 49 10 57 79"
+        "phone": "+33 2 49 10 57 79"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Kervégan"
+        "addr:street": "Rue Kervégan"
       },
       {
         "email": "contact@le-cascabel.com"
@@ -9452,6 +10649,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le Cascabel, 1 Rue Kervégan 44000 Nantes"
       }
     ]
   },
@@ -9463,25 +10663,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/Le-Track-Nart-100063616260668"
       },
       {
-        "contact:housenumber": "15"
+        "addr:housenumber": "15"
       },
       {
-        "contact:phone": "+33 6 73 11 85 12"
+        "phone": "+33 6 73 11 85 12"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Bon Secours"
+        "addr:street": "Rue Bon Secours"
       },
       {
         "live_music": "yes"
@@ -9500,6 +10697,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Track N'art, 15 Rue Bon Secours 44000 Nantes"
       }
     ]
   },
@@ -9514,7 +10714,7 @@
         "check_date": "2023-09-28"
       },
       {
-        "contact:website": "https://m.facebook.com/lebigben"
+        "website": "https://m.facebook.com/lebigben"
       },
       {
         "internet_access": "no"
@@ -9533,6 +10733,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Big Ben, Nantes"
       }
     ]
   },
@@ -9572,6 +10778,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "La Dérive, 1 Rue du Gué Robert 44000 Nantes"
       }
     ]
   },
@@ -9586,22 +10795,19 @@
         "cocktails": "yes"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
-      },
-      {
-        "contact:housenumber": "10"
+        "addr:housenumber": "10"
       },
       {
         "contact:instagram": "https://www.instagram.com/medusa.nantes"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Bon Secours"
+        "addr:street": "Rue Bon Secours"
       },
       {
         "name": "Medusa"
@@ -9623,6 +10829,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Medusa, 10 Rue Bon Secours 44000 Nantes"
       }
     ]
   },
@@ -9667,13 +10876,16 @@
         "opening_hours:signed": "no"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "toilets:wheelchair": "yes"
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "TB BAR day, 11 Allée du Port Maillard 44000 Nantes"
       }
     ]
   },
@@ -9691,25 +10903,22 @@
         "cocktails": "yes"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "capsbarnantes"
       },
       {
-        "contact:housenumber": "2"
+        "addr:housenumber": "2"
       },
       {
-        "contact:phone": "+33 2 28 49 47 87"
+        "phone": "+33 2 28 49 47 87"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Kervégan"
+        "addr:street": "Rue Kervégan"
       },
       {
         "live_music": "yes"
@@ -9728,6 +10937,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Cap'S Bar, 2 Rue Kervégan 44000 Nantes"
       }
     ]
   },
@@ -9742,19 +10954,16 @@
         "check_date": "2023-06-10"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "2"
       },
       {
-        "contact:housenumber": "2"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Léon Maître"
+        "addr:street": "Rue Léon Maître"
       },
       {
         "level": "0;1"
@@ -9773,6 +10982,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le Poulp', 2 Rue Léon Maître 44000 Nantes"
       }
     ]
   },
@@ -9806,6 +11018,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Chemin de traverse, Nantes"
       }
     ]
   },
@@ -9820,7 +11038,7 @@
         "contact:facebook": "https://www.facebook.com/100057718795202"
       },
       {
-        "contact:phone": "+33 2 40 47 06 03"
+        "phone": "+33 2 40 47 06 03"
       },
       {
         "lgbtq": "primary"
@@ -9839,6 +11057,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Plein Sud, Nantes"
       }
     ]
   },
@@ -9856,10 +11080,10 @@
         "contact:instagram": "https://www.instagram.com/ruinbarbouffay"
       },
       {
-        "contact:phone": "+33 2 28 49 40 22"
+        "phone": "+33 2 28 49 40 22"
       },
       {
-        "contact:website": "https://ruinbarbouffay.fr"
+        "website": "https://ruinbarbouffay.fr"
       },
       {
         "indoor_seating": "yes"
@@ -9874,13 +11098,19 @@
         "opening_hours": "Mo-Fr 15:00-02:00; Sa,Su 12:00-02:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2023-07-09"
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Ruin Bar Bouffay, Nantes"
       }
     ]
   },
@@ -9898,19 +11128,16 @@
         "check_date:opening_hours": "2023-11-28"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "1"
       },
       {
-        "contact:housenumber": "1"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Place du Bouffay"
+        "addr:street": "Place du Bouffay"
       },
       {
         "name": "Chez Lulu"
@@ -9920,6 +11147,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Chez Lulu, 1 Place du Bouffay 44000 Nantes"
       }
     ]
   },
@@ -9952,7 +11182,7 @@
         "contact:instagram": "https://www.instagram.com/barleshaft/"
       },
       {
-        "contact:phone": "+33 2 40 47 78 56"
+        "phone": "+33 2 40 47 78 56"
       },
       {
         "name": "Le Shaft"
@@ -9968,6 +11198,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Shaft, 14 Rue des Petites Écuries 44000 Nantes"
       }
     ]
   },
@@ -9982,19 +11215,16 @@
         "check_date:opening_hours": "2023-11-28"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "1"
       },
       {
-        "contact:housenumber": "1"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Place du Bouffay"
+        "addr:street": "Place du Bouffay"
       },
       {
         "name": "Le 13 et 3"
@@ -10004,6 +11234,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Le 13 et 3, 1 Place du Bouffay 44000 Nantes"
       }
     ]
   },
@@ -10058,6 +11291,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Les BerThoM, 1B Cours Olivier de Clisson 44000 Nantes"
       }
     ]
   },
@@ -10084,28 +11320,25 @@
         "check_date": "2023-11-21"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/callaway.bar"
       },
       {
-        "contact:housenumber": "2"
+        "addr:housenumber": "2"
       },
       {
-        "contact:phone": "+33 2 51 72 00 65"
+        "phone": "+33 2 51 72 00 65"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue de l'Émery"
+        "addr:street": "Rue de l'Émery"
       },
       {
         "name": "Le Callaway"
+      },
+      {
+        "address": "Le Callaway, 2 Rue de l'Émery 44000 Nantes"
       }
     ]
   },
@@ -10132,31 +11365,25 @@
         "brewery": "konrad;xxx_bitter;young_henry;coastwise_IPA;o_dwyers;Weihenstephaner_Hefe_Weissbier;nautile"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/atomicscafe"
       },
       {
-        "contact:housenumber": "6"
+        "addr:housenumber": "6"
       },
       {
         "contact:instagram": "https://www.instagram.com/atomicscafe/"
       },
       {
-        "contact:phone": "+33 2 49 09 32 44"
+        "phone": "+33 2 49 09 32 44"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Cours Olivier de Clisson"
+        "addr:street": "Cours Olivier de Clisson"
       },
       {
-        "contact:website": "https://atomics.cafe/"
+        "website": "https://atomics.cafe/"
       },
       {
         "indoor_seating": "yes"
@@ -10171,7 +11398,7 @@
         "opening_hours": "Mo-Sa 14:00-02:00; Su 15:00-02:00"
       },
       {
-        "outdoor_seating": "sidewalk"
+        "outdoor_seating": "yes"
       },
       {
         "phone": "+33 2 49 09 32 44"
@@ -10181,6 +11408,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Atomic's Café, 6 Cours Olivier de Clisson 44000 Nantes"
       }
     ]
   },
@@ -10195,19 +11425,16 @@
         "check_date:opening_hours": "2023-11-28"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "2"
       },
       {
-        "contact:housenumber": "2"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Place du Bouffay"
+        "addr:street": "Place du Bouffay"
       },
       {
         "name": "Le Bouffay"
@@ -10217,6 +11444,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Le Bouffay, 2 Place du Bouffay 44000 Nantes"
       }
     ]
   },
@@ -10246,25 +11476,19 @@
         "check_date": "2023-06-10"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/Lejunglebar/"
       },
       {
-        "contact:housenumber": "2"
+        "addr:housenumber": "2"
       },
       {
-        "contact:phone": "+33 6 50 22 12 36"
+        "phone": "+33 6 50 22 12 36"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Allée Duguay Trouin"
+        "addr:street": "Allée Duguay Trouin"
       },
       {
         "name": "Le Jungle Bar"
@@ -10274,6 +11498,9 @@
       },
       {
         "phone": "+33 9 81 77 99 24"
+      },
+      {
+        "address": "Le Jungle Bar, 2 Allée Duguay Trouin 44000 Nantes"
       }
     ]
   },
@@ -10291,19 +11518,16 @@
         "check_date:opening_hours": "2023-11-28"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "2"
       },
       {
-        "contact:housenumber": "2"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue de la Bâclerie"
+        "addr:street": "Rue de la Bâclerie"
       },
       {
         "internet_access": "yes"
@@ -10322,6 +11546,9 @@
       },
       {
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009"
+      },
+      {
+        "address": "Le Perrok', 2 Rue de la Bâclerie 44000 Nantes"
       }
     ]
   },
@@ -10349,6 +11576,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Magmaa, Nantes"
       }
     ]
   },
@@ -10375,25 +11608,22 @@
         "check_date": "2023-12-21"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/LaScierie.Nantes"
       },
       {
-        "contact:housenumber": "3"
+        "addr:housenumber": "3"
       },
       {
-        "contact:phone": "+33 6 15 12 39 41"
+        "phone": "+33 6 15 12 39 41"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Allée De L'île Gloriette"
+        "addr:street": "Allée De L'île Gloriette"
       },
       {
-        "contact:website": "https://www.la-scierie-nantes.fr/"
+        "website": "https://www.la-scierie-nantes.fr/"
       },
       {
         "name": "La Scierie"
@@ -10406,6 +11636,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La Scierie, 3 Allée De L'île Gloriette 44000 Nantes"
       }
     ]
   },
@@ -10423,19 +11656,16 @@
         "check_date:opening_hours": "2023-11-28"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "10"
       },
       {
-        "contact:housenumber": "10"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue de l'Émery"
+        "addr:street": "Rue de l'Émery"
       },
       {
         "fixme": "Etablissement toujours ouvert ? A vérifier"
@@ -10448,6 +11678,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le pti Zinc, 10 Rue de l'Émery 44000 Nantes"
       }
     ]
   },
@@ -10487,6 +11720,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Bootlegger, 13 Rue Kervégan 44000 Nantes"
       }
     ]
   },
@@ -10501,25 +11737,22 @@
         "cocktails": "yes"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "KitkatBarNantes"
       },
       {
-        "contact:housenumber": "1"
+        "addr:housenumber": "1"
       },
       {
-        "contact:phone": "+33 6 60 05 67 20"
+        "phone": "+33 6 60 05 67 20"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue de la Juiverie"
+        "addr:street": "Rue de la Juiverie"
       },
       {
         "indoor_seating": "yes"
@@ -10538,6 +11771,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Kit Kat Bar, 1 Rue de la Juiverie 44000 Nantes"
       }
     ]
   },
@@ -10564,31 +11800,25 @@
         "check_date": "2023-10-25"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/lepetit.marais/"
       },
       {
-        "contact:housenumber": "15"
+        "addr:housenumber": "15"
       },
       {
         "contact:instagram": "https://www.instagram.com/le_petit_marais_nantes/"
       },
       {
-        "contact:phone": "+33 2 40 35 24 62"
+        "phone": "+33 2 40 35 24 62"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Kervégan"
+        "addr:street": "Rue Kervégan"
       },
       {
-        "contact:website": "http://www.lepetitmarais.fr"
+        "website": "http://www.lepetitmarais.fr"
       },
       {
         "lgbtq": "primary"
@@ -10601,6 +11831,9 @@
       },
       {
         "phone": "+33 2 40 20 15 25"
+      },
+      {
+        "address": "Le Petit Marais, 15 Rue Kervégan 44000 Nantes"
       }
     ]
   },
@@ -10618,22 +11851,22 @@
         "cocktails": "yes"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "NoveltyCafe44"
       },
       {
-        "contact:housenumber": "4"
+        "addr:housenumber": "4"
       },
       {
-        "contact:phone": "+33 6 15 12 39 41"
+        "phone": "+33 6 15 12 39 41"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Allée De L'île Gloriette"
+        "addr:street": "Allée De L'île Gloriette"
       },
       {
         "live_music": "yes"
@@ -10645,7 +11878,7 @@
         "opening_hours:signed": "no"
       },
       {
-        "outdoor_seating": "street"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2024-02-08"
@@ -10655,6 +11888,9 @@
       },
       {
         "was:name": "L'Engrenage"
+      },
+      {
+        "address": "Novelty, 4 Allée De L'île Gloriette 44000 Nantes"
       }
     ]
   },
@@ -10669,22 +11905,19 @@
         "cocktails": "yes"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "havana.nantes.officiel"
       },
       {
-        "contact:housenumber": "2"
+        "addr:housenumber": "2"
       },
       {
-        "contact:phone": "+33 7 82 52 30 15"
+        "phone": "+33 7 82 52 30 15"
       },
       {
-        "contact:street": "Rue de la Juiverie"
+        "addr:street": "Rue de la Juiverie"
       },
       {
         "internet_access": "wlan"
@@ -10700,6 +11933,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Havana Café, 2 Rue de la Juiverie Nantes"
       }
     ]
   },
@@ -10717,7 +11953,7 @@
         "contact:facebook": "https://www.facebook.com/Espit-Chupitos-Nantes-732044057158414/"
       },
       {
-        "contact:website": "http://nantes.espitchupitos.com/"
+        "website": "http://nantes.espitchupitos.com/"
       },
       {
         "name": "Espit Chupitos"
@@ -10730,6 +11966,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Espit Chupitos, Nantes"
       }
     ]
   },
@@ -10775,6 +12017,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Askip, Nantes"
       }
     ]
   },
@@ -10786,31 +12034,28 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/prohibition.bar.nantes"
       },
       {
-        "contact:housenumber": "7"
+        "addr:housenumber": "7"
       },
       {
         "contact:instagram": "https://www.instagram.com/barprohibition"
       },
       {
-        "contact:phone": "+33 2 40 47 14 00"
+        "phone": "+33 2 40 47 14 00"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue de la Bâclerie"
+        "addr:street": "Rue de la Bâclerie"
       },
       {
-        "contact:website": "https://www.barprohibition.com"
+        "website": "https://www.barprohibition.com"
       },
       {
         "name": "Prohibition"
@@ -10820,6 +12065,9 @@
       },
       {
         "survey:date": "2023-07-21"
+      },
+      {
+        "address": "Prohibition, 7 Rue de la Bâclerie 44000 Nantes"
       }
     ]
   },
@@ -10837,7 +12085,7 @@
         "contact:instagram": "https://www.instagram.com/bubba.gump.nantes"
       },
       {
-        "contact:website": "https://bubba-gump-bar-nantes.eatbu.com"
+        "website": "https://bubba-gump-bar-nantes.eatbu.com"
       },
       {
         "name": "Bubba Gump"
@@ -10862,6 +12110,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Bubba Gump, Nantes"
       }
     ]
   },
@@ -10883,6 +12137,12 @@
       },
       {
         "opening_hours": "Tu-Sa 17:00-02:00; Mo,Su 17:00-00:00"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Poum poum tchak, Nantes"
       }
     ]
   },
@@ -10912,19 +12172,13 @@
         "check_date": "2023-10-25"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "17"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "17"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Kervégan"
+        "addr:street": "Rue Kervégan"
       },
       {
         "name": "L'R de rien"
@@ -10934,6 +12188,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "L'R de rien, 17 Rue Kervégan 44000 Nantes"
       }
     ]
   },
@@ -10957,22 +12214,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "86"
       },
       {
-        "contact:housenumber": "86"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Gambetta"
+        "addr:street": "Rue Gambetta"
       },
       {
         "name": "Le Gambetta"
       },
       {
         "source": "Nantes Métropole 11/2011"
+      },
+      {
+        "address": "Le Gambetta, 86 Rue Gambetta 44000 Nantes"
       }
     ]
   },
@@ -11002,13 +12259,16 @@
         "contact:instagram": "https://www.instagram.com/lesingeenhiverbar"
       },
       {
-        "contact:phone": "+33 6 03 00 67 23"
+        "phone": "+33 6 03 00 67 23"
       },
       {
         "name": "Le singe en hiver"
       },
       {
         "opening_hours": "Mo-Su 18:00-02:00"
+      },
+      {
+        "address": "Le singe en hiver, 17 Rue des Carmélites 44000 Nantes"
       }
     ]
   },
@@ -11038,25 +12298,19 @@
         "check_date": "2023-10-25"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/chat.noirrr/"
       },
       {
-        "contact:housenumber": "13"
+        "addr:housenumber": "13"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Allée Duguay Trouin"
+        "addr:street": "Allée Duguay Trouin"
       },
       {
-        "contact:website": "http://www.chat-noir-nantes.fr"
+        "website": "http://www.chat-noir-nantes.fr"
       },
       {
         "email": "au-chat-noir@hotmail.fr"
@@ -11081,6 +12335,9 @@
       },
       {
         "phone": "+33 6 61 68 66 20"
+      },
+      {
+        "address": "Au Chat Noir, 13 Allée Duguay Trouin 44000 Nantes"
       }
     ]
   },
@@ -11095,25 +12352,22 @@
         "check_date:opening_hours": "2023-01-07"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/laribouldingue"
       },
       {
-        "contact:housenumber": "33"
+        "addr:housenumber": "33"
       },
       {
-        "contact:phone": "+33 2 40 08 05 20"
+        "phone": "+33 2 40 08 05 20"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue de Verdun"
+        "addr:street": "Rue de Verdun"
       },
       {
         "name": "La Ribouldingue"
@@ -11129,6 +12383,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La Ribouldingue, 33 Rue de Verdun 44000 Nantes"
       }
     ]
   },
@@ -11165,6 +12422,9 @@
       },
       {
         "opening_hours": "Mo-We 16:00-01:00; Tu-Sa 16:00-02:00"
+      },
+      {
+        "address": "La Forge, 43 Rue Gambetta 44000 Nantes"
       }
     ]
   },
@@ -11179,19 +12439,19 @@
         "check_date": "2023-04-15"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/BAR-Le-Briord-127864247274038/"
       },
       {
-        "contact:housenumber": "3"
+        "addr:housenumber": "3"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue de Briord"
+        "addr:street": "Rue de Briord"
       },
       {
         "name": "Le Briord"
@@ -11204,6 +12464,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Briord, 3 Rue de Briord 44000 Nantes"
       }
     ]
   },
@@ -11215,25 +12478,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/labodeganantes"
       },
       {
-        "contact:housenumber": "8"
+        "addr:housenumber": "8"
       },
       {
-        "contact:phone": "+33 2 51 72 04 27"
+        "phone": "+33 2 51 72 04 27"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Beauregard"
+        "addr:street": "Rue Beauregard"
       },
       {
         "live_music": "yes"
@@ -11255,6 +12515,9 @@
       },
       {
         "wheelchair:description": "Bouton d'appel à l'extérieur pour demander l'accès en fauteuil roulant"
+      },
+      {
+        "address": "La Bodega, 8 Rue Beauregard 44000 Nantes"
       }
     ]
   },
@@ -11269,22 +12532,19 @@
         "check_date": "2023-11-23"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/lelutindetravers"
       },
       {
-        "contact:housenumber": "3"
+        "addr:housenumber": "3"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Beau-Soleil"
+        "addr:street": "Rue Beau-Soleil"
       },
       {
         "email": "warrenpageau@gmail.com"
@@ -11297,6 +12557,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Lutin de travers, 3 Rue Beau-Soleil 44000 Nantes"
       }
     ]
   },
@@ -11308,22 +12571,25 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:housenumber": "91"
+        "addr:housenumber": "91"
       },
       {
-        "contact:phone": "+33 9 74 73 53 78"
+        "phone": "+33 9 74 73 53 78"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Maréchal Joffre"
+        "addr:street": "Rue Maréchal Joffre"
       },
       {
         "name": "Barberousse Nantes"
+      },
+      {
+        "address": "Barberousse Nantes, 91 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -11369,6 +12635,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Duchesse, 87 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -11395,22 +12664,16 @@
         "check_date": "2023-04-15"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/lemojo44"
       },
       {
-        "contact:housenumber": "79"
+        "addr:housenumber": "79"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Maréchal Joffre"
+        "addr:street": "Rue Maréchal Joffre"
       },
       {
         "email": "lemojo44@gmail.com"
@@ -11432,6 +12695,9 @@
       },
       {
         "website": "http://www.lemojo.fr"
+      },
+      {
+        "address": "Le Mojo, 79 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -11455,22 +12721,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "80"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "80"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Maréchal Joffre"
+        "addr:street": "Rue Maréchal Joffre"
       },
       {
         "name": "Le Moonlight"
+      },
+      {
+        "address": "Le Moonlight, 80 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -11497,31 +12760,28 @@
         "brewery": "Pelforth"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/la-Maison-Café-Nantes-313440640732"
       },
       {
-        "contact:housenumber": "4"
+        "addr:housenumber": "4"
       },
       {
-        "contact:phone": "+33 2 40 37 04 12"
+        "phone": "+33 2 40 37 04 12"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Lebrun"
+        "addr:street": "Rue Lebrun"
       },
       {
         "name": "La Maison Café"
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "La Maison Café, 4 Rue Lebrun 44000 Nantes"
       }
     ]
   },
@@ -11545,25 +12805,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/auplaizhere/"
       },
       {
-        "contact:housenumber": "54"
+        "addr:housenumber": "54"
       },
       {
-        "contact:phone": "+33 6 12 18 10 29"
+        "phone": "+33 6 12 18 10 29"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Maréchal Joffre"
+        "addr:street": "Rue Maréchal Joffre"
       },
       {
         "name": "Au plaiz'here !"
@@ -11573,6 +12827,9 @@
       },
       {
         "source": "survey"
+      },
+      {
+        "address": "Au plaiz'here !, 54 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -11584,19 +12841,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:housenumber": "43"
+        "addr:housenumber": "43"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Maréchal Joffre"
+        "addr:street": "Rue Maréchal Joffre"
       },
       {
         "name": "L'Ubik"
+      },
+      {
+        "address": "L'Ubik, 43 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -11608,25 +12868,25 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "6"
       },
       {
-        "contact:housenumber": "6"
+        "addr:postcode": "44200"
       },
       {
-        "contact:postcode": "44200"
-      },
-      {
-        "contact:street": "Boulevard Léon Bureau"
+        "addr:street": "Boulevard Léon Bureau"
       },
       {
         "name": "La Place"
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La Place, 6 Boulevard Léon Bureau 44200 Nantes"
       }
     ]
   },
@@ -11650,7 +12910,7 @@
         "amenity": "bar"
       },
       {
-        "contact:phone": "+33 2 51 82 11 00"
+        "phone": "+33 2 51 82 11 00"
       },
       {
         "name": "4.44"
@@ -11660,6 +12920,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "4.44, 4 Rue du Couédic 44000 Nantes"
       }
     ]
   },
@@ -11689,22 +12952,16 @@
         "check_date:opening_hours": "2023-11-21"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/Les-Sir-Carmes-880147828716929/"
       },
       {
-        "contact:housenumber": "19"
+        "addr:housenumber": "19"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue des Carmes"
+        "addr:street": "Rue des Carmes"
       },
       {
         "name": "Les Sir Carmes"
@@ -11717,6 +12974,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Les Sir Carmes, 19 Rue des Carmes 44000 Nantes"
       }
     ]
   },
@@ -11743,25 +13003,19 @@
         "check_date": "2023-09-08"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/cafKnantes"
       },
       {
-        "contact:housenumber": "2"
+        "addr:housenumber": "2"
       },
       {
-        "contact:phone": "+33 6 99 06 83 45"
+        "phone": "+33 6 99 06 83 45"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Bossuet"
+        "addr:street": "Rue Bossuet"
       },
       {
         "name": "Le Caf'K"
@@ -11771,6 +13025,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le Caf'K, 2 Rue Bossuet 44000 Nantes"
       }
     ]
   },
@@ -11800,7 +13057,7 @@
         "contact:instagram": "https://www.instagram.com/tabarnak.tbn/"
       },
       {
-        "contact:phone": "+33 2 40 89 55 91"
+        "phone": "+33 2 40 89 55 91"
       },
       {
         "indoor_seating": "yes"
@@ -11812,7 +13069,7 @@
         "opening_hours": "Mo-Sa 14:00-02:00; Su 15:00-02:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "phone": "+33 2 40 89 55 91"
@@ -11822,6 +13079,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Ta bar nak, 1 Rue du Bois Tortu 44000 Nantes"
       }
     ]
   },
@@ -11851,10 +13111,10 @@
         "contact:instagram": "https://www.instagram.com/les3pinardiers_nantes"
       },
       {
-        "contact:phone": "+33 2 40 20 33 48"
+        "phone": "+33 2 40 20 33 48"
       },
       {
-        "contact:website": "https://les3pinardiers.com/"
+        "website": "https://les3pinardiers.com/"
       },
       {
         "indoor_seating": "yes"
@@ -11870,6 +13130,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Les trois pinardiers, 27 Rue des Carmes 44000 Nantes"
       }
     ]
   },
@@ -11893,31 +13156,25 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "LeTroquetNantes"
       },
       {
-        "contact:housenumber": "4"
+        "addr:housenumber": "4"
       },
       {
         "contact:instagram": "https://www.instagram.com/papa.doble.nantes"
       },
       {
-        "contact:phone": "+33 7 58 27 61 08"
+        "phone": "+33 7 58 27 61 08"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Saint-Léonard"
+        "addr:street": "Rue Saint-Léonard"
       },
       {
-        "contact:website": "https://papa-doble-bar-nantes.eatbu.com"
+        "website": "https://papa-doble-bar-nantes.eatbu.com"
       },
       {
         "description": "Bar à muscadet et apéritifs"
@@ -11942,6 +13199,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Papa Doble, 4 Rue Saint-Léonard 44000 Nantes"
       }
     ]
   },
@@ -11969,6 +13229,12 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "La Réserve, Nantes"
       }
     ]
   },
@@ -11983,7 +13249,7 @@
         "contact:facebook": "https://www.facebook.com/Le-ptit-Nicolas-276447346377276"
       },
       {
-        "contact:phone": "+33 6 24 47 27 24"
+        "phone": "+33 6 24 47 27 24"
       },
       {
         "description": "Bar à cocktails"
@@ -12002,6 +13268,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Rafiot, Nantes"
       }
     ]
   },
@@ -12029,6 +13301,9 @@
       },
       {
         "opening_hours": "Mo-Fr 07:00-15:00"
+      },
+      {
+        "address": "Bar Restaurant Le Cambronne, 1 Rue des Prisonniers 44230 Saint-Sébastien-sur-Loire"
       }
     ]
   },
@@ -12071,6 +13346,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Maximo Club, 11 Place de la Bourse 44000 Nantes"
       }
     ]
   },
@@ -12100,22 +13378,16 @@
         "check_date:opening_hours": "2023-11-23"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/La-Fée-verte-582273795308696"
       },
       {
-        "contact:housenumber": "2"
+        "addr:housenumber": "2"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Place de l'Écluse"
+        "addr:street": "Place de l'Écluse"
       },
       {
         "description": "Bar à cocktails"
@@ -12131,6 +13403,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La Fée verte, 2 Place de l'Écluse 44000 Nantes"
       }
     ]
   },
@@ -12167,6 +13442,9 @@
       },
       {
         "opening_hours:signed": "no"
+      },
+      {
+        "address": "Reser' Bar Dogs, 7 Place de la Bourse 44000 Nantes"
       }
     ]
   },
@@ -12206,6 +13484,9 @@
       },
       {
         "shop": "vacant"
+      },
+      {
+        "address": "Saint G's, 2 Place de la Bourse 44000 Nantes"
       }
     ]
   },
@@ -12235,10 +13516,10 @@
         "contact:instagram": "https://www.instagram.com/aufut_nantes"
       },
       {
-        "contact:phone": "+33 6 79 75 04 92"
+        "phone": "+33 6 79 75 04 92"
       },
       {
-        "contact:website": "http://www.aufutetamesure.fr"
+        "website": "http://www.aufutetamesure.fr"
       },
       {
         "drink:beer": "draught"
@@ -12257,6 +13538,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Au fût et à mesure, Rue du Pré Nian 44000 Nantes"
       }
     ]
   },
@@ -12299,6 +13583,9 @@
       },
       {
         "takeaway:covid19": "yes"
+      },
+      {
+        "address": "Royal Café, 1 Rue de l'Échelle 44000 Nantes"
       }
     ]
   },
@@ -12326,6 +13613,9 @@
       },
       {
         "opening_hours": "Tu-Sa 18:00-02:00"
+      },
+      {
+        "address": "Bande Originale, 9 Rue de l'Hôtel de Ville 44000 Nantes"
       }
     ]
   },
@@ -12349,7 +13639,7 @@
         "opening_hours": "Mo-Su 10:00-02:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "phone": "+33 2 40 48 78 71"
@@ -12359,6 +13649,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Café La Provence, Nantes"
       }
     ]
   },
@@ -12376,7 +13672,7 @@
         "contact:facebook": "https://www.facebook.com/le100P"
       },
       {
-        "contact:phone": "+33 7 88 34 41 21"
+        "phone": "+33 7 88 34 41 21"
       },
       {
         "description": "Bières artisanales à déguster sur place ou à emporter, vins, produits locaux à grignoter"
@@ -12407,6 +13703,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le 100 P', Nantes"
       }
     ]
   },
@@ -12434,6 +13736,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Gigg's Irish Pub, Nantes"
       }
     ]
   },
@@ -12467,6 +13775,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "L'alchimisterie, 11 Rue de la Boucherie 44000 Nantes"
       }
     ]
   },
@@ -12484,10 +13795,10 @@
         "contact:instagram": "https://www.instagram.com/nomadnantes"
       },
       {
-        "contact:phone": "+33 2 40 71 97 32"
+        "phone": "+33 2 40 71 97 32"
       },
       {
-        "contact:website": "https://www.nomad-nantes.com/"
+        "website": "https://www.nomad-nantes.com/"
       },
       {
         "cuisine": "international"
@@ -12509,6 +13820,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Nomad, Nantes"
       }
     ]
   },
@@ -12551,6 +13868,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Mariole, 11 Rue Jean-Jacques Rousseau 44000 Nantes"
       }
     ]
   },
@@ -12590,6 +13910,9 @@
       },
       {
         "phone": "+33 9 86 50 12 07"
+      },
+      {
+        "address": "Montecito, 6 Allée Duquesne 44000 Nantes"
       }
     ]
   },
@@ -12647,6 +13970,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Belle de Jour, 4 Place du 51e Régiment d'Artillerie 44000 Nantes"
       }
     ]
   },
@@ -12680,6 +14006,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Santeuil Café, Nantes"
       }
     ]
   },
@@ -12691,22 +14023,19 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/barlesauvage"
       },
       {
-        "contact:housenumber": "12"
+        "addr:housenumber": "12"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Léon Blum"
+        "addr:street": "Rue Léon Blum"
       },
       {
         "indoor_seating": "yes"
@@ -12718,13 +14047,16 @@
         "opening_hours": "Tu-Fr 18:00-24:00; Sa 00:00-02:00,18:00-24:00; Su 00:00-02:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2023-05-21"
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le Sauvage, 12 Rue Léon Blum 44000 Nantes"
       }
     ]
   },
@@ -12764,6 +14096,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Salut Marcel, Nantes"
       }
     ]
   },
@@ -12778,10 +14116,10 @@
         "contact:facebook": "https://www.facebook.com/lacomediedesvins"
       },
       {
-        "contact:phone": "+33 2 40 73 11 68"
+        "phone": "+33 2 40 73 11 68"
       },
       {
-        "contact:website": "https://www.bistrotdelacomedie.fr/la-comedie-des-vins-nantes"
+        "website": "https://www.bistrotdelacomedie.fr/la-comedie-des-vins-nantes"
       },
       {
         "drink:wine": "served"
@@ -12803,6 +14141,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "La Comédie des Vins, Nantes"
       }
     ]
   },
@@ -12839,6 +14183,9 @@
       },
       {
         "phone": "+33 2 40 69 22 73"
+      },
+      {
+        "address": "Le Feeling, 38 Quai de la Fosse 44300 Nantes"
       }
     ]
   },
@@ -12850,28 +14197,25 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/Le-Labo-138541926194083/"
       },
       {
-        "contact:housenumber": "19"
+        "addr:housenumber": "19"
       },
       {
-        "contact:phone": "+33 2 40 47 75 46"
+        "phone": "+33 2 40 47 75 46"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Léon Blum"
+        "addr:street": "Rue Léon Blum"
       },
       {
-        "contact:website": "http://www.lelabo-nantes.com"
+        "website": "http://www.lelabo-nantes.com"
       },
       {
         "indoor_seating": "yes"
@@ -12883,7 +14227,7 @@
         "opening_hours": "We 18:00-24:00; Th 00:00-01:00,18:00-24:00; Fr,Sa 00:00-02:00,18:00-24:00; Su 00:00-02:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2023-05-21"
@@ -12893,6 +14237,9 @@
       },
       {
         "wifi": "no"
+      },
+      {
+        "address": "Le Labo, 19 Rue Léon Blum 44000 Nantes"
       }
     ]
   },
@@ -12910,10 +14257,10 @@
         "contact:instagram": "https://www.instagram.com/le_mess_nantes/"
       },
       {
-        "contact:phone": "+33 2 40 35 76 10"
+        "phone": "+33 2 40 35 76 10"
       },
       {
-        "contact:website": "https://www.melodieensoussol.fr/"
+        "website": "https://www.melodieensoussol.fr/"
       },
       {
         "indoor_seating": "yes"
@@ -12928,13 +14275,19 @@
         "opening_hours": "Tu-We 18:00-00:00; Th-Sa 18:00-04:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "phone": "+33 2 40 35 76 10"
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Mess, Nantes"
       }
     ]
   },
@@ -12946,25 +14299,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/Le-J%C3%A9roboam-Vins-Tartines-353909464633529/"
       },
       {
-        "contact:housenumber": "21"
+        "addr:housenumber": "21"
       },
       {
-        "contact:phone": "+33 2 72 02 30 47"
+        "phone": "+33 2 72 02 30 47"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Léon Blum"
+        "addr:street": "Rue Léon Blum"
       },
       {
         "indoor_seating": "yes"
@@ -12979,7 +14329,7 @@
         "organic": "yes"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "reservation": "recommended"
@@ -12992,6 +14342,9 @@
       },
       {
         "wifi": "no"
+      },
+      {
+        "address": "Le Jéroboam Vins & Tartines, 21 Rue Léon Blum 44000 Nantes"
       }
     ]
   },
@@ -13031,6 +14384,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Melocotton, 9 Rue de l'Héronnière 44000 Nantes"
       }
     ]
   },
@@ -13073,6 +14429,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Duplex Graslin, 2 Rue Régnard 44000 Nantes"
       }
     ]
   },
@@ -13084,28 +14443,28 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/BistrotMathurin"
       },
       {
-        "contact:housenumber": "15"
+        "addr:housenumber": "15"
       },
       {
         "contact:instagram": "https://www.instagram.com/mathurin_bistrot_nantais"
       },
       {
-        "contact:phone": "+33 2 40 13 32 51"
+        "phone": "+33 2 40 13 32 51"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Jean Jacques Rousseau"
+        "addr:street": "Rue Jean Jacques Rousseau"
       },
       {
-        "contact:website": "https://www.restaurant-mathurin.fr"
+        "website": "https://www.restaurant-mathurin.fr"
       },
       {
         "cuisine": "french"
@@ -13124,6 +14483,9 @@
       },
       {
         "survey:date": "2023-07-17"
+      },
+      {
+        "address": "Le Mathurin, 15 Rue Jean Jacques Rousseau 44000 Nantes"
       }
     ]
   },
@@ -13150,7 +14512,7 @@
         "contact:facebook": "https://www.facebook.com/100063473023624"
       },
       {
-        "contact:phone": "+33 2 53 45 95 18"
+        "phone": "+33 2 53 45 95 18"
       },
       {
         "indoor_seating": "yes"
@@ -13165,13 +14527,16 @@
         "opening_hours": "Mo-Su 12:00-02:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2022-08-30"
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le Narcisse, 8 Rue Guépin 44000 Nantes"
       }
     ]
   },
@@ -13186,10 +14551,10 @@
         "contact:facebook": "https://www.facebook.com/universnantes"
       },
       {
-        "contact:phone": "+33 2 40 73 49 55"
+        "phone": "+33 2 40 73 49 55"
       },
       {
-        "contact:website": "https://univers-cafe-speakeasy.eatbu.com"
+        "website": "https://univers-cafe-speakeasy.eatbu.com"
       },
       {
         "internet_access": "wlan"
@@ -13211,6 +14576,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "L'Univers, Nantes"
       }
     ]
   },
@@ -13246,10 +14617,10 @@
         "contact:instagram": "https://www.instagram.com/barlibrairielaflibuste"
       },
       {
-        "contact:phone": "+33 7 64 76 24 67"
+        "phone": "+33 7 64 76 24 67"
       },
       {
-        "contact:website": "https://barlibrairielaflibuste.fr"
+        "website": "https://barlibrairielaflibuste.fr"
       },
       {
         "internet_access": "wlan"
@@ -13271,6 +14642,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La Flisbuste, 6 Allée Susan Brownell Anthony 44200 Nantes"
       }
     ]
   },
@@ -13322,6 +14696,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Aux P'tits Joueurs, 23 Rue du Port Guichard 44000 Nantes"
       }
     ]
   },
@@ -13367,6 +14744,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Le Kaleidoscope, 9 Rue Paré 44000 Nantes"
       }
     ]
   },
@@ -13400,6 +14780,9 @@
       },
       {
         "survey:date": "2018-11-16"
+      },
+      {
+        "address": "Le Scribe, 6 Rue Scribe 44000 Nantes"
       }
     ]
   },
@@ -13435,13 +14818,16 @@
         "opening_hours": "Tu-Fr 06:30-20:30; Sa 07:00-20:30; Su 07:30-20:30"
       },
       {
-        "outdoor_seating": "sidewalk"
+        "outdoor_seating": "yes"
       },
       {
         "tobacco": "yes"
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Les Caboteurs, 54 Quai de la Fosse 44300 Nantes"
       }
     ]
   },
@@ -13484,6 +14870,9 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "address": "Le Maestro, 5 Allée des Tanneurs 44000 Nantes"
       }
     ]
   },
@@ -13496,6 +14885,12 @@
       },
       {
         "name": "Meltdown"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Meltdown, Nantes"
       }
     ]
   },
@@ -13523,6 +14918,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Café de la Mairie, 2 Place Jean Baptiste Daviais 44400 Rezé"
       }
     ]
   },
@@ -13550,6 +14948,9 @@
       },
       {
         "opening_hours": "\"Le bar est ouvert uniquement lors des entractes des spectacles.\""
+      },
+      {
+        "address": "Bar de l'Opéra, 1ter Place Graslin 44000 Nantes"
       }
     ]
   },
@@ -13586,6 +14987,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Le Grenier, 120 Rue Général Buat 44000 Nantes"
       }
     ]
   },
@@ -13634,6 +15038,9 @@
       },
       {
         "was:name": "Maison Akabi"
+      },
+      {
+        "address": "Princesse Abibiche, 6 Rue Paul Bellamy 44000 Nantes"
       }
     ]
   },
@@ -13672,13 +15079,16 @@
         "opening_hours": "Tu-Sa 17:00-02:00"
       },
       {
-        "outdoor_seating": "sidewalk"
+        "outdoor_seating": "yes"
       },
       {
         "website": "http://www.facebook.com/pub80nantes"
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Micro Barrr, 61 Quai de la Fosse 44000 Nantes"
       }
     ]
   },
@@ -13712,6 +15122,9 @@
       },
       {
         "phone": "+33 2 40 69 72 69"
+      },
+      {
+        "address": "Le Corneille, 24 Rue Scribe 44000 Nantes"
       }
     ]
   },
@@ -13730,6 +15143,12 @@
       },
       {
         "opening_hours": "Tu-Sa 16:00-23:00"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Guest, Nantes"
       }
     ]
   },
@@ -13742,6 +15161,12 @@
       },
       {
         "name": "Meltdown"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Meltdown, Nantes"
       }
     ]
   },
@@ -13759,7 +15184,7 @@
         "contact:instagram": "https://www.instagram.com/19.33cocktailexperience/"
       },
       {
-        "contact:phone": "+33 6 02 15 99 70"
+        "phone": "+33 6 02 15 99 70"
       },
       {
         "name": "19:33"
@@ -13769,6 +15194,12 @@
       },
       {
         "outdoor_seating": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "19:33, Nantes"
       }
     ]
   },
@@ -13783,10 +15214,10 @@
         "check_date": "2023-10-23"
       },
       {
-        "contact:phone": "+33 2 40 71 68 05"
+        "phone": "+33 2 40 71 68 05"
       },
       {
-        "contact:website": "https://lautrequai.com/"
+        "website": "https://lautrequai.com/"
       },
       {
         "name": "L'Autre Quai"
@@ -13796,6 +15227,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "L'Autre Quai, Nantes"
       }
     ]
   },
@@ -13825,13 +15262,16 @@
         "contact:facebook": "https://www.facebook.com/drinkclub44/"
       },
       {
-        "contact:phone": "+33 2 40 33 54 09"
+        "phone": "+33 2 40 33 54 09"
       },
       {
         "name": "Drink Club"
       },
       {
         "opening_hours": "Mo-Sa 10:00-02:00; Su off"
+      },
+      {
+        "address": "Drink Club, 72 Quai de la Fosse 44300 Nantes"
       }
     ]
   },
@@ -13865,6 +15305,9 @@
       },
       {
         "phone": "+33 2 51 17 88 99"
+      },
+      {
+        "address": "Café du matin, 10 Rue de Talensac 44000 Nantes"
       }
     ]
   },
@@ -13891,22 +15334,16 @@
         "check_date": "2023-06-24"
       },
       {
-        "contact:city": "Nantes"
+        "email": "marina.lunefroide@gmail.com"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "21"
       },
       {
-        "contact:email": "marina.lunefroide@gmail.com"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "21"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Quai de Versailles"
+        "addr:street": "Quai de Versailles"
       },
       {
         "indoor_seating": "yes"
@@ -13918,7 +15355,10 @@
         "opening_hours": "Mo-Su 00:00-02:00,10:00-24:00"
       },
       {
-        "outdoor_seating": "sidewalk"
+        "outdoor_seating": "yes"
+      },
+      {
+        "address": "Lune Froide, 21 Quai de Versailles 44000 Nantes"
       }
     ]
   },
@@ -13945,25 +15385,19 @@
         "check_date": "2023-06-24"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/pg/Barons-Perchés-120022751493096"
       },
       {
-        "contact:housenumber": "22"
+        "addr:housenumber": "22"
       },
       {
-        "contact:phone": "+33 2 40 35 65 97"
+        "phone": "+33 2 40 35 65 97"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Quai de Versailles"
+        "addr:street": "Quai de Versailles"
       },
       {
         "indoor_seating": "yes"
@@ -13975,7 +15409,7 @@
         "opening_hours": "Mo-Su 00:00-02:00,09:00-24:00"
       },
       {
-        "outdoor_seating": "sidewalk"
+        "outdoor_seating": "yes"
       },
       {
         "payment:credit_cards": "yes"
@@ -13985,6 +15419,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Barons Perchés, 22 Quai de Versailles 44000 Nantes"
       }
     ]
   },
@@ -14024,6 +15461,9 @@
       },
       {
         "phone": "+33 7 71 04 77 72"
+      },
+      {
+        "address": "Bistro Le Parisien, 12bis Rue de Talensac 44000 Nantes"
       }
     ]
   },
@@ -14051,6 +15491,9 @@
       },
       {
         "website": "https://bar303.fr/"
+      },
+      {
+        "address": "Bar303, 1 Rue Jean Jaurès 44000 Nantes"
       }
     ]
   },
@@ -14080,7 +15523,7 @@
         "contact:instagram": "https://www.instagram.com/sidrasbarnantes"
       },
       {
-        "contact:phone": "+33 7 68 17 58 16"
+        "phone": "+33 7 68 17 58 16"
       },
       {
         "description": "Cave et bar à cidre"
@@ -14111,6 +15554,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Sidras, 34 Mail des Chantiers 44200 Nantes"
       }
     ]
   },
@@ -14147,6 +15593,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Levrette Café, 105 Quai de la Fosse 44300 Nantes"
       }
     ]
   },
@@ -14176,19 +15625,16 @@
         "check_date": "2023-09-04"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "10"
       },
       {
-        "contact:housenumber": "10"
+        "phone": "+33 2 53 97 67 61"
       },
       {
-        "contact:phone": "+33 2 53 97 67 61"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue De Bel Air"
+        "addr:street": "Rue De Bel Air"
       },
       {
         "description": "Le bar des jeux collectifs"
@@ -14216,6 +15662,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Pioche, 10 Rue De Bel Air 44000 Nantes"
       }
     ]
   },
@@ -14242,10 +15691,10 @@
         "contact:facebook": "https://www.facebook.com/AlterEgosRezeSorinieres"
       },
       {
-        "contact:phone": "+33 2 40 47 53 70"
+        "phone": "+33 2 40 47 53 70"
       },
       {
-        "contact:website": "https://www.alteregos.fr/"
+        "website": "https://www.alteregos.fr/"
       },
       {
         "name": "Alter Egos"
@@ -14255,6 +15704,9 @@
       },
       {
         "website": "https://www.alteregos.fr/"
+      },
+      {
+        "address": "Alter Egos, 1 Rue du Progrès 44840 Les Sorinières"
       }
     ]
   },
@@ -14284,31 +15736,16 @@
         "contact:facebook": "https://www.facebook.com/lebalkabar.nantes"
       },
       {
-        "contact:phone": "+33 2 40 20 19 65"
+        "phone": "+33 2 40 20 19 65"
       },
       {
         "name": "Le Balkabar"
       },
       {
         "opening_hours": "Mo-Sa 10:00-02:00"
-      }
-    ]
-  },
-  {
-    "index": 461,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/6400624986",
-    "data": [
-      {
-        "addr:street": "Morningside Road"
       },
       {
-        "amenity": "bar"
-      },
-      {
-        "name": "Hogshouse"
-      },
-      {
-        "name:en": "Hog House Brewery"
+        "address": "Le Balkabar, 1 Rue Charles Brunellière 44100 Nantes"
       }
     ]
   },
@@ -14339,6 +15776,9 @@
       },
       {
         "website": "http://www.restaurant-lassise-nantes.com/le-bar/"
+      },
+      {
+        "address": "Le Préambule, 6 Place Aristide Briand 44000 Nantes"
       }
     ]
   },
@@ -14384,6 +15824,9 @@
       },
       {
         "website": "https://www.knb44.fr/"
+      },
+      {
+        "address": "Karibu New Bar, 10 Place Edouard Normand 44000 Nantes"
       }
     ]
   },
@@ -14408,6 +15851,9 @@
       },
       {
         "name": "Le Khedive"
+      },
+      {
+        "address": "Le Khedive, 14 Rue de Nantes 44840 Les Sorinières"
       }
     ]
   },
@@ -14441,6 +15887,9 @@
       },
       {
         "opening_hours:covid19": "off"
+      },
+      {
+        "address": "L'Aubette, 12 Place Viarme 44000 Nantes"
       }
     ]
   },
@@ -14464,28 +15913,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/laterrassedelile/"
       },
       {
-        "contact:housenumber": "21"
+        "addr:housenumber": "21"
       },
       {
         "contact:instagram": "https://www.instagram.com/laterrassedelile/"
       },
       {
-        "contact:postcode": "44200"
+        "addr:postcode": "44200"
       },
       {
-        "contact:street": "Quai des Antilles"
+        "addr:street": "Quai des Antilles"
       },
       {
-        "contact:website": "https://www.warehouse-nantes.fr/terrasse-de-l-ile"
+        "website": "https://www.warehouse-nantes.fr/terrasse-de-l-ile"
       },
       {
         "name": "La terrasse de l'île"
@@ -14504,6 +15947,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "La terrasse de l'île, 21 Quai des Antilles 44200 Nantes"
       }
     ]
   },
@@ -14527,7 +15973,7 @@
         "amenity": "bar"
       },
       {
-        "contact:phone": "+33 6 86 07 00 56"
+        "phone": "+33 6 86 07 00 56"
       },
       {
         "name": "Australian Café"
@@ -14540,6 +15986,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Australian Café, 21 Quai des Antilles 44200 Nantes"
       }
     ]
   },
@@ -14563,31 +16012,25 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/jymnantes/"
       },
       {
-        "contact:housenumber": "39"
+        "addr:housenumber": "39"
       },
       {
         "contact:instagram": "jymnantes"
       },
       {
-        "contact:phone": "+33 2 40 48 21 99"
+        "phone": "+33 2 40 48 21 99"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Quai de Versailles"
+        "addr:street": "Quai de Versailles"
       },
       {
-        "contact:website": "https://jymnantes.fr/"
+        "website": "https://jymnantes.fr/"
       },
       {
         "contact:youtube": "https://www.youtube.com/channel/UCDjKHEfnGNAAhzjSBHb6HZw"
@@ -14603,6 +16046,9 @@
       },
       {
         "takeaway": "yes"
+      },
+      {
+        "address": "JYM, 39 Quai de Versailles 44000 Nantes"
       }
     ]
   },
@@ -14632,10 +16078,10 @@
         "contact:instagram": "https://www.instagram.com/saonantes"
       },
       {
-        "contact:phone": "+33 6 84 53 91 30"
+        "phone": "+33 6 84 53 91 30"
       },
       {
-        "contact:website": "https://www.sao-nantes.com/"
+        "website": "https://www.sao-nantes.com/"
       },
       {
         "dance:style": "latin"
@@ -14654,6 +16100,9 @@
       },
       {
         "opening_hours": "Tu,We 19:00-01:30; Th 19:00-03:30; Fr 18:00-03:30; Sa 16:00-03:30; Su 16:00-23:30"
+      },
+      {
+        "address": "SÀO, 21 Quai des Antilles 44200 Nantes"
       }
     ]
   },
@@ -14677,28 +16126,22 @@
         "amenity": "bar"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/d3nantes/"
       },
       {
-        "contact:housenumber": "21"
+        "addr:housenumber": "21"
       },
       {
         "contact:instagram": "https://www.instagram.com/d3nantes/"
       },
       {
-        "contact:postcode": "44200"
+        "addr:postcode": "44200"
       },
       {
-        "contact:street": "Quai des Antilles"
+        "addr:street": "Quai des Antilles"
       },
       {
-        "contact:website": "https://www.detroit-nantes.com/"
+        "website": "https://www.detroit-nantes.com/"
       },
       {
         "name": "D3"
@@ -14708,6 +16151,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "D3, 21 Quai des Antilles 44200 Nantes"
       }
     ]
   },
@@ -14735,6 +16181,9 @@
       },
       {
         "opening_hours": "Mo-Sa 08:00-12:00"
+      },
+      {
+        "address": "La Fontaine, 16 Rue de Beaugency 44230 Saint-Sébastien-sur-Loire"
       }
     ]
   },
@@ -14762,6 +16211,9 @@
       },
       {
         "name": "La Kav"
+      },
+      {
+        "address": "La Kav, 35 Rue Marie Curie 44230 Saint-Sébastien-sur-Loire"
       }
     ]
   },
@@ -14791,10 +16243,10 @@
         "contact:instagram": "https://www.instagram.com/lumberjackpizza"
       },
       {
-        "contact:phone": "+33 6 71 28 60 35"
+        "phone": "+33 6 71 28 60 35"
       },
       {
-        "contact:website": "http://lumberjackpizza.fr"
+        "website": "http://lumberjackpizza.fr"
       },
       {
         "name": "Le Lumberjack"
@@ -14804,6 +16256,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Le Lumberjack, 111 Boulevard Michelet 44300 Nantes"
       }
     ]
   },
@@ -14843,6 +16298,9 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "address": "Le Bel Air, 71 Rue de Bel Air 44000 Nantes"
       }
     ]
   },
@@ -14869,19 +16327,16 @@
         "check_date": "2023-04-13"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/decadansenantes/"
       },
       {
-        "contact:housenumber": "1"
+        "addr:housenumber": "1"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Boulevard Henry Orrion"
+        "addr:street": "Boulevard Henry Orrion"
       },
       {
         "email": "hello@decadanse.fr"
@@ -14915,6 +16370,9 @@
       },
       {
         "wheelchair:description": "Le bar est bien accessible, la terrasse aussi si l'on passe dans une porte de 70cm, par contre la salle de concert est à l'étage sans ascenceur, Source : https://handinantes.fr/la-scene-michelet/"
+      },
+      {
+        "address": "Décadanse, 1 Boulevard Henry Orrion 44000 Nantes"
       }
     ]
   },
@@ -14945,33 +16403,9 @@
       },
       {
         "opening_hours": "Mo-Sa 09:00-22:30"
-      }
-    ]
-  },
-  {
-    "index": 478,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/4793685101",
-    "data": [
-      {
-        "addr:housenumber": "49"
       },
       {
-        "addr:postcode": "56300"
-      },
-      {
-        "addr:street": "Rue Nationale"
-      },
-      {
-        "amenity": "pub"
-      },
-      {
-        "level": "0"
-      },
-      {
-        "name": "bob pub"
-      },
-      {
-        "outdoor_seating": "yes"
+        "address": "La Banque, 16 Boulevard de la Beaujoire 44300 Nantes"
       }
     ]
   },
@@ -14989,7 +16423,7 @@
         "name": "Mon Bistrot"
       },
       {
-        "outdoor_seating": "sidewalk"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2024-01-22"
@@ -14999,6 +16433,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Mon Bistrot, Nantes"
       }
     ]
   },
@@ -15023,6 +16463,9 @@
       },
       {
         "name": "Le O'bock"
+      },
+      {
+        "address": "Le O'bock, 3 Rue Albert Londres 44300 Nantes"
       }
     ]
   },
@@ -15035,6 +16478,12 @@
       },
       {
         "name": "V&B Nantes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "V&B Nantes, Nantes"
       }
     ]
   },
@@ -15058,19 +16507,13 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/barberlin89/"
       },
       {
-        "contact:phone": "+33 2 28 30 95 20"
+        "phone": "+33 2 28 30 95 20"
       },
       {
-        "contact:website": "https://ile-nantes.berlin1989.fr/"
+        "website": "https://ile-nantes.berlin1989.fr/"
       },
       {
         "cuisine": "german;burger"
@@ -15097,7 +16540,7 @@
         "opening_hours:kitchen": "Tu-Fr 11:45-14:30,19:00-22:30; Sa,Su 11:45-14:30,19:00-23:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "survey:date": "2022-04-16"
@@ -15107,6 +16550,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Berlin 1989 Republik, 2 Place Abbé Pierre 44200 Nantes"
       }
     ]
   },
@@ -15143,6 +16589,9 @@
       },
       {
         "shop": "alcohol"
+      },
+      {
+        "address": "V and B, 22 Rue Ernest Sauvestre 44400 Rezé"
       }
     ]
   },
@@ -15169,25 +16618,19 @@
         "brewery": "Brigand;Bush Ambrée;Delirium Nocturnum;Delirium Red;Delirium Tremens;Faro;Guinness;Queue de charrue"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/pages/D%C3%A9lirium-Caf%C3%A9-Nantes/102216289839652"
       },
       {
-        "contact:housenumber": "19"
+        "addr:housenumber": "19"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Allée Baco"
+        "addr:street": "Allée Baco"
       },
       {
-        "contact:website": "http://www.deliriumcafe.fr"
+        "website": "http://www.deliriumcafe.fr"
       },
       {
         "name": "Delirium Café"
@@ -15203,6 +16646,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Delirium Café, 19 Allée Baco 44000 Nantes"
       }
     ]
   },
@@ -15233,6 +16679,9 @@
       },
       {
         "website": "https://www.lebusdetourne.fr/"
+      },
+      {
+        "address": "Le Bus Dé-Tourné, 6 Boulevard Condorcet 44400 Rezé"
       }
     ]
   },
@@ -15269,6 +16718,9 @@
       },
       {
         "smoking": "no"
+      },
+      {
+        "address": "Bar PMU Le Monti, 56 Rue du Lieutenant de Monti 44400 Rezé"
       }
     ]
   },
@@ -15298,7 +16750,7 @@
         "contact:facebook": "https://www.facebook.com/bradysnantes/"
       },
       {
-        "contact:phone": "+33 2 53 55 47 63"
+        "phone": "+33 2 53 55 47 63"
       },
       {
         "cuisine": "fish_and_chips"
@@ -15332,6 +16784,9 @@
       },
       {
         "wheelchair:description": "Source : http://handinantes.fr/bradys-nantes/"
+      },
+      {
+        "address": "Brady's, 22 Allée Commandant Charcot 44000 Nantes"
       }
     ]
   },
@@ -15343,19 +16798,16 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "7"
       },
       {
-        "contact:housenumber": "7"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue des États"
+        "addr:street": "Rue des États"
       },
       {
         "name": "Live Bar"
@@ -15371,6 +16823,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Live Bar, 7 Rue des États 44000 Nantes"
       }
     ]
   },
@@ -15400,25 +16855,19 @@
         "check_date:opening_hours": "2023-11-21"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/LeCoupDpompe"
       },
       {
-        "contact:housenumber": "1"
+        "addr:housenumber": "1"
       },
       {
-        "contact:phone": "+33 2 51 89 12 15"
+        "phone": "+33 2 51 89 12 15"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Paul Dubois"
+        "addr:street": "Rue Paul Dubois"
       },
       {
         "indoor_seating": "yes"
@@ -15431,6 +16880,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Le Coup De Pompe, 1 Rue Paul Dubois 44000 Nantes"
       }
     ]
   },
@@ -15445,25 +16897,25 @@
         "check_date": "2023-10-25"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "3"
       },
       {
-        "contact:housenumber": "3"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Quai Turenne"
+        "addr:street": "Quai Turenne"
       },
       {
         "name": "Zazou"
       },
       {
         "opening_hours": "We-Sa 17:00-02:00"
+      },
+      {
+        "address": "Zazou, 3 Quai Turenne 44000 Nantes"
       }
     ]
   },
@@ -15506,6 +16958,12 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "De Dannan, Nantes"
       }
     ]
   },
@@ -15520,19 +16978,16 @@
         "check_date": "2023-09-05"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "6"
       },
       {
-        "contact:housenumber": "6"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Bon Secours"
+        "addr:street": "Rue Bon Secours"
       },
       {
         "name": "Green Sheep Pub"
@@ -15545,6 +17000,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Green Sheep Pub, 6 Rue Bon Secours 44000 Nantes"
       }
     ]
   },
@@ -15559,25 +17017,25 @@
         "check_date": "2023-11-23"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "4"
       },
       {
-        "contact:housenumber": "4"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue des Carmélites"
+        "addr:street": "Rue des Carmélites"
       },
       {
         "name": "Au Chien Stupide"
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Au Chien Stupide, 4 Rue des Carmélites 44000 Nantes"
       }
     ]
   },
@@ -15592,31 +17050,28 @@
         "brewery": "Guinness;McEwans"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/irishpubnantes/"
       },
       {
-        "contact:housenumber": "21"
+        "addr:housenumber": "21"
       },
       {
         "contact:instagram": "https://www.instagram.com/johnmcbyrnes/"
       },
       {
-        "contact:phone": "+33 2 40 89 64 46"
+        "phone": "+33 2 40 89 64 46"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue des Petites Écuries"
+        "addr:street": "Rue des Petites Écuries"
       },
       {
-        "contact:website": "http://johnmcbyrne.free.fr"
+        "website": "http://johnmcbyrne.free.fr"
       },
       {
         "internet_access": "yes"
@@ -15638,6 +17093,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "John Mc Byrne, 21 Rue des Petites Écuries 44000 Nantes"
       }
     ]
   },
@@ -15671,6 +17129,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Toutes Aides brasserie, 6 Rue de la Ville en Pierre 44000 Nantes"
       }
     ]
   },
@@ -15688,19 +17149,16 @@
         "check_date": "2023-10-24"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "12"
       },
       {
-        "contact:housenumber": "12"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue du Château"
+        "addr:street": "Rue du Château"
       },
       {
         "internet_access": "yes"
@@ -15719,6 +17177,9 @@
       },
       {
         "website": "https://buckmulligans.com/"
+      },
+      {
+        "address": "Buck Mulligan's, 12 Rue du Château 44000 Nantes"
       }
     ]
   },
@@ -15730,22 +17191,19 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/irishpubnantes"
       },
       {
-        "contact:housenumber": "13"
+        "addr:housenumber": "13"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue de la Juiverie"
+        "addr:street": "Rue de la Juiverie"
       },
       {
         "name": "John McByrne & Co"
@@ -15754,13 +17212,16 @@
         "opening_hours": "We-Sa 16:00-02:00"
       },
       {
-        "outdoor_seating": "pedestrian_zone"
+        "outdoor_seating": "yes"
       },
       {
         "phone": "+33 2 51 89 90 17"
       },
       {
         "survey:date": "2023-07-21"
+      },
+      {
+        "address": "John McByrne & Co, 13 Rue de la Juiverie 44000 Nantes"
       }
     ]
   },
@@ -15787,19 +17248,13 @@
         "check_date": "2023-10-25"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "17"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "17"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Kervégan"
+        "addr:street": "Rue Kervégan"
       },
       {
         "name": "Le Tiki Bar"
@@ -15812,6 +17267,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Le Tiki Bar, 17 Rue Kervégan 44000 Nantes"
       }
     ]
   },
@@ -15832,28 +17290,28 @@
         "check_date:opening_hours": "2023-11-21"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
-        "contact:country": "FR"
+        "addr:housenumber": "3"
       },
       {
-        "contact:housenumber": "3"
+        "phone": "+33 2 40 35 12 13"
       },
       {
-        "contact:phone": "+33 2 40 35 12 13"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue du Bouffay"
+        "addr:street": "Rue du Bouffay"
       },
       {
         "name": "Le Rabelais"
       },
       {
         "opening_hours:signed": "no"
+      },
+      {
+        "address": "Le Rabelais, 3 Rue du Bouffay 44000 Nantes"
       }
     ]
   },
@@ -15883,19 +17341,13 @@
         "check_date": "2023-09-04"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "21"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "21"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue de la Juiverie"
+        "addr:street": "Rue de la Juiverie"
       },
       {
         "indoor_seating": "yes"
@@ -15911,6 +17363,9 @@
       },
       {
         "outdoor_seating": "yes"
+      },
+      {
+        "address": "Le Bar du Coin, 21 Rue de la Juiverie 44000 Nantes"
       }
     ]
   },
@@ -15934,22 +17389,16 @@
         "brewery": "TNT"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/au.vestiaire"
       },
       {
-        "contact:housenumber": "2"
+        "addr:housenumber": "2"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Place de la Petite Hollande"
+        "addr:street": "Place de la Petite Hollande"
       },
       {
         "name": "Au Vestiaire"
@@ -15959,6 +17408,9 @@
       },
       {
         "smoking": "outside"
+      },
+      {
+        "address": "Au Vestiaire, 2 Place de la Petite Hollande 44000 Nantes"
       }
     ]
   },
@@ -15988,28 +17440,22 @@
         "check_date": "2023-07-07"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/Lesurmesurenantes/"
       },
       {
-        "contact:housenumber": "15"
+        "addr:housenumber": "15"
       },
       {
-        "contact:phone": "+33 2 85 37 03 28"
+        "phone": "+33 2 85 37 03 28"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Beauregard"
+        "addr:street": "Rue Beauregard"
       },
       {
-        "contact:website": "http://lesurmesure.fr"
+        "website": "http://lesurmesure.fr"
       },
       {
         "name": "Le Sur Mesure"
@@ -16028,6 +17474,9 @@
       },
       {
         "wheelchair:description": "Bar accessible avec tout de même une petite marche de 5 cm à l'entrée, ensuite les wc sont accessibles en haut et en bas, il y a même un élévateur pour accéder à l'étage"
+      },
+      {
+        "address": "Le Sur Mesure, 15 Rue Beauregard 44000 Nantes"
       }
     ]
   },
@@ -16054,19 +17503,13 @@
         "brewery": "Kilkenny;Grimbergen;Chimay;La bête;Magners;Guinness"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "4"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "4"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Place Saint-Pierre"
+        "addr:street": "Place Saint-Pierre"
       },
       {
         "diet:vegetarian": "yes"
@@ -16076,6 +17519,9 @@
       },
       {
         "opening_hours": "Mo-Fr 09:00-02:00; Sa, Su 10:00-02:00"
+      },
+      {
+        "address": "Gigg's, 4 Place Saint-Pierre 44000 Nantes"
       }
     ]
   },
@@ -16099,19 +17545,13 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "86"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "86"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Maréchal Joffre"
+        "addr:street": "Rue Maréchal Joffre"
       },
       {
         "internet_access": "no"
@@ -16124,6 +17564,9 @@
       },
       {
         "smoking": "no"
+      },
+      {
+        "address": "Le Joffre, 86 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -16150,19 +17593,13 @@
         "check_date": "2023-04-15"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "1"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "1"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Lebrun"
+        "addr:street": "Rue Lebrun"
       },
       {
         "name": "Game Over"
@@ -16175,6 +17612,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Game Over, 1 Rue Lebrun 44000 Nantes"
       }
     ]
   },
@@ -16198,19 +17638,13 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "72"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44000"
       },
       {
-        "contact:housenumber": "72"
-      },
-      {
-        "contact:postcode": "44000"
-      },
-      {
-        "contact:street": "Rue Maréchal Joffre"
+        "addr:street": "Rue Maréchal Joffre"
       },
       {
         "internet_access": "no"
@@ -16220,6 +17654,9 @@
       },
       {
         "smoking": "no"
+      },
+      {
+        "address": "Le Kalypso, 72 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -16243,22 +17680,19 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "36"
       },
       {
-        "contact:housenumber": "36"
+        "phone": "+33 2 40 74 25 09"
       },
       {
-        "contact:phone": "+33 2 40 74 25 09"
+        "addr:postcode": "44000"
       },
       {
-        "contact:postcode": "44000"
+        "addr:street": "Rue Maréchal Joffre"
       },
       {
-        "contact:street": "Rue Maréchal Joffre"
-      },
-      {
-        "contact:website": "https://www.facebook.com/Le-Barouf-262630168971646"
+        "website": "https://www.facebook.com/Le-Barouf-262630168971646"
       },
       {
         "name": "Barouf"
@@ -16280,6 +17714,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Barouf, 36 Rue Maréchal Joffre 44000 Nantes"
       }
     ]
   },
@@ -16306,25 +17743,19 @@
         "check_date": "2023-10-24"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/flemingsirishpub/"
       },
       {
-        "contact:housenumber": "22"
+        "addr:housenumber": "22"
       },
       {
-        "contact:phone": "+33 6 33 67 19 55"
+        "phone": "+33 6 33 67 19 55"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue des Carmes"
+        "addr:street": "Rue des Carmes"
       },
       {
         "email": "flemingsy@gmail.com"
@@ -16346,6 +17777,9 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "address": "Fleming's, 22 Rue des Carmes 44000 Nantes"
       }
     ]
   },
@@ -16360,22 +17794,22 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
+        "addr:city": "Nantes"
       },
       {
         "contact:facebook": "https://www.facebook.com/people/Le-Sur-Mesure-Graslin/100063490302839/"
       },
       {
-        "contact:housenumber": "5"
+        "addr:housenumber": "5"
       },
       {
-        "contact:phone": "+33 6 75 84 83 27"
+        "phone": "+33 6 75 84 83 27"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Jean-Jacques Rousseau"
+        "addr:street": "Rue Jean-Jacques Rousseau"
       },
       {
         "description": "Bar à bières (16 bières pression et plus de 50 bières bouteilles) Voir aussi le Sur Mesure original rue Beauregard"
@@ -16394,6 +17828,9 @@
       },
       {
         "survey:date": "2022-03-06"
+      },
+      {
+        "address": "Le Sur Mesure Graslin, 5 Rue Jean-Jacques Rousseau 44000 Nantes"
       }
     ]
   },
@@ -16417,25 +17854,22 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/The.navigator.pub"
       },
       {
-        "contact:housenumber": "23"
+        "addr:housenumber": "23"
       },
       {
-        "contact:phone": "+33 6 88 77 90 09"
+        "phone": "+33 6 88 77 90 09"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue Saint-Léonard"
+        "addr:street": "Rue Saint-Léonard"
       },
       {
-        "contact:website": "https://the-navigator.fr"
+        "website": "https://the-navigator.fr"
       },
       {
         "name": "The Navigator"
@@ -16448,6 +17882,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "The Navigator, 23 Rue Saint-Léonard 44000 Nantes"
       }
     ]
   },
@@ -16481,6 +17918,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Mac, Nantes"
       }
     ]
   },
@@ -16504,22 +17947,16 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/lebistrotbidule/"
       },
       {
-        "contact:housenumber": "8"
+        "addr:housenumber": "8"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue de l'Hôtel de Ville"
+        "addr:street": "Rue de l'Hôtel de Ville"
       },
       {
         "name": "Le Bistrot Bidule"
@@ -16538,6 +17975,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Le Bistrot Bidule, 8 Rue de l'Hôtel de Ville 44000 Nantes"
       }
     ]
   },
@@ -16583,6 +18023,9 @@
       },
       {
         "wheelchair": "limited"
+      },
+      {
+        "address": "Micro Comedy Club, 59 Quai de la Fosse 44000 Nantes"
       }
     ]
   },
@@ -16616,6 +18059,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Molière, Nantes"
       }
     ]
   },
@@ -16646,6 +18095,12 @@
       },
       {
         "wheelchair": "no"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Graslin de Folie, Nantes"
       }
     ]
   },
@@ -16675,7 +18130,7 @@
         "contact:facebook": "https://www.facebook.com/petermccool22/"
       },
       {
-        "contact:phone": "+33 2 40 69 74 49"
+        "phone": "+33 2 40 69 74 49"
       },
       {
         "name": "Peter Mc Cool"
@@ -16691,6 +18146,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Peter Mc Cool, 22 Rue Scribe 44000 Nantes"
       }
     ]
   },
@@ -16714,16 +18172,13 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Rezé"
+        "addr:housenumber": "12"
       },
       {
-        "contact:housenumber": "12"
+        "addr:postcode": "44400"
       },
       {
-        "contact:postcode": "44400"
-      },
-      {
-        "contact:street": "Avenue du Maréchal De Lattre de Tassigny"
+        "addr:street": "Avenue du Maréchal De Lattre de Tassigny"
       },
       {
         "cuisine": "french"
@@ -16739,6 +18194,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "O'Kopin, 12 Avenue du Maréchal De Lattre de Tassigny 44400 Rezé"
       }
     ]
   },
@@ -16757,6 +18215,12 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "addr:city": "Nantes"
+      },
+      {
+        "address": "Le Croque Bedaine, Nantes"
       }
     ]
   },
@@ -16786,10 +18250,10 @@
         "contact:instagram": "https://www.instagram.com/goguette_nantes/"
       },
       {
-        "contact:phone": "+33 2 52 56 91 71"
+        "phone": "+33 2 52 56 91 71"
       },
       {
-        "contact:website": "https://goguette-nantes.fr/"
+        "website": "https://goguette-nantes.fr/"
       },
       {
         "microbrewery": "yes"
@@ -16802,6 +18266,9 @@
       },
       {
         "website": "https://goguette-nantes.fr/"
+      },
+      {
+        "address": "Goguette, 1 Place Hélène Cadou 44000 Nantes"
       }
     ]
   },
@@ -16825,22 +18292,16 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "21"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44200"
       },
       {
-        "contact:housenumber": "21"
+        "addr:street": "Quai des Antilles"
       },
       {
-        "contact:postcode": "44200"
-      },
-      {
-        "contact:street": "Quai des Antilles"
-      },
-      {
-        "contact:website": "http://www.leferrailleur.fr"
+        "website": "http://www.leferrailleur.fr"
       },
       {
         "name": "Le Ferrailleur"
@@ -16856,6 +18317,9 @@
       },
       {
         "wheelchair:description": "Le bar est accessible, la salle de concert aussi mais sans plate-forme PMR. Les WC sont accessibles mais il manque un lavabo et la barre de transfert . Source : handinantes.fr"
+      },
+      {
+        "address": "Le Ferrailleur, 21 Quai des Antilles 44200 Nantes"
       }
     ]
   },
@@ -16879,28 +18343,22 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/lerondpointnantes/"
       },
       {
-        "contact:housenumber": "21"
+        "addr:housenumber": "21"
       },
       {
         "contact:instagram": "https://www.instagram.com/lerondpointcafe/"
       },
       {
-        "contact:postcode": "44200"
+        "addr:postcode": "44200"
       },
       {
-        "contact:street": "Quai des Antilles"
+        "addr:street": "Quai des Antilles"
       },
       {
-        "contact:website": "https://rondpointcafe.tumblr.com/"
+        "website": "https://rondpointcafe.tumblr.com/"
       },
       {
         "name": "Le Rond Point"
@@ -16910,6 +18368,9 @@
       },
       {
         "survey:date": "2020-01-05"
+      },
+      {
+        "address": "Le Rond Point, 21 Quai des Antilles 44200 Nantes"
       }
     ]
   },
@@ -16933,28 +18394,25 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "21"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44200"
       },
       {
-        "contact:housenumber": "21"
+        "addr:street": "Quai des Antilles"
       },
       {
-        "contact:postcode": "44200"
-      },
-      {
-        "contact:street": "Quai des Antilles"
-      },
-      {
-        "contact:website": "http://www.barlacalle.fr"
+        "website": "http://www.barlacalle.fr"
       },
       {
         "name": "La Calle"
       },
       {
         "survey:date": "2020-01-05"
+      },
+      {
+        "address": "La Calle, 21 Quai des Antilles 44200 Nantes"
       }
     ]
   },
@@ -16981,25 +18439,22 @@
         "brewery": "guinness;kronenbourg;carlsberg;kilkenny;Grimbergen;Grimbergen_blanche"
       },
       {
-        "contact:city": "Nantes"
+        "addr:housenumber": "21"
       },
       {
-        "contact:country": "FR"
+        "addr:postcode": "44200"
       },
       {
-        "contact:housenumber": "21"
-      },
-      {
-        "contact:postcode": "44200"
-      },
-      {
-        "contact:street": "Quai des Antilles"
+        "addr:street": "Quai des Antilles"
       },
       {
         "name": "Le Dock Yard"
       },
       {
         "survey:date": "2020-01-05"
+      },
+      {
+        "address": "Le Dock Yard, 21 Quai des Antilles 44200 Nantes"
       }
     ]
   },
@@ -17023,25 +18478,19 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/Pub-Ch%C3%A2teaulin-1291044971011214"
       },
       {
-        "contact:housenumber": "4"
+        "addr:housenumber": "4"
       },
       {
-        "contact:phone": "+33 9 82 39 52 30"
+        "phone": "+33 9 82 39 52 30"
       },
       {
-        "contact:postcode": "44000"
+        "addr:postcode": "44000"
       },
       {
-        "contact:street": "Rue de Chateaulin"
+        "addr:street": "Rue de Chateaulin"
       },
       {
         "mapillary": "577887186524849"
@@ -17054,6 +18503,9 @@
       },
       {
         "survey:date": "2020-12-19"
+      },
+      {
+        "address": "Pub Châteaulin, 4 Rue de Chateaulin 44000 Nantes"
       }
     ]
   },
@@ -17080,25 +18532,19 @@
         "amenity": "pub"
       },
       {
-        "contact:city": "Nantes"
-      },
-      {
-        "contact:country": "FR"
-      },
-      {
         "contact:facebook": "https://www.facebook.com/barberlin89/"
       },
       {
-        "contact:housenumber": "96"
+        "addr:housenumber": "96"
       },
       {
-        "contact:postcode": "44300"
+        "addr:postcode": "44300"
       },
       {
-        "contact:street": "Boulevard Gabriel Lauriol"
+        "addr:street": "Boulevard Gabriel Lauriol"
       },
       {
-        "contact:website": "https://berlin1989.fr"
+        "website": "https://berlin1989.fr"
       },
       {
         "cuisine": "german;burger"
@@ -17123,33 +18569,9 @@
       },
       {
         "takeaway": "yes"
-      }
-    ]
-  },
-  {
-    "index": 528,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/341991511",
-    "data": [
-      {
-        "amenity": "pub"
       },
       {
-        "cuisine": "braai"
-      },
-      {
-        "food": "yes"
-      },
-      {
-        "name": "Mzoli's Place"
-      },
-      {
-        "wikidata": "Q2617701"
-      },
-      {
-        "wikimedia_commons": "Category:Mzoli's"
-      },
-      {
-        "wikipedia": "en:Mzoli's"
+        "address": "Berlin 1989 Petit-Port, 96 Boulevard Gabriel Lauriol 44300 Nantes"
       }
     ]
   },
@@ -17183,6 +18605,9 @@
       },
       {
         "opening_hours": "Mo-Fr 10:00-04:00; Sa,Su 17:00-04:00"
+      },
+      {
+        "address": "Le French Pub, 24 Rue Marie Curie 44230 Saint-Sébastien-sur-Loire"
       }
     ]
   },
@@ -17207,18 +18632,9 @@
       },
       {
         "name": "El latino"
-      }
-    ]
-  },
-  {
-    "index": 531,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/4596164574",
-    "data": [
-      {
-        "amenity": "bar"
       },
       {
-        "level": "1"
+        "address": "El latino, 24 Rue Marie Curie 44230 Saint-Sébastien-sur-Loire"
       }
     ]
   },
@@ -17246,18 +18662,9 @@
       },
       {
         "name": "Forty eight"
-      }
-    ]
-  },
-  {
-    "index": 533,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/1633198051",
-    "data": [
-      {
-        "amenity": "pub"
       },
       {
-        "name": "Swingers"
+        "address": "Forty eight, 28 Boulevard Ampère 44470 Carquefou"
       }
     ]
   },
@@ -17282,6 +18689,9 @@
       },
       {
         "name": "Café de la Butte"
+      },
+      {
+        "address": "Café de la Butte, 2 Rue des Garennes 44100 Nantes"
       }
     ]
   },
@@ -17306,6 +18716,9 @@
       },
       {
         "name": "Le Bistrot de Mr Jules"
+      },
+      {
+        "address": "Le Bistrot de Mr Jules, 11 Avenue Sainte Anne 44100 Nantes"
       }
     ]
   },
@@ -17333,6 +18746,9 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "address": "Le Dauphin, 11 Rue du 9 Août 1944 44470 Carquefou"
       }
     ]
   },
@@ -17348,33 +18764,12 @@
       },
       {
         "name": "Chope & Compagnie"
-      }
-    ]
-  },
-  {
-    "index": 538,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/38412085",
-    "data": [
-      {
-        "amenity": "pub"
       },
       {
-        "created_by": "Potlatch 0.10c"
+        "addr:city": "Carquefou"
       },
       {
-        "name": "Fat Cactus"
-      }
-    ]
-  },
-  {
-    "index": 539,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/1026352506",
-    "data": [
-      {
-        "amenity": "pub"
-      },
-      {
-        "name": "Annie's Arms"
+        "address": "Chope & Compagnie, Carquefou"
       }
     ]
   },
@@ -17408,6 +18803,9 @@
       },
       {
         "survey:date": "2020-04-27"
+      },
+      {
+        "address": "Le Fer à Cheval, 224 Rue Paul Bellamy 44000 Nantes"
       }
     ]
   },
@@ -17431,10 +18829,13 @@
         "amenity": "bar"
       },
       {
-        "contact:phone": "+33 2 53 45 08 82"
+        "phone": "+33 2 53 45 08 82"
       },
       {
         "name": "Café LGR"
+      },
+      {
+        "address": "Café LGR, 49 Rue Raspail 44100 Nantes"
       }
     ]
   },
@@ -17459,6 +18860,9 @@
       },
       {
         "name": "Soleil Levant"
+      },
+      {
+        "address": "Soleil Levant, 10 Place de l'Eglise 44240 La Chapelle-sur-Erdre"
       }
     ]
   },
@@ -17516,6 +18920,9 @@
       },
       {
         "wheelchair": "yes"
+      },
+      {
+        "address": "Rond Point de Vannes, 1 Boulevard des Anglais 44100 Nantes"
       }
     ]
   },
@@ -17549,18 +18956,9 @@
       },
       {
         "website": "https://hodebert.com/"
-      }
-    ]
-  },
-  {
-    "index": 545,
-    "apilink": "https://www.openstreetmap.org/api/0.6/node/11297423969",
-    "data": [
-      {
-        "amenity": "pub"
       },
       {
-        "name": "Rascals"
+        "address": "Olivier Hodebert Caviste, 25 Route des Sorinières 44120 Vertou"
       }
     ]
   },
@@ -17585,6 +18983,9 @@
       },
       {
         "name": "Manoir de Procé"
+      },
+      {
+        "address": "Manoir de Procé, 31 Rue des Dervallières 44000 Nantes"
       }
     ]
   },
@@ -17612,6 +19013,9 @@
       },
       {
         "tobacco": "yes"
+      },
+      {
+        "address": "Le Marigny, 64bis Boulevard des Anglais 44100 Nantes"
       }
     ]
   }

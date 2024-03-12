@@ -1,20 +1,46 @@
-<% content_for :title, "Challenge" %>
-<div class="d-flex flex-column">
-  <div class="challenged-card" style="margin-top: 10px;">
-  <%= render "players/player_card", user: @challenge.challenged %>
+<div class="container-users-scores" data-controller="shader">
+  <canvas id="glslCanvas" class="result-shader" data-shader-target="glslCanvas" data-fragment-url="/fragment.glsl"></canvas>
+  <div class="d-flex flex-column">
+    <div class="users-scores">
+      <div class="users-scores-chains">
+        <%= image_tag("icons/left_chain.svg") %>
+        <%= image_tag("icons/right_chains.svg") %>
+      </div>
+      <div class="user-scores-wodden-board">
+
+        <h1 class="users-scores-title">Gagné !</h1>
+
+        <div class="users-avatars-results">
+          <div class="users-avatars">
+            <div class="users-scores-avatar-win">
+              <%= image_tag("icons/crown.svg", class: "crown") %>
+              <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-gold ') %>
+            </div>
+            <div class="users-scores-avatar-loose">
+              <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-bronze') %>
+            </div>
+          </div>
+          <div class="user-new-scores">
+            <h2> Ton nouveau score </h2>
+            <h1> 2345 </h1>
+            <h2> points </h2>
+            <br>
+            <h2>Bonus: Victoire écrasante</h2>
+            <h1>+10 points</h1>
+          </div>
+        </div>
+
+        <div></div>
+      </div>
+    </div>
+    <!--%= link_to 'Continuer le duel', challenge_game_path(@challenge), class: 'btn button' %-->
+    <%= link_to 'Retour aux joueurs', bar_players_path(@challenge.bar), class: 'btn button' %>
   </div>
-  <div class="users-scores">
-    <!--% if @winner == @challenge.challenger %-->
-      <p>Gagnant: 15 pts<!--%= @challenge.winner_score %></p-->
-      <p>Perdant: 6 pts<!--%= @challenge.loser_score %></p-->
+</div>
+<!--% if @winner == @challenge.challenger %-->
+      <%# <p>Gagnant: 15 pts<!--%= @challenge.winner_score %>
+      <%# <p>Perdant: 6 pts<!--%= @challenge.loser_score %>
     <!--% else %-->
       <!--p>Gagnant: <%= @challenge.loser_score %></!-->
       <!--p>Perdant: <%= @challenge.winner_score %></!-->
     <!--% end %-->
-  </div>
-  <div class="challenger-card", style="margin-top: 10px;">
-    <%= render "players/player_card", user: @challenge.challenger %>
-  </div>
-  <!--%= link_to 'Continuer le duel', challenge_game_path(@challenge), class: 'btn button' %-->
-  <%= link_to 'Retour aux joueurs', bar_players_path(@challenge.bar), class: 'btn button' %>
-</div>

@@ -5,25 +5,59 @@ Bar.destroy_all
 User.destroy_all
 Game.destroy_all
 
-ADDRESSES = [
-  "La Piste, Rennes",
-  "Le mabilay, Rennes",
-  "La gare, Rennes",
-  "Mairie, Rennes"
-]
+# bars_data.json extraction to generate bars seed
 
-10.times do
-  Bar.create!(
-    name: Faker::Fantasy::Tolkien.location,
-    address: ADDRESSES.sample,
-    description: Faker::Fantasy::Tolkien.poem,
-    bar_type: "Bar à bières"
-  )
+@bars_file = File.join(__dir__, 'bars_data.json')
+@bars_data = []
+def read_bars_data_json(file)
+  if File.exist?(file)
+    File.open(file, "r") do |file|
+      @bars_data = JSON.parse(file.read)
+    end
+  end
+  return @bars_data
 end
+
+# bars builder from scrapped data
+
+def bar_builder
+  read_bars_data_json(@bars_file)
+  @bars_data.each do |bar_data|
+    name, address, bar_type, description, opening_hours = "", "", "", "", ""
+    phone, outdoor_seats, wheelchair, website, email = "", "", "", "", ""
+    bar_data["data"].each do |data|
+      name = data["name"] if data["name"]
+      address = data["address"] if data["address"]
+      bar_type = data["amenity"] if data["amenity"]
+      description = data["description"] if data["description"]
+      opening_hours = data["opening_hours"] if data["opening_hours"]
+      phone = data["phone"] if data["phone"]
+      website = data["website"] if data["website"]
+      email = data["email"] if data["email"]
+      outdoor_seats = data["outdoor_seats"] if data["outdoor_seats"]
+      wheelchair = data["wheelchair"] if data["wheelchair"]
+    end
+    description = "Toss a Coin to your Scrapper, oh Valley of APIs" if description.blank?
+    bar = Bar.create!(
+      name: name,
+      address: address,
+      bar_type: bar_type,
+      description: description,
+      opening_hours: opening_hours,
+      phone: phone,
+      outdoor_seats: outdoor_seats,
+      wheelchair: wheelchair,
+      website: website,
+      email: email
+    )
+  end
+end
+
+bar_builder()
 
 puts("Seeded #{Bar.count} bars")
 
-100.times do
+3500.times do
   bar = Bar.all.sample
   username = Faker::Fantasy::Tolkien.character
   while username.length >= 15
@@ -42,6 +76,7 @@ puts("Seeded #{Bar.count} bars")
     nearest_bar_id: bar.id
     )
 end
+
 
 User.create!(
   username: "Admin",
@@ -112,7 +147,7 @@ Challenge.create!(
 
 puts("Seeded #{Challenge.count} challenges")
 
-1000.times do
+35000.times do
   Score.create!(
     score: rand(10..50),
     bar: Bar.all.sample,

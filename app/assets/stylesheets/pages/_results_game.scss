@@ -1,0 +1,94 @@
+.container-users-scores {
+  margin: 10px 10px 10px 10px;
+}
+
+.users-scores {
+  perspective: 1000px;
+}
+
+.users-scores-chains {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: -11em;
+  z-index: 99;
+  position: relative;
+}
+
+.users-scores-title {
+  color: $gold;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.user-scores-wodden-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -40px;
+  padding: 20px 0;
+  background-image: asset-url("icons/board.svg");
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  background-size: contain;
+  transform-origin: top center;
+  transform-style: preserve-3d;
+  transform: rotateX(-5deg);
+  animation: balancingBoard 2s infinite alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.users-avatars-results {
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 42px;
+
+  .users-avatars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+  }
+  .user-new-scores {
+    color:$gold;
+    text-align: center;
+  }
+}
+
+.users-scores-avatar-win {
+  position: relative;
+  transform: scale(2);
+  .crown {
+    position: absolute;
+    top: -15px;
+    left: 7px;
+    transform: scale(1.5) rotate(-22deg);
+  }
+}
+
+.users-scores-avatar-loose {
+  position: relative;
+  transform: scale(1);
+}
+.result-shader {
+  left:0;
+  height:100vh !important;
+}
+
+@keyframes balancingBoard {
+  0% {
+    transform: rotateX(-15deg);
+  }
+  100% {
+    transform: rotateX(10deg);
+  }
+}
