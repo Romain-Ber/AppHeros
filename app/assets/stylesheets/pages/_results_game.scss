@@ -2,6 +2,10 @@
   margin: 10px 10px 10px 10px;
 }
 
+.users-scores {
+  perspective: 1000px;
+}
+
 .users-scores-chains {
   display: flex;
   flex-direction: row;
@@ -15,7 +19,6 @@
 
 .users-scores-title {
   color: $gold;
-  margin-top: -296px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -24,36 +27,66 @@
 .user-scores-wodden-board {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   margin-top: -40px;
-  padding-top: 17px;
-  padding-bottom: 20px;
+  padding: 20px 0;
   background-image: asset-url("icons/board.svg");
   background-repeat: no-repeat;
   height: 80vh;
   width: 100%;
   background-size: contain;
+  transform-origin: top center;
+  transform-style: preserve-3d;
+  transform: rotateX(-5deg);
+  animation: balancingBoard 2s infinite alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .users-avatars-results {
+  flex:1;
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 42px;
+
+ 
+  .users-avatars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+  }
+  .user-new-scores {
+    color:$gold;
+    text-align: center;
+  }
 }
 
 .users-scores-avatar-win {
-height: 120px;
-width: 120px;
-margin-top: -200px;
-margin-left: -5px;
+  position: relative;
+  transform: scale(2);
+  .crown {
+    position: absolute;
+    top: -13px;
+    left: 22px;
+    transform: scale(1.5) rotate(-15deg);
+  }
 }
 
 .users-scores-avatar-loose {
-height: 80px;
-width: 80px;
-margin-top: -200px;
-margin-left: -5px;
 }
 
 .crown {
+}
+
+@keyframes balancingBoard {
+  0% {
+    transform: rotateX(-15deg);
+  }
+  100% {
+    transform: rotateX(10deg);
+  }
 }

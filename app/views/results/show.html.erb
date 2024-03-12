@@ -6,21 +6,27 @@
         <%= image_tag("icons/right_chains.svg") %>
       </div>
       <div class="user-scores-wodden-board">
-      <div class="users-scores-title">
-        <h2>Gagné !</h2>
-      </div>
-        <div class="crown">
-          <%= image_tag("icons/crown.svg") %>
-        </div>
+        
+        <h1 class="users-scores-title">Gagné !</h1>
+       
         <div class="users-avatars-results">
-          <div class="users-scores-avatar-win">
-            <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-gold') %>
+          <div class="users-avatars">
+            <div class="users-scores-avatar-win">
+              <%= image_tag("icons/crown.svg", class: "crown") %>
+              <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-gold ') %>
+            </div>
+            <div class="users-scores-avatar-loose">
+              <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-bronze') %>
+            </div>
           </div>
-          <div class="users-scores-avatar-loose">
-            <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-bronze') %>
+          <div class="user-new-scores">
+            <p> Nouveau total </p>
+            <h2> 2345 </h2>
+            <p>  pts </p>
           </div>
         </div>
-        <%#= image_tag("icons/board.svg") %>
+
+        <div></div>
       </div>
     </div>
     <!--%= link_to 'Continuer le duel', challenge_game_path(@challenge), class: 'btn button' %-->

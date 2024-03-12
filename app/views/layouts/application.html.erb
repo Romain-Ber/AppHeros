@@ -25,7 +25,9 @@
       <p-- class="alert"><%= alert %></p-->
       <%# = render "shared/flashes" %>
     <% end %>
+    <% unless action_name == "login" || controller_name == "Result" %>
       <%= render "shared/navbar" %>
+    <% end %>
     </div>
   </body>
 </html>
