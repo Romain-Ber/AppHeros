@@ -1,6 +1,8 @@
 class GamesController < ApplicationController
   def show
     @challenge = Challenge.find(params[:challenge_id])
+
+
     @game = @challenge.game.slug
     @sender = @challenge.challenger
     @receiver = @challenge.challenged
