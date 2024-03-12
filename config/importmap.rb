@@ -16,3 +16,4 @@ pin "parse-headers" # @2.0.5
 pin "xhr" # @2.6.0
 pin "xtend" # @4.0.2
 pin "js-confetti" # @0.12.0
+pin "@rails/actioncable", to: "@rails--actioncable.js" # @7.1.3
