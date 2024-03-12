@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <% unless action_name == "login" %>
+    <% unless action_name == "login" || controller_name == "Result" %>
       <%= render "shared/appheros-layout" do %>
         <%= yield %>
         <%#= render "shared/flashes" %>
