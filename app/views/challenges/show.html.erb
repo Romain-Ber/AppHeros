@@ -20,21 +20,15 @@
     <%= link_to 'Mon Jeu', customgame_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
   </div>
 
-  <div class="chatroom" >
+  <div class="chat-challenge" data-controller="challenge-subscription" data-challenge-subscription-challenge-id-value="<%= @challenge.id %>">
     <h1><%= @challenge.status %></h1>
-    <div class="messages">
+    <div class="messages" data-challenge-subscription-target="messages">
       <% @challenge.messages.each do |message| %>
-        <div id="message-<%= message.id %>">
-          <small>
-            <strong><%= message.user.nickname %></strong>
-            <i><%= message.created_at.strftime("%a %b %e at %l:%M %p") %></i>
-          </small>
-          <p><%= message.content %></p>
-        </div>
+        <%= render "messages/message", message: message %>
       <% end %>
     </div>
     <%= simple_form_for [@challenge, @message],
-      html: {class: ""} do |f|
+      html: { data: { action: "turbo:submit-end->challenge-subscription#resetForm" } } do |f|
     %>
       <%= f.input :content,
         label: false,

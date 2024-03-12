@@ -1,9 +1,9 @@
+Message.destroy_all
 Challenge.destroy_all
 Score.destroy_all
 Bar.destroy_all
 User.destroy_all
 Game.destroy_all
-
 
 ADDRESSES = [
   "La Piste, Rennes",
@@ -44,7 +44,7 @@ puts("Seeded #{Bar.count} bars")
 end
 
 User.create!(
-  username: Faker::Fantasy::Tolkien.character,
+  username: "Admin",
   email: "admin@gmail.com",
   password: "123456",
   age: rand(18..60),
@@ -52,7 +52,8 @@ User.create!(
   latitude: rand(48.094380..48.136752),
   longitude: rand(-1.629610..-1.703168),
   first_login: false,
-  status: "available"
+  status: "available",
+  nearest_bar_id: Bar.first.id
 )
 
 User.create!(
@@ -64,11 +65,12 @@ User.create!(
   latitude: rand(48.094380..48.136752),
   longitude: rand(-1.629610..-1.703168),
   first_login: false,
-  status: "available"
+  status: "available",
+  nearest_bar_id: Bar.first.id
 )
 
 User.create!(
-  username: Faker::Fantasy::Tolkien.character,
+  username: "Romain",
   email: "romain@gmail.com",
   password: "123456",
   age: rand(18..60),
@@ -76,7 +78,8 @@ User.create!(
   latitude: rand(48.094380..48.136752),
   longitude: rand(-1.629610..-1.703168),
   first_login: false,
-  status: "available"
+  status: "available",
+  nearest_bar_id: Bar.first.id
 )
 
 puts("Seeded #{User.count} users")
