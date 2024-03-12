@@ -1,4 +1,4 @@
-<div class="d-block <%= "d-none" unless @challenge && current_page?(challenge_result_path(@challenge)) %> ">
+<div class="d-block overflow-hidden <%= "d-none" unless @challenge && current_page?(challenge_result_path(@challenge)) %> ">
   <%= yield %>
 </div>
 

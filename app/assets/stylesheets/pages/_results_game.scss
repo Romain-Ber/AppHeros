@@ -51,7 +51,6 @@
   flex-direction: column;
   gap: 42px;
 
- 
   .users-avatars {
     display: flex;
     flex-direction: row;
@@ -70,12 +69,16 @@
   transform: scale(2);
   .crown {
     position: absolute;
-    top: -13px;
-    left: 22px;
-    transform: scale(1.5) rotate(-15deg);
+    top: -15px;
+    left: 7px;
+    transform: scale(1.5) rotate(-22deg);
   }
 }
 
+.users-scores-avatar-loose {
+  position: relative;
+  transform: scale(1);
+}
 .result-shader {
   left:0;
   height:100vh !important;
