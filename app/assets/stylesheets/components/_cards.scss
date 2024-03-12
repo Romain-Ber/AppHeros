@@ -26,13 +26,34 @@
 }
 
 .search-bar-index {
-  background-color: $gold;
-  color: $brown;
   padding: 5px 8px;
   border-radius: 5px;
 }
 
+.form-control {
+  background-color: $gold;
+  border: solid 1px $brown-dark;
+  display: flex;
+}
 
+.form-control input {
+  flex-grow: 1;
+  border: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-control input:focus {
+  background-color: $gold;
+}
+
+.btn-flat {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
 
 .bar-card {
   background-color: $brown;
