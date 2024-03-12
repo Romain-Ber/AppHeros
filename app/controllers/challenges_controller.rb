@@ -1,4 +1,16 @@
 class ChallengesController < ApplicationController
+
+  def show
+    @challenge = Challenge.find(params[:id])
+    @message = Message.new
+
+    @game = @challenge.game.slug
+    @sender = @challenge.challenger
+    @receiver = @challenge.challenged
+    @winner_score = @challenge.winner_score
+    @loser_score = @challenge.loser_score
+  end
+
   def create
     @bar = Bar.find(params[:bar_id])
     @challenger = current_user
@@ -13,7 +25,7 @@ class ChallengesController < ApplicationController
       game: @game
     )
     if @challenge.save!
-      redirect_to challenge_game_path(@challenge)
+      redirect_to challenge_path(@challenge)
     end
   end
 end

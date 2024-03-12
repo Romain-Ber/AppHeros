@@ -1,0 +1,47 @@
+<% content_for :title, "Choisi un jeu" %>
+<div class="games-show" data-controller="timer" >
+  <canvas id="glslCanvas" data-timer-target="glslCanvas" data-fragment-url="/fragment.glsl"></canvas>
+  <div class="defier d-none" data-timer-target="duel">
+    <div class="py-4" data-timer-target="firstPlayer">
+      <%= render "players/player_card", user: @sender %>
+    </div>
+    <div class="text-center spacer-sword sword-container">
+      <%= render "sword" %>
+    </div>
+    <div class="py-3" style data-timer-target="secondPlayer">
+      <%= render "players/player_card", user: @receiver %>
+    </div>
+  </div>
+
+
+  <div class="btn-games-choice gap-2" data-timer-target="gamesChoice">
+    <%= link_to 'Memory', memory_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
+    <%= link_to 'Tap ta Bière', taptabiere_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
+    <%= link_to 'Mon Jeu', customgame_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
+  </div>
+
+  <div class="chatroom" >
+    <h1><%= @challenge.status %></h1>
+    <div class="messages">
+      <% @challenge.messages.each do |message| %>
+        <div id="message-<%= message.id %>">
+          <small>
+            <strong><%= message.user.nickname %></strong>
+            <i><%= message.created_at.strftime("%a %b %e at %l:%M %p") %></i>
+          </small>
+          <p><%= message.content %></p>
+        </div>
+      <% end %>
+    </div>
+    <%= simple_form_for [@challenge, @message],
+      html: {class: ""} do |f|
+    %>
+      <%= f.input :content,
+        label: false,
+        placeholder: "Message à #{@receiver.username}",
+        wrapper_html: {class: ""}
+      %>
+      <%= f.submit "envoyer", class: "btn button w-100" %>
+    <% end %>
+  </div>
+</div>
