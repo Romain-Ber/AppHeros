@@ -1,8 +1,6 @@
 <div class="d-block overflow-hidden <%= "d-none" unless @challenge && current_page?(challenge_result_path(@challenge)) %> ">
   <%= yield %>
 </div>
-
-
 <div class="appheros-layout <%= "d-none" if @challenge && current_page?(challenge_result_path(@challenge)) %>">
   <div class="appheros-content-wrapper">
     <div class="appheros-content-wrapper-2">

@@ -3,7 +3,7 @@
     <%= render "players/player_card", user: @sender %>
   <% end %>
   <div class="text-center">
-    <p> jouer à un jeu personnalisé et déclarer le vainqueur en fin de partie, vous gagner des point proportionnellement au temps passé a jouer. Bonne chance ! </p>
+    <p> jouer à un jeu personnalisé et déclarer le vainqueur en fin de partie, vous gagnez des point proportionnellement au temps passé a jouer. Bonne chance ! </p>
   </div>
   <%= link_to challenge_result_path(@challenge), class:"text-decoration-none" do %>
     <%= render "players/player_card", user: @receiver %>

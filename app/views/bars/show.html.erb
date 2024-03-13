@@ -4,7 +4,7 @@
     <%= @bar.bar_type %>
   </div>
 </div>
-<img src="https://picsum.photos/200/300" alt="" class="bar-content-info-image">
+<%= cl_image_tag(@bar.image_id, class:"bar-content-info-image") %>
 <div class="bar-content-text">
   <p>
     <%= @bar.description %>
