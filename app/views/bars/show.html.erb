@@ -6,34 +6,30 @@
 </div>
 <%= cl_image_tag(@bar.image_id, class:"bar-content-info-image") %>
 <div class="bar-content-text">
-  <p>
-    <%= @bar.description %>
-  </p>
-  <span class="text-small">
-    <%= @bar.address %>
-  </span>
+  <p class="px-4" style="font-size:22px; text-align:center;"><strong></strong><%= @bar.description %></p>
+  <span class="text-small px-2" style="text-align: center;"><%= @bar.address %></span>
 </div>
 <div class="bar-content-bottom">
   <div class="leaderboard">
     <div class="leaderboard-player first-player">
-      <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-gold') %>
+      <%= cl_image_tag(@user1.image_id, class:'avatar avatar-gold', :width=>100, :height=>100, :gravity=>"face", :crop=>"thumb") %>
       <div class="leadearboard-player-infos">
-        <p>Perrine</p>
-        <span class="text-small">538 points</span>
+        <p><%= @user1.username %></p>
+        <span class="text-small"><%= @users_with_scores[0].total_score %></span>
       </div>
     </div>
     <div class="leaderboard-player second-player">
-      <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-silver') %>
+      <%= cl_image_tag(@user2.image_id, class:'avatar avatar-silver', :width=>100, :height=>100, :gravity=>"face", :crop=>"thumb") %>
       <div class="leadearboard-player-infos">
-        <p>Florian</p>
-        <span class="text-small">425 points</span>
+        <p><%= @user2.username %></p>
+        <span class="text-small"><%= @users_with_scores[1].total_score %></span>
       </div>
     </div>
     <div class="leaderboard-player third-player">
-      <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-bronze') %>
+      <%= cl_image_tag(@user3.image_id, class:'avatar avatar-bronze', :width=>100, :height=>100, :gravity=>"face", :crop=>"thumb") %>
       <div class="leadearboard-player-infos">
-        <p>Jerome</p>
-        <span class="text-small">387 points</span>
+        <p><%= @user3.username %></p>
+        <span class="text-small"><%= @users_with_scores[2].total_score %></span>
       </div>
     </div>
   </div>

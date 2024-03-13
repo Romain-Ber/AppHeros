@@ -1,4 +1,4 @@
-<%= cl_image_tag(bar.image_id, class:"bar-card-image") %>
+<%= cl_image_tag(bar.image_id, class:"bar-card-image", :width=>120, :height=>120, :gravity=>"auto", :crop=>"fill") %>
 <div class="bar-card-infos">
   <h2>
     <%= bar.name %>
