@@ -55,15 +55,15 @@ export default class extends Controller {
     // Update du challenge winner & loser en DB
     // Id du winner = userId
     // Faire une requête HTTP (AJAX) avec fetch sur une route existante
-    const url = `/challenges/${this.challengeIdValue}/update_winner?winner_id=${this.userIdValue}`
-    fetch(url, {
-      headers: {"Accept": "text/plain"},
-      method: "GET"
-    })
-    .then(response => response.text())
-    .then((data) => {
-      console.log(data)
-    })
+    // const url = `/challenges/${this.challengeIdValue}/update_winner?winner_id=${this.userIdValue}`
+    // fetch(url, {
+    //   headers: {"Accept": "text/plain"},
+    //   method: "GET"
+    // })
+    // .then(response => response.text())
+    // .then((data) => {
+    //   console.log(data)
+    // })
   }
 
   tap() {
