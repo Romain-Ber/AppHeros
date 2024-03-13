@@ -1,3 +1,23 @@
 .mapboxgl-ctrl-logo {
   display:none !important;
 }
+
+.index-map {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  opacity: .5;
+}
+.map-shader {
+  z-index: -1;
+  position: absolute;
+  height: 87vh;
+  left: -10px;
+  aspect-ratio: 16 / 9;
+  top: -10px;
+  z-index: 0;
+  width: 110%;
+}
