@@ -1,5 +1,5 @@
 <div class="player-card">
-  <img src="https://picsum.photos/60/60"/>
+  <%= cl_image_tag(user.image_id) %>
   <div class="player-card-details">
     <div class="player-card-details-username">
       <h2><%= user.username %></h2>

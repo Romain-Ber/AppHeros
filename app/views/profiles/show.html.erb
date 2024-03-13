@@ -4,7 +4,7 @@
     <p>15 points</p>
   </div>
 </div>
-  <img src="https://picsum.photos/200/300" alt="" class="bar-content-info-image">
+  <%= cl_image_tag(@profile.image_id, class:"bar-content-info-image") %>
   <div class="bar-content-text profile-content-text">
     <div class="badges">
       <div class="badge">
