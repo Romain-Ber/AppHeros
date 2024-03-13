@@ -1,23 +1,18 @@
 <% content_for :title, "Les Tavernes" %>
-
-<div class="search-bar-index">
-  <%= render "bars/search"%>
-</div>
-<%= render "bars/category"%>
-
-<div class="d-flex flex-column gap-2">
-  <%# <div class="card-info-bar-index"> %>
-    <% @bars.each do |bar| %>
-      <%= link_to bar_path(bar), class:"bar-card" do %>
-        <%= render "card", bar: bar %>
+<div class="show-list">
+  <div class="search-bar-index">
+    <%= render "bars/search"%>
+  </div>
+  <%= render "bars/category"%>
+  <div class="d-flex flex-column gap-2">
+    <%# <div class="card-info-bar-index"> %>
+      <% @bars.each do |bar| %>
+        <%= link_to bar_path(bar), class:"bar-card" do %>
+          <%= render "card", bar: bar %>
+        <% end %>
       <% end %>
-    <% end %>
-  <%# </div> %>
-</div>
-<div style="width: 100%; height: 600px;"
-  data-controller="map"
-  data-map-markers-value="<%= @markers.to_json %>"
-  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+    <%# </div> %>
+  </div>
 </div>
 
 <%# style: "color: inherit;" %>

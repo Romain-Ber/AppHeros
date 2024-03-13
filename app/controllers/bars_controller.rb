@@ -1,12 +1,6 @@
 class BarsController < ApplicationController
   def index
     @bars = Bar.all
-    @markers = @bars.geocoded.map do |bar|
-      {
-        lat: bar.latitude,
-        lng: bar.longitude
-      }
-    end
   end
 
   def show
@@ -21,5 +15,9 @@ class BarsController < ApplicationController
     @user1 = User.find(@users_with_scores[0].id)
     @user2 = User.find(@users_with_scores[1].id)
     @user3 = User.find(@users_with_scores[2].id)
+
+    # find user by email
+    @admin = User.find_by(email: "admin@gmail.com")
+    @admin.nearest_bar_id = @bar.id
   end
 end

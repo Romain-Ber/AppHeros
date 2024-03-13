@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     end
     resources :challenges, only: [:new, :create]
   end
+  resources :barsmap, only: [:index]
   resources :challenges, only: [:update, :show] do
     resources :challenge_requests, only: [:create, :destroy]
     resources :games, only: [:show] do
