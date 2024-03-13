@@ -2,6 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 import JSConfetti from "js-confetti"
 
 export default class extends Controller {
+  static values = {userId: Number, challengeId: Number}
   static targets = ["beerLevel", "title", "foam", "continueButton"]
   score = 0;
   gameStarted = false;
@@ -50,6 +51,19 @@ export default class extends Controller {
     pageTitle.innerText = "Gagné !";
     this.titleTarget.innerText = 'Bravo ! Score: ' + this.score;
     this.continueButtonTarget.style.display = 'block'
+
+    // Update du challenge winner & loser en DB
+    // Id du winner = userId
+    // Faire une requête HTTP (AJAX) avec fetch sur une route existante
+    const url = `/challenges/${this.challengeIdValue}/update_winner?winner_id=${this.userIdValue}`
+    fetch(url, {
+      headers: {"Accept": "text/plain"},
+      method: "GET"
+    })
+    .then(response => response.text())
+    .then((data) => {
+      console.log(data)
+    })
   }
 
   tap() {

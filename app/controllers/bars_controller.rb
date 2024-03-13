@@ -21,5 +21,10 @@ class BarsController < ApplicationController
     @user1 = User.find(@users_with_scores[0].id)
     @user2 = User.find(@users_with_scores[1].id)
     @user3 = User.find(@users_with_scores[2].id)
+
+    @admin = @users.find_by(email: "admin@gmail.com")
+    @admin.update(nearest_bar_id: @bar.id) if @admin
+    @romain = @users.find_by(email: "romain@gmail.com")
+    @romain.update(nearest_bar_id: @bar.id) if @romain
   end
 end
