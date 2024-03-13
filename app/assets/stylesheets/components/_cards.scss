@@ -27,24 +27,45 @@
 
 .search-bar-index {
   padding: 5px 8px;
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
+
+  .btn {
+    background-color: $primary;
+    border-radius: 0 5px 5px 0;
+    border: solid 1px $brown-dark;
+    padding-top: 12px;
+  }
 }
 
 .form-control {
-  background-color: $gold;
+  background-color: $primary;
   border: solid 1px $brown-dark;
   display: flex;
+  border-radius: 5px 0 0 5px;
+
+  &:focus {
+    background-color: $primary;
+    border: solid 1px $brown-dark;
+  }
 }
+
+// .form-filter {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+//   &:last-child {
+//     width: 35px;
+//     aspect-ratio: 1/1;
+//     border: solid 1 px $brown-ultradark;
+//   }
+// }
 
 .form-control input {
   flex-grow: 1;
   border: none;
   padding: 5px;
   border-radius: 5px 0 0 5px;
-}
-
-.form-control input:focus {
-  background-color: $gold;
 }
 
 .btn-flat {

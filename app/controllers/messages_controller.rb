@@ -5,7 +5,7 @@ class MessagesController < ApplicationController
     @message.challenge = @challenge
     @message.user = current_user
     if @message.save
-      ChallengeChannel.broadcast_to(
+      ChatroomChannel.broadcast_to(
         @challenge,
         render_to_string(partial: "message", locals: {message: @message})
       )

@@ -11,6 +11,9 @@ Rails.application.routes.draw do
   end
   resources :barsmap, only: [:index]
   resources :challenges, only: [:update, :show] do
+    member do
+      get :update_winner
+    end
     resources :challenge_requests, only: [:create, :destroy]
     resources :games, only: [:show] do
       member do

@@ -18,13 +18,17 @@
   .avatar {
     position:absolute;
     top:-30px;
+    opacity:0;
+    animation: fadeIn 1s cubic-bezier(0.75, 0.2, 0.14, 1);
+    animation-delay: 1s;
+    animation-fill-mode: forwards
   }
 }
 .first-player {
   height:110px;
   background-color: $brown;
   border-radius:8px 8px 0 0;
-  animation: firstPlayer 1s cubic-bezier(0.75, 0.2, 0.14, 1);
+  animation: firstPlayer 2s cubic-bezier(0.75, 0.2, 0.14, 1);
   animation-fill-mode: forwards;
   box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2), -5px 0px 5px rgba(0, 0, 0, 0.2);
   z-index: 10;
@@ -37,13 +41,17 @@
   order:-1;
   border-radius:8px 0 0 0;
   animation: secondPlayer 1s cubic-bezier(0.75, 0.2, 0.14, 1);
-  animation-delay: 0.3s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 
   .avatar {
     width: 50px;
     height: 50px;
     top: -24px;
+    opacity:0;
+    animation: fadeIn 2s cubic-bezier(0.75, 0.2, 0.14, 1);
+    animation-delay: 1s;
+    animation-fill-mode: forwards
   }
 }
 
@@ -53,13 +61,17 @@
   padding-top:16px;
   border-radius:0 8px 0 0;
   animation: thirdPlayer 1s cubic-bezier(0.75, 0.2, 0.14, 1);
-  animation-delay: 0.6s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
 
   .avatar {
     width: 50px;
     height: 50px;
     top: -28px;
+    opacity:0;
+    animation: fadeIn 1s cubic-bezier(0.75, 0.2, 0.14, 1);
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
 }
 
@@ -78,7 +90,7 @@
     opacity:0;
   }
   100% {
-    height:110px;
+    height:130px;
     opacity:1;
   }
 }
@@ -89,7 +101,7 @@
     opacity: 0;
   }
   100% {
-    height:80px;
+    height:110px;
     opacity: 1;
   }
 }
@@ -100,7 +112,7 @@
     opacity: 0;
   }
   100% {
-    height:64px;
+    height:95px;
     opacity: 1;
   }
 }

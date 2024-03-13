@@ -1,6 +1,16 @@
 class BarsController < ApplicationController
   def index
-    @bars = Bar.all
+    if params[:query]
+      @bars = Bar.where("name ILIKE ?", "%#{params[:query]}%")
+    else
+      @bars = Bar.all
+    end
+    @markers = @bars.geocoded.map do |bar|
+      {
+        lat: bar.latitude,
+        lng: bar.longitude
+      }
+    end
   end
 
   def show
@@ -16,8 +26,9 @@ class BarsController < ApplicationController
     @user2 = User.find(@users_with_scores[1].id)
     @user3 = User.find(@users_with_scores[2].id)
 
-    # find user by email
-    @admin = User.find_by(email: "admin@gmail.com")
-    @admin.nearest_bar_id = @bar.id
+    @admin = @users.find_by(email: "admin@gmail.com")
+    @admin.update(nearest_bar_id: @bar.id) if @admin
+    @romain = @users.find_by(email: "romain@gmail.com")
+    @romain.update(nearest_bar_id: @bar.id) if @romain
   end
 end
