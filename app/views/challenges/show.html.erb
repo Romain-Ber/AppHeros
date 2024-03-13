@@ -21,7 +21,7 @@
   </div>
 
   <div class="chat-challenge" data-controller="chatroom-subscription" data-chatroom-subscription-challenge-id-value="<%= @challenge.id %>">
-    <h1><%= @challenge.status %></h1>
+    <h1>Channel</h1>
     <div class="messages" data-chatroom-subscription-target="messages">
       <% @challenge.messages.each do |message| %>
         <%= render "messages/message", message: message %>
