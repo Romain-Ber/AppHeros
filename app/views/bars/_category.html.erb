@@ -1,6 +1,6 @@
 <div class="bars-filters">
-  <a class="bars-filters-btn active">Toutes les tavernes</a>
-  <a class="bars-filters-btn">Les plus proches</a>
-  <a class="bars-filters-btn">Les plus animées</a>
-  <a class="bars-filters-btn">Les plus tranquilles</a>
+  <div data-filters-target="button" data-action="click->filters#resetFilters" class="bars-filters-btn active">Toutes les tavernes</div>
+  <div data-filters-target="button" data-proximity="<%= current_user.near_bars %>" data-action="click->filters#proximity" class="bars-filters-btn">Les plus proches</div>
+  <div data-filters-target="button" data-count="10" data-action="click->filters#maxPlayer" class="bars-filters-btn">Les plus animées</div>
+  <div data-filters-target="button" data-count="5" data-action="click->filters#minPlayer" class="bars-filters-btn">Les plus tranquilles</div>
 </div>

@@ -1,6 +1,10 @@
 class BarsController < ApplicationController
   def index
-    @bars = Bar.all
+    if params[:query]
+      @bars = Bar.where("name ILIKE ?", "%#{params[:query]}%")
+    else
+      @bars = Bar.all
+    end
     @markers = @bars.geocoded.map do |bar|
       {
         lat: bar.latitude,
