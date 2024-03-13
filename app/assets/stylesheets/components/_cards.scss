@@ -93,14 +93,9 @@
   gap: 8px;
 }
 
-.d-flex .flex-column .w-100 {
-  color: $primary;
-
-}
-
-.w-100 {
-  padding-left: 6px;
-  font-size: 20px;
+.bar-card-infos h2 {
+  font-size: 16px;
+  font-family: $goudy-bold;
 }
 
 .bar-card-count {

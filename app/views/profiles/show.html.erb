@@ -4,7 +4,7 @@
     <p>15 points</p>
   </div>
 </div>
-  <%= cl_image_tag(@profile.image_id, class:"bar-content-info-image") %>
+  <%= cl_image_tag(@profile.image_id, class:"bar-content-info-image", :width=>400, :height=>500, :gravity=>"face", :crop=>"thumb") %>
   <div class="bar-content-text profile-content-text">
     <div class="badges">
       <div class="badge">

@@ -14,10 +14,10 @@
           <div class="users-avatars">
             <div class="users-scores-avatar-win">
               <%= image_tag("icons/crown.svg", class: "crown") %>
-              <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-gold ') %>
+              <%= cl_image_tag(@challenge.challenger.image_id, class:'avatar avatar-gold', :width=>100, :height=>100, :gravity=>"face", :crop=>"thumb") %>
             </div>
             <div class="users-scores-avatar-loose">
-              <%= cl_image_tag("zuvklycksqvqvjkdalx9", class:'avatar avatar-bronze') %>
+              <%= cl_image_tag(@challenge.challenged.image_id, class:'avatar avatar-bronze', :width=>100, :height=>100, :gravity=>"face", :crop=>"thumb") %>
             </div>
           </div>
           <div class="user-new-scores">
