@@ -1,4 +1,7 @@
-<% content_for :title, "Les Tavernes" %>
+<% content_for :title do %>
+  Les <span><%= Bar.count %></span> Tavernes
+<% end %>
+
 
 <div data-controller="filters">
   <div class="search-bar-index">
