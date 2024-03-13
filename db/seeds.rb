@@ -9,6 +9,7 @@ Faker::Config.locale = :fr
 # ------------------------------------------------------------------------------
 
 def reset_seed
+  Message.destroy_all
   Challenge.destroy_all
   Score.destroy_all
   Bar.destroy_all
