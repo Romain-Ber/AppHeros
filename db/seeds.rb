@@ -224,7 +224,7 @@ def create_admins
     email: "knnll@gmail.com",
     password: "123456",
     age: 24,
-    description: "C'est moi",
+    description: "J'aime bien la bière, rencontrer du beau monde, mais surtout GAGNER",
     latitude: rand(48.094380..48.136752),
     longitude: rand(-1.629610..-1.703168),
     first_login: false,
