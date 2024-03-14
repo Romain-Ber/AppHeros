@@ -24,6 +24,7 @@ export default class extends Controller {
     this.duelTarget.classList.remove("d-none")
     this.gamesChoiceTarget.classList.add("d-none")
 
+
     setTimeout(() => {
       window.location.href = path;
     }, 9000);

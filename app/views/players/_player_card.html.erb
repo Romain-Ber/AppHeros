@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <%= button_to bar_challenges_path(@bar, challenged_id: user.id, game_slug: :custom_game), method: :post, class:"button" do %>
+    <%= button_to bar_challenges_path(@bar, challenged_id: user.id, game_slug: :custom_game), method: :post, class: controller_name == "challenges" ? "d-none" : "button"  do %>
       <%= image_tag('icons/swords.svg') %>
         <span>Défier</span>
       <%= image_tag('icons/swords.svg') %>
