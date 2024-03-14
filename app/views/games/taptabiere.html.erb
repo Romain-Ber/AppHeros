@@ -4,11 +4,11 @@
   data-taptabiere-user-id-value="<%= current_user.id %>"
   data-taptabiere-challenge-id-value="<%= @challenge.id %>"
 
-><div id="countdown" data-taptabiere-target="countdown">3</div>
+>
   <h2 class="title-page" data-taptabiere-target="title">Termine vite ta bière !</h2>
+  <div id="countdown" data-taptabiere-target="countdown"></div>
 
-
-  <div id="beer-container">
+  <div id="beer-container" data-taptabiere-target="beerContainer">
     <div class="pour"></div>
     <div id="beaker" data-action="click->taptabiere#tap">
       <div class="beer-foam" data-taptabiere-target="foam">
