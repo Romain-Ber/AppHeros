@@ -9,10 +9,10 @@ romain.latitude = lapiste.latitude
 romain.longitude = lapiste.longitude
 romain.save
 
-lapiste.description = "La Piste  à Rennes est un lieu animé et convivial, idéal pour une soirée détendue entre amis. L'ambiance décontractée, la musique entraînante et la sélection de boissons variée en font un choix populaire."
+lapiste.description = "La Piste à Rennes est un lieu animé et convivial, idéal pour une soirée détendue entre amis. L'ambiance décontractée, la musique entraînante et la sélection de boissons variée en font un choix populaire."
 lapiste.save
 
-lapisterUsers = User.find_by(nearest_bar_id: lapiste.id)
+lapisterUsers = User.where(nearest_bar_id: lapiste.id)
 lapisterUsers.each do |user|
   70.times do
     Score.create!(
