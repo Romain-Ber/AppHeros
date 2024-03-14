@@ -150,8 +150,9 @@ def user_builder(first_name, gender, image_id, latitude, longitude)
     status: "available",
     nearest_bar_id: bar.id,
     image_id: image_id,
-    gender: gender
-    )
+    gender: gender,
+    score: rand(1..110)
+  )
   puts("Seeded User ##{User.count} / 1300")
 end
 
@@ -212,7 +213,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_female_users.sample,
     gender: "female",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Romain",
@@ -226,7 +228,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Florian",
@@ -240,7 +243,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Marine",
@@ -254,7 +258,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_female_users.sample,
     gender: "female",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Perrine",
@@ -268,7 +273,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_female_users.sample,
     gender: "female",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Mathieu",
@@ -282,7 +288,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Cédric",
@@ -296,7 +303,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "JJ",
@@ -310,7 +318,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Lomig",
@@ -324,7 +333,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Hugo",
@@ -338,7 +348,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Jerome",
@@ -352,7 +363,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Maelie",
@@ -366,7 +378,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_female_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Eva",
@@ -380,7 +393,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_female_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Kevin",
@@ -394,7 +408,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Louis",
@@ -408,7 +423,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Gwendal",
@@ -422,7 +438,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
   User.create!(
     username: "Valentin THE Boss",
@@ -436,7 +453,8 @@ def seed_wagon
     status: "available",
     image_id: image_id = @img_male_users.sample,
     gender: "male",
-    nearest_bar_id: @bar.id
+    nearest_bar_id: @bar.id,
+    score: rand(1..110)
   )
 end
 
@@ -469,7 +487,7 @@ end
 def seed_score
   @users = User.all
   @users.each do |user|
-    score = rand(1...100)
+    score = rand(1..100)
     Score.create!(
       score: score,
       bar: Bar.find_by(id: user.nearest_bar_id),
@@ -482,7 +500,7 @@ def seed_score
 end
 
 # ------------------------------------------------------------------------------
-# DEMO SEED /!\ NO TESTING /!\
+# RENNES DEMO SEED /!\ NO TESTING /!\
 # ------------------------------------------------------------------------------
 
 def seed_rennes
@@ -600,6 +618,10 @@ def seed_rennes
   puts("Seeded Rennes")
 end
 
+# ------------------------------------------------------------------------------
+# NANTES DEMO SEED /!\ NO TESTING /!\
+# ------------------------------------------------------------------------------
+
 def seed_nantes
   berthom = Bar.find_by(name: "Les BerThoM")
   berthom.description = "Quand on aime on ne compte pas ! Et nous, on aime beaucoup vous accueillir dans nos établissements. Depuis 1994 on oeuvre à créer une jolie petite famille. Chaque établissement a sa propre identité et est à l'image des gens qui y travaillent et de ceux qui le font exister (on parle de vous là)."
@@ -715,229 +737,252 @@ def seed_nantes
   puts("Seeded Nantes")
 end
 
+# ------------------------------------------------------------------------------
+# SCORE DEMO SEED /!\ NO TESTING /!\
+# ------------------------------------------------------------------------------
+
 def reset_demo_scores
   lapiste = Bar.find_by(name: "La Piste")
   berthom = Bar.find_by(name: "Les BerThoM")
   knnll = User.find_by(email: "knnll@gmail.com")
-  Score.where(user: knnll).destroy
+  Score.where(user_id: knnll).destroy_all
   knnll.score = 90
-  knll.save
+  knnll.save
   Score.create!(
-    score: 90,
+    user_id: knnll.id,
     bar: lapiste,
-    user: knnll.score
+    score: knnll.score
   )
   Score.create!(
-    score: 90,
+    user_id: knnll.id,
     bar: berthom,
-    user: knnll.score
+    score: knnll.score
   )
   romain = User.find_by(email: "romain@gmail.com")
-  Score.where(user: romain).destroy
+  Score.where(user_id: romain).destroy_all
   romain.score = 70
   romain.save
   Score.create!(
-    score: 70,
+    user_id: romain.id,
     bar: lapiste,
-    user: romain.score
+    score: romain.score
   )
   Score.create!(
-    score: 70,
+    user_id: romain.id,
     bar: berthom,
-    user: romain.score
+    score: romain.score
   )
   florian = User.find_by(email: "florian@gmail.com")
-  Score.where(user: florian).destroy
+  Score.where(user_id: florian).destroy_all
   florian.score = 71
   florian.save
   Score.create!(
-    score: 71,
+    user_id: florian.id,
     bar: lapiste,
-    user: florian.score
+    score: florian.score
   )
   Score.create!(
-    score: 71,
+    user_id: florian.id,
     bar: berthom,
-    user: florian.score
+    score: florian.score
   )
-  User.find_by(email: "marine@gmail.com")
-  Score.where(user: marine).destroy
+  marine = User.find_by(email: "marine@gmail.com")
+  Score.where(user_id: marine).destroy_all
   marine.score = 50
   marine.save
   Score.create!(
-    score: 50,
+    user_id: marine.id,
     bar: lapiste,
-    user: marine.score
+    score: marine.score
   )
   Score.create!(
-    score: 50,
+    user_id: marine.id,
     bar: berthom,
-    user: marine.score
+    score: marine.score
   )
   perrine = User.find_by(email: "perrine@gmail.com")
-  Score.where(user: perrine).destroy
+  Score.where(user_id: perrine).destroy_all
   perrine.score = 74
   perrine.save
   Score.create!(
-    score: 74,
+    user_id: perrine.id,
     bar: lapiste,
-    user: perrine.score
+    score: perrine.score
   )
   Score.create!(
-    score: 74,
+    user_id: perrine.id,
     bar: berthom,
-    user: perrine.score
+    score: perrine.score
   )
   mathieu = User.find_by(email: "mathieu@gmail.com")
-  Score.where(user: mathieu).destroy
+  Score.where(user_id: mathieu).destroy_all
   mathieu.score = 20
   mathieu.save
   Score.create!(
-    score: 20,
+    user_id: mathieu.id,
     bar: lapiste,
-    user: mathieu.score
+    score: mathieu.score
   )
   Score.create!(
-    score: 20,
+    user_id: mathieu.id,
     bar: berthom,
-    user: mathieu.score
+    score: mathieu.score
   )
   cedric = User.find_by(email: "cedric@gmail.com")
-  Score.where(user: cedric).destroy
-  cedric.score = 1
+  Score.where(user_id: cedric).destroy_all
+  cedric.score = 11
   cedric.save
   Score.create!(
-    score: 1,
+    user_id: cedric.id,
     bar: lapiste,
-    user: cedric.score
+    score: cedric.score
   )
   Score.create!(
-    score: 1,
+    user_id: cedric.id,
     bar: berthom,
-    user: cedric.score
+    score: cedric.score
   )
   lomig = User.find_by(email: "lomig@gmail.com")
-  Score.where(user: lomig).destroy
+  Score.where(user_id: lomig).destroy_all
   lomig.score = 40
   lomig.save
   Score.create!(
-    score: 40,
+    user_id: lomig.id,
     bar: lapiste,
-    user: lomig.score
+    score: lomig.score
   )
   Score.create!(
-    score: 40,
+    user_id: lomig.id,
     bar: berthom,
-    user: lomig.score
+    score: lomig.score
   )
   jj = User.find_by(email: "jj@gmail.com")
-  Score.where(user: jj).destroy
+  Score.where(user_id: jj).destroy_all
+  jj.score = 72
+  jj.save
   Score.create!(
-    score: 72,
+    user_id: jj.id,
     bar: lapiste,
-    user: jj
+    score: jj.score
   )
   Score.create!(
-    score: 72,
+    user_id: jj.id,
     bar: berthom,
-    user: jj
+    score: jj.score
   )
   hugo = User.find_by(email: "hugo@gmail.com")
-  Score.where(user: hugo).destroy
+  Score.where(user_id: hugo).destroy_all
+  hugo.score = 72
+  hugo.save
   Score.create!(
-    score: 72,
+    user_id: hugo.id,
     bar: lapiste,
-    user: hugo
+    score: hugo.score
   )
   Score.create!(
-    score: 72,
+    user_id: hugo.id,
     bar: berthom,
-    user: hugo
+    score: hugo.score
   )
   kevin = User.find_by(email: "kevin@gmail.com")
-  Score.where(user: kevin).destroy
+  Score.where(user_id: kevin).destroy_all
+  kevin.score = 52
+  kevin.save
   Score.create!(
-    score: 52,
+    user_id: kevin.id,
     bar: lapiste,
-    user: kevin
+    score: kevin.score
   )
   Score.create!(
-    score: 52,
+    user_id: kevin.id,
     bar: berthom,
-    user: kevin
+    score: kevin.score
   )
   jerome = User.find_by(email: "jerome@gmail.com")
-  Score.where(user: jerome).destroy
+  Score.where(user_id: jerome).destroy_all
+  jerome.score = 73
+  jerome.save
   Score.create!(
-    score: 73,
+    user_id: jerome.id,
     bar: lapiste,
-    user: jerome
+    score: jerome.score
   )
   Score.create!(
-    score: 73,
+    user_id: jerome.id,
     bar: berthom,
-    user: jerome
+    score: jerome.score
   )
   eva = User.find_by(email: "eva@gmail.com")
-  Score.where(user: eva).destroy
+  Score.where(user_id: eva).destroy_all
+  eva.score = 68
+  eva.save
   Score.create!(
-    score: 68,
+    user_id: eva.id,
     bar: lapiste,
-    user: eva
+    score: eva.score
   )
   Score.create!(
-    score: 68,
+    user_id: eva.id,
     bar: berthom,
-    user: eva
+    score: eva.score
   )
   maelie = User.find_by(email: "maelie@gmail.com")
-  Score.where(user: maelie).destroy
+  Score.where(user_id: maelie).destroy_all
+  maelie.score = 37
+  maelie.save
   Score.create!(
-    score: 37,
+    user_id: maelie.id,
     bar: lapiste,
-    user: maelie
+    score: maelie.score
   )
   Score.create!(
-    score: 37,
+    user_id: maelie.id,
     bar: berthom,
-    user: maelie
+    score: maelie.score
   )
   gwendal = User.find_by(email: "gwendal@gmail.com")
-  Score.where(user: gwendal).destroy
+  Score.where(user_id: gwendal).destroy_all
+  gwendal.score = 24
+  gwendal.save
   Score.create!(
-    score: 24,
+    user_id: gwendal.id,
     bar: lapiste,
-    user: gwendal
+    score: gwendal.score
   )
   Score.create!(
-    score: 24,
+    user_id: gwendal.id,
     bar: berthom,
-    user: gwendal
+    score: gwendal.score
   )
   louis = User.find_by(email: "louis@gmail.com")
-  Score.where(user: louis).destroy
+  Score.where(user_id: louis).destroy_all
+  louis.score = 51
+  louis.save
   Score.create!(
-    score: 51,
+    user_id: louis.id,
     bar: lapiste,
-    user: louis
+    score: louis.score
   )
   Score.create!(
-    score: 51,
+    user_id: louis.id,
     bar: berthom,
-    user: louis
+    score: louis.score
   )
   valentin = User.find_by(email: "valentin@gmail.com")
-  Score.where(user: valentin).destroy
+  Score.where(user_id: valentin).destroy_all
+  valentin.score = 99
+  valentin.save
   Score.create!(
-    score: 99,
+    user_id: valentin.id,
     bar: lapiste,
-    user: valentin
+    score: valentin.score
   )
   Score.create!(
-    score: 99,
+    user_id: valentin.id,
     bar: berthom,
-    user: valentin
+    score: valentin.score
   )
+  puts "Seeded Demo Scores"
 end
 
 # ------------------------------------------------------------------------------
@@ -951,8 +996,6 @@ seed_users()
 seed_wagon()
 seed_games()
 seed_score()
-
 seed_rennes()
 #seed_nantes()
-
 reset_demo_scores()
