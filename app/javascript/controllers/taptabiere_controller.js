@@ -51,7 +51,7 @@ export default class extends Controller {
     this.gameStarted = false;
 
     pageTitle.innerText = "Gagné !";
-    this.titleTarget.innerText = 'Tu as une bonne descente compagnon !';
+    this.titleTarget.innerText = 'Tu remplis ta chope avec une rapidité remarquable compagnon !';
     this.continueButtonTarget.style.display = 'block'
 
     // Update du challenge winner & loser en DB
