@@ -22,18 +22,17 @@
           </div>
           <div class="user-new-scores">
             <h2> Ton nouveau score </h2>
-            <h1> 2345 </h1>
+            <h1> 302 </h1>
             <h2> points </h2>
             <br>
-            <h2>Bonus: Victoire écrasante</h2>
-            <h1>+10 points</h1>
+            <h2>Vous avez reçu un nouveau badge !</h2>
           </div>
         </div>
 
         <div></div>
       </div>
     </div>
-    <!--%= link_to 'Continuer le duel', challenge_game_path(@challenge), class: 'btn button' %-->
+    <%= link_to 'Voir ton profil', profile_path, class: 'btn button' %>
     <%= link_to 'Retour aux joueurs', bar_players_path(@challenge.bar), class: 'btn button' %>
   </div>
 </div>
