@@ -60,21 +60,6 @@
   position: relative;
 }
 
-.appheros-content-infos-overflow {
-  overflow-y: scroll;
-}
-
-.appheros-content-subtitle-wrapper {
-  position: absolute;
-  z-index: 100;
-  top:-26px;
-  left:0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .appheros-content-subtitle {
 	width: fit-content;
   height:50px;
