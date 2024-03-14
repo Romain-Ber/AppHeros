@@ -1,15 +1,19 @@
 <% unless current_page?(root_path) || (@challenge && current_page?(challenge_result_path(@challenge))) || (controller_name == 'challenges' && action_name == 'show') || controller_name == "games" && action_name == "taptabiere" %>
 
   <div class="navbar navbar-expand-sm navbar-light navbar-lewagonpy-3">
+
     <%= link_to barsmap_index_path do %>
-      <%= image_tag('icons/map.svg') %>
+      <%= image_tag('icons/map.svg', style: "opacity: #{controller_name == 'barsmap' ? 1 : 0.3};") %>
     <% end %>
+
     <%= link_to bars_path do %>
-      <%= image_tag('icons/beer-mug-empty-solid.svg') %>
+      <%= image_tag('icons/beer-mug-empty-solid.svg', style: "opacity: #{controller_name == 'bars' ? 1 : 0.3};")  %>
     <% end %>
-    <%= image_tag('icons/group.svg') %>
+
+    <%= image_tag('icons/group.svg', style: "opacity: 0.3") %>
+
     <%= link_to profile_path do %>
-      <%= image_tag('icons/profile.svg')%>
+      <%= image_tag('icons/profile.svg', style: "opacity: #{controller_name == 'profiles' ? 1 : 0.3};") %>
     <% end %>
   </div>
 <% end %>

@@ -36,7 +36,11 @@ float noise( in vec2 p )
 void main() {
     // Normalize screen coordinates
     //vec2 uv = gl_FragCoord.xy / u_resolution;
-    vec2 dir = vec2(sin(u_time * 0.1), 1) * 8.0;
+    float sineValue = sin(u_time * 0.1);
+    float scaledValue = sineValue * 0.5; // Scale to range from -0.5 to 0.5
+    float clampedValue = clamp(scaledValue, -0.5, 0.5);
+    vec2 dir = vec2(clampedValue, 1) * 8.0;
+    //vec2 dir = vec2(sin(u_time * 0.1), 1) * 8.0;
     vec2 coord = gl_FragCoord.xy;
     vec2 scale = vec2(3.0, 3.0);
     vec2 q = (ceil(coord / scale) + ceil(dir * (u_time * 2.0) + 5.0)) * scale;
