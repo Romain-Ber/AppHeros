@@ -56,3 +56,34 @@
     justify-content: center !important;
   }
 }
+
+.mapboxgl-popup {
+  transform: initial !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  position: absolute !important;
+  bottom: 165px !important;
+  top: initial !important;
+}
+
+.mapboxgl-popup-tip {
+  display: none !important
+}
+
+.mapboxgl-popup-content {
+  display: flex !important;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+}
+
+.barmap-card-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.barmap-card-count h2 {
+  transform: rotate(-135deg);
+}
