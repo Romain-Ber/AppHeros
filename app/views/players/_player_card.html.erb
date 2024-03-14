@@ -8,28 +8,28 @@
 
       <% playerScore = Score.where(user: user, bar: @bar).sum(:score) %>
       <% case %>
-      <% when playerScore < 75 %>
+      <% when playerScore < 25 %>
       <div class="player-card-details-pills", style="background-color: #4C9540;">
         <div class="status-dot">
           <div class="player-card-details-tags-online"></div>
           <div class="player-card-details-tags-online-shine"></div>
         </div>
         <span>Nouveau Venu</span>
-      <% when playerScore < 225 %>
+      <% when playerScore < 50 %>
       <div class="player-card-details-pills", style="background-color: #405395;">
         <div class="status-dot">
           <div class="player-card-details-tags-online"></div>
           <div class="player-card-details-tags-online-shine"></div>
         </div>
         <span>Habitué</span>
-      <% when playerScore < 226 %>
+      <% when playerScore < 75 %>
       <div class="player-card-details-pills", style="background-color: #7F4095;">
         <div class="status-dot">
           <div class="player-card-details-tags-online"></div>
           <div class="player-card-details-tags-online-shine"></div>
         </div>
         <span>Connaisseur</span>
-      <% when playerScore < 227 %>
+      <% when playerScore < 100 %>
       <div class="player-card-details-pills", style="background-color: #ED6418;">
         <div class="status-dot">
           <div class="player-card-details-tags-online"></div>
