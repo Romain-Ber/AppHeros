@@ -188,7 +188,7 @@ def create_users
     first_name = Faker::Name.female_first_name
     image_id = @img_female_users.sample
     latitude = rand(48.094380..48.136752)
-    longitude = rand(-1.629610..-1.703168)
+    longitude = -rand(1.629610..1.703168)
     gender = "female"
     user_builder(first_name, gender, image_id, latitude, longitude)
   end
@@ -198,7 +198,7 @@ def create_users
     first_name = Faker::Name.male_first_name
     image_id = @img_male_users.sample
     latitude = rand(47.180189..47.252873)
-    longitude = rand(-1.620718..-1.493774)
+    longitude = -rand(1.493774..1.620718)
     gender = "male"
     user_builder(first_name, gender, image_id, latitude, longitude)
   end
@@ -208,7 +208,7 @@ def create_users
     first_name = Faker::Name.female_first_name
     image_id = @img_female_users.sample
     latitude = rand(47.180189..47.252873)
-    longitude = rand(-1.620718..-1.493774)
+    longitude = -rand(1.493774..1.620718)
     gender = "female"
     user_builder(first_name, gender, image_id, latitude, longitude)
   end
@@ -223,7 +223,7 @@ def create_admins
     age: rand(18..60),
     description: Faker::Fantasy::Tolkien.poem,
     latitude: rand(48.094380..48.136752),
-    longitude: rand(-1.629610..-1.703168),
+    longitude: -rand(1.629610..1.703168),
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
@@ -236,7 +236,7 @@ def create_admins
     age: 24,
     description: "J'aime bien la bière, rencontrer du beau monde, mais surtout GAGNER",
     latitude: rand(48.094380..48.136752),
-    longitude: rand(-1.629610..-1.703168),
+    longitude: -rand(1.629610..1.703168),
     first_login: false,
     status: "available",
     image_id: image_id = @img_female_users.sample,
@@ -249,7 +249,7 @@ def create_admins
     age: 38,
     description: "Ah que coucou",
     latitude: rand(48.094380..48.136752),
-    longitude: rand(-1.629610..-1.703168),
+    longitude: -rand(1.629610..1.703168),
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
@@ -262,7 +262,7 @@ def create_admins
     age: 26,
     description: "T'as de l'argent de poche Tonton?",
     latitude: rand(48.094380..48.136752),
-    longitude: rand(-1.629610..-1.703168),
+    longitude: -rand(1.629610..1.703168),
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
