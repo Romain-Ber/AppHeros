@@ -1,4 +1,4 @@
-<% unless current_page?(root_path) || (@challenge && current_page?(challenge_result_path(@challenge))) %>
+<% unless current_page?(root_path) || (@challenge && current_page?(challenge_result_path(@challenge))) || (controller_name == 'challenges' && action_name == 'show') %>
   <div class="navbar navbar-expand-sm navbar-light navbar-lewagonpy-3">
     <%= link_to barsmap_index_path do %>
       <%= image_tag('icons/map.svg') %>
