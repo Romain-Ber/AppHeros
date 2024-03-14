@@ -19,7 +19,7 @@ class ChallengesController < ApplicationController
   def show
     @challenge = Challenge.find(params[:id])
     @message = Message.new
-
+    @bar = Bar.find(@challenge.bar_id)
     @game = @challenge.game.slug
     @sender = @challenge.challenger
     @receiver = @challenge.challenged

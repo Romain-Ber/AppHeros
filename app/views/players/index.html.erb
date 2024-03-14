@@ -5,8 +5,8 @@
     <%#= link_to "retour", bar_path(@bar), class: "btn btn-primary" %>
     <div class="d-flex flex-column w-100 py-3" data-controller="card-animate">
       <% @users.each do |user| %>
-      <div class="d-flex" data-card-animate-target="card">
-        <%= render "player_card", user: user %>
+      <div class="d-flex animation-player" data-card-animate-target="card">
+        <%= render "player_card", user: user, custom_game: :custom_game %>
       </div>
     <% end %>
   </div>
