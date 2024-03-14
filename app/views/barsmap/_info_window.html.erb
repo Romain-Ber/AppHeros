@@ -1,0 +1,17 @@
+<%= cl_image_tag(bar.image_id, class:"barmap-card-image", :width=>120, :height=>120, :gravity=>"auto", :crop=>"fill") %>
+<div class="barmap-card-infos">
+  <h2>
+    <%= bar.name %>
+  </h2>
+  <p class="text-small font-bold"><%= bar.bar_type %></p>
+  <p class="text-x-small"><%= bar.address %></p>
+</div>
+<div class="barmap-card-count">
+  <div class="big-losange">
+    <div class="big-losange-interior">
+      <h2 class="text-x-small"><%= bar.player_count %></h2>
+    </div>
+  </div>
+  <%= image_tag('icons/group.svg') %>
+  <p>Héros</p>
+</div>
