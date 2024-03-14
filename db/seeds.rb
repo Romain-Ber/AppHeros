@@ -158,7 +158,7 @@ end
 def create_users
   # rennes users
     # male users
-  1000.times do
+  350.times do
     first_name = Faker::Name.male_first_name
     image_id = @img_male_users.sample
     latitude = rand(48.094380..48.136752)
@@ -168,7 +168,7 @@ def create_users
   end
   # rennes users
     # female users
-  1000.times do
+ 350.times do
     first_name = Faker::Name.female_first_name
     image_id = @img_female_users.sample
     latitude = rand(48.094380..48.136752)
@@ -178,7 +178,7 @@ def create_users
   end
   # nantes users
     # male users
-  750.times do
+  300.times do
     first_name = Faker::Name.male_first_name
     image_id = @img_male_users.sample
     latitude = rand(47.180189..47.252873)
@@ -188,7 +188,7 @@ def create_users
   end
   # nantes users
     # female users
-  750.times do
+  300.times do
     first_name = Faker::Name.female_first_name
     image_id = @img_female_users.sample
     latitude = rand(47.180189..47.252873)
@@ -285,14 +285,17 @@ end
 # SCORES SEED
 # ------------------------------------------------------------------------------
 
-def seed_scores
-  35000.times do
+def seed_score
+  @users = User.all
+  @users.each do |user|
+    score = rand(1...100)
     Score.create!(
-      score: rand(10..50),
-      bar: Bar.all.sample,
-      user: User.all.sample
+      score: score,
+      bar: user.nearest_bar_id,
+      user: user
     )
-    puts("Seeded Score ##{Score.count} / 35,000")
+    user.score = score
+    puts("Seeded Score ##{Score.count} / #{User.count}")
   end
 end
 
