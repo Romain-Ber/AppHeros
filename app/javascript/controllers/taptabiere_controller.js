@@ -3,33 +3,34 @@ import JSConfetti from "js-confetti"
 
 export default class extends Controller {
   static values = {userId: Number, challengeId: Number}
-  static targets = ["beerLevel", "title", "foam", "continueButton"]
+  static targets = ["beerLevel", "title", "foam", "continueButton", "countdown"]
   score = 0;
   gameStarted = false;
 
   initialize() {
-    this.countdown();
+    this.startCountdown();
   }
 
-  countdown() {
-    const countdownText = document.createElement('div');
-    countdownText.id = 'countdown';
-    document.getElementById('game-container').appendChild(countdownText);
-
+  startCountdown() {
     let count = 3;
     const countdownInterval = setInterval(() => {
       if (count === 0) {
         clearInterval(countdownInterval);
-        countdownText.innerText = 'GO!';
+        this.countdownTarget.innerText = 'GO!';
         setTimeout(() => {
-          countdownText.remove();
+          this.countdownTarget.remove();
           this.startGame();
         }, 1000);
       } else {
-        countdownText.innerText = count;
+        this.countdownTarget.innerText = count;
         count--;
       }
     }, 1000);
+  }
+
+  startGame() {
+    this.titleTarget.innerHTML = "C'est parti !<br><br>";
+    this.gameStarted = true;
   }
 
   startGame() {
@@ -49,7 +50,7 @@ export default class extends Controller {
     this.gameStarted = false;
 
     pageTitle.innerText = "Gagné !";
-    this.titleTarget.innerText = 'Bravo ! Score: ' + this.score;
+    this.titleTarget.innerText = 'Tu as une bonne descente compagnon !';
     this.continueButtonTarget.style.display = 'block'
 
     // Update du challenge winner & loser en DB
@@ -69,7 +70,6 @@ export default class extends Controller {
   tap() {
     if (this.gameStarted) {
       this.score += 1;
-      this.titleTarget.innerHTML = `Score: ${this.score} <br><br>`;
       this.updateBeerGlass(this.score);
     }
   }

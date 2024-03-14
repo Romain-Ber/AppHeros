@@ -44,20 +44,10 @@
 #countdown {
   text-align: center;
   font-size: 45px;
-  position: absolute; // Ajouter une position absolue pour pouvoir centrer
-  top: 50%; // Centrer verticalement
-  left: 50%; // Centrer horizontalement
-  transform: translate(-50%, -50%) scale(1); // Centrer parfaitement et échelle normale par défaut
-  transition: transform 0.5s ease-in-out; // Ajouter une transition pour l'effet de zoom
-}
-
-#countdown.zoom {
-  transform: translate(-50%, -50%) scale(1.5); // Appliquer un zoom sur le compte à rebours
-}
-
-
-#score {
-  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* NEW */

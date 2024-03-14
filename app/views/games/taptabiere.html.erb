@@ -3,9 +3,9 @@
   data-controller="taptabiere"
   data-taptabiere-user-id-value="<%= current_user.id %>"
   data-taptabiere-challenge-id-value="<%= @challenge.id %>"
->
-  <div id="countdown" data-taptabiere-target="countdown"></div> <!-- Déplacer le compte à rebours ici -->
-  <h2 class="title-page" data-taptabiere-target="title">Sois le plus rapide à remplir ta bière</h2>
+
+><div id="countdown" data-taptabiere-target="countdown">3</div>
+  <h2 class="title-page" data-taptabiere-target="title">Termine vite ta bière !</h2>
 
 
   <div id="beer-container">
@@ -31,5 +31,5 @@
       </div>
     </div>
   </div>
-  <%= link_to "Continue", challenge_result_path(@challenge), class:'btn button w-100', 'data-taptabiere-target' => "continueButton", style: 'display: none; font-size: 20px; padding-left: 6px' %>
+  <%= link_to "Voir le résultat", challenge_result_path(@challenge), class:'btn button w-100', 'data-taptabiere-target' => "continueButton", style: 'display: none;' %>
 </div>
