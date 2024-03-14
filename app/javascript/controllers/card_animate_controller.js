@@ -21,7 +21,7 @@ export default class extends Controller {
       });
     },
     {
-      threshold: 0.5
+      threshold: 0.25
     }
     );
     this.cardTargets.forEach((card, i) => {
