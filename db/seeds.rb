@@ -152,10 +152,10 @@ def user_builder(first_name, gender, image_id, latitude, longitude)
     image_id: image_id,
     gender: gender
     )
-  puts("Seeded User ##{User.count} / 3504")
+  puts("Seeded User ##{User.count} / 1300")
 end
 
-def create_users
+def seed_users
   # rennes users
     # male users
   350.times do
@@ -168,7 +168,7 @@ def create_users
   end
   # rennes users
     # female users
- 350.times do
+  350.times do
     first_name = Faker::Name.female_first_name
     image_id = @img_female_users.sample
     latitude = rand(48.094380..48.136752)
@@ -198,21 +198,7 @@ def create_users
   end
 end
 
-# admins
-def create_admins
-  User.create!(
-    username: "GOD",
-    email: "admin@gmail.com",
-    password: "123456",
-    age: rand(18..60),
-    description: Faker::Fantasy::Tolkien.poem,
-    latitude: rand(48.094380..48.136752),
-    longitude: -rand(1.629610..1.703168),
-    first_login: false,
-    status: "available",
-    image_id: image_id = @img_male_users.sample,
-    gender: "male"
-  )
+def seed_wagon
   User.create!(
     username: "Knnll",
     email: "knnll@gmail.com",
@@ -252,11 +238,175 @@ def create_admins
     image_id: image_id = @img_male_users.sample,
     gender: "male"
   )
-end
-
-def seed_users
-  create_users()
-  create_admins()
+  User.create!(
+    username: "Marine",
+    email: "marine@gmail.com",
+    password: "123456",
+    age: 30,
+    description: "Grande prêtresse de la félicité",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_female_users.sample,
+    gender: "female"
+  )
+  User.create!(
+    username: "Perrine",
+    email: "perrine@gmail.com",
+    password: "123456",
+    age: 28,
+    description: "Gardienne de la stabilité",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_female_users.sample,
+    gender: "female"
+  )
+  User.create!(
+    username: "Mathieu",
+    email: "mathieu@gmail.com",
+    password: "123456",
+    age: 28,
+    description: "Beatles.each do |beatle|",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Cédric",
+    email: "cedric@gmail.com",
+    password: "123456",
+    age: 45,
+    description: "Amateur de marteaux",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "JJ",
+    email: "jj@gmail.com",
+    password: "123456",
+    age: 28,
+    description: "Front-end God",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Lomig",
+    email: "lomig@gmail.com",
+    password: "123456",
+    age: 45,
+    description: "Back-end God",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Hugo",
+    email: "hugo@gmail.com",
+    password: "123456",
+    age: 28,
+    description: "DE OUF",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Jerome",
+    email: "jerome@gmail.com",
+    password: "123456",
+    age: 38,
+    description: "On va à La Piste les gars?",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Maelie",
+    email: "maelie@gmail.com",
+    password: "123456",
+    age: 22,
+    description: "On va au Berthom les gars?",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_female_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Eva",
+    email: "eva@gmail.com",
+    password: "123456",
+    age: 25,
+    description: "Non mais sans déconner",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_female_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Kevin",
+    email: "kevin@gmail.com",
+    password: "123456",
+    age: 30,
+    description: "C'est habile!",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Louis",
+    email: "louis@gmail.com",
+    password: "123456",
+    age: 30,
+    description: "Ok",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
+  User.create!(
+    username: "Gwendal",
+    email: "gwendal@gmail.com",
+    password: "123456",
+    age: 25,
+    description: "Pushez sur Heroku les gars!",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male"
+  )
 end
 
 # ------------------------------------------------------------------------------
@@ -291,28 +441,231 @@ def seed_score
     score = rand(1...100)
     Score.create!(
       score: score,
-      bar: user.nearest_bar_id,
+      bar: Bar.find_by(id: user.nearest_bar_id),
       user: user
     )
     user.score = score
+    user.save
     puts("Seeded Score ##{Score.count} / #{User.count}")
   end
 end
 
 # ------------------------------------------------------------------------------
-# CHALLENGES SEED /!\ TESTING PURPOSES /!\
+# DEMO SEED /!\ NO TESTING /!\
 # ------------------------------------------------------------------------------
 
-def seed_challenges
-  Challenge.create!(
-    location: "4ème table à gauche à l'entrée du bar",
-    status: "accepted",
-    game: Game.all.sample,
-    bar: Bar.all.sample,
-    challenger: User.all.sample,
-    challenged: User.all.sample
-  )
-  puts("Seeded #{Challenge.count} challenges")
+def seed_rennes
+  lapiste = Bar.find_by(name: "La Piste")
+  lapiste.description = "La Piste à Rennes est un lieu animé et convivial, idéal pour une soirée détendue entre amis. L'ambiance décontractée, la musique entraînante et la sélection de boissons variée en font un choix populaire."
+  lapiste.save
+  lapisterUsers = User.where(nearest_bar_id: lapiste.id)
+  lapisterUsers.each do |user|
+    user.nearest_bar_id = Bar.first
+  end
+
+  knnll = User.find_by(email: "knnll@gmail.com")
+  knnll.latitude = lapiste.latitude
+  knnll.longitude = lapiste.longitude
+  knnll.nearest_bar_id = lapiste.id
+  knnll.save
+
+  romain = User.find_by(email: "romain@gmail.com")
+  romain.latitude = lapiste.latitude
+  romain.longitude = lapiste.longitude
+  romain.nearest_bar_id = lapiste.id
+  romain.save
+
+  florian = User.find_by(email: "florian@gmail.com")
+  florian.latitude = lapiste.latitude
+  florian.longitude = lapiste.longitude
+  florian.nearest_bar_id = lapiste.id
+  florian.save
+
+  marine = User.find_by(email: "marine@gmail.com")
+  marine.latitude = lapiste.latitude
+  marine.longitude = lapiste.longitude
+  marine.nearest_bar_id = lapiste.id
+  marine.save
+
+  perrine = User.find_by(email: "perrine@gmail.com")
+  perrine.latitude = lapiste.latitude
+  perrine.longitude = lapiste.longitude
+  perrine.nearest_bar_id = lapiste.id
+  perrine.save
+
+  mathieu = User.find_by(email: "mathieu@gmail.com")
+  mathieu.latitude = lapiste.latitude
+  mathieu.longitude = lapiste.longitude
+  mathieu.nearest_bar_id = lapiste.id
+  mathieu.save
+
+  cedric = User.find_by(email: "cedric@gmail.com")
+  cedric.latitude = lapiste.latitude
+  cedric.longitude = lapiste.longitude
+  cedric.nearest_bar_id = lapiste.id
+  cedric.save
+
+  jj = User.find_by(email: "jj@gmail.com")
+  jj.latitude = lapiste.latitude
+  jj.longitude = lapiste.longitude
+  jj.nearest_bar_id = lapiste.id
+  jj.save
+
+  hugo = User.find_by(email: "hugo@gmail.com")
+  hugo.latitude = lapiste.latitude
+  hugo.longitude = lapiste.longitude
+  hugo.nearest_bar_id = lapiste.id
+  hugo.save
+
+  lomig = User.find_by(email: "lomig@gmail.com")
+  lomig.latitude = lapiste.latitude
+  lomig.longitude = lapiste.longitude
+  lomig.nearest_bar_id = lapiste.id
+  lomig.save
+
+  kevin = User.find_by(email: "kevin@gmail.com")
+  kevin.latitude = lapiste.latitude
+  kevin.longitude = lapiste.longitude
+  kevin.nearest_bar_id = lapiste.id
+  kevin.save
+
+  jerome = User.find_by(email: "jerome@gmail.com")
+  jerome.latitude = lapiste.latitude
+  jerome.longitude = lapiste.longitude
+  jerome.nearest_bar_id = lapiste.id
+  jerome.save
+
+  eva = User.find_by(email: "eva@gmail.com")
+  eva.latitude = lapiste.latitude
+  eva.longitude = lapiste.longitude
+  eva.nearest_bar_id = lapiste.id
+  eva.save
+
+  maelie = User.find_by(email: "maelie@gmail.com")
+  maelie.latitude = lapiste.latitude
+  maelie.longitude = lapiste.longitude
+  maelie.nearest_bar_id = lapiste.id
+  maelie.save
+
+  gwendal = User.find_by(email: "gwendal@gmail.com")
+  gwendal.latitude = lapiste.latitude
+  gwendal.longitude = lapiste.longitude
+  gwendal.nearest_bar_id = lapiste.id
+  gwendal.save
+
+
+  louis = User.find_by(email: "louis@gmail.com")
+  louis.latitude = lapiste.latitude
+  louis.longitude = lapiste.longitude
+  louis.nearest_bar_id = lapiste.id
+  louis.save
+end
+
+def seed_nantes
+  berthom = Bar.find_by(name: "Les BerThoM")
+  berthom.description = "Quand on aime on ne compte pas ! Et nous, on aime beaucoup vous accueillir dans nos établissements. Depuis 1994 on oeuvre à créer une jolie petite famille. Chaque établissement a sa propre identité et est à l'image des gens qui y travaillent et de ceux qui le font exister (on parle de vous là)."
+  berthom.save
+  berthomrUsers = User.where(nearest_bar_id: berthom.id)
+  berthomrUsers.each do |user|
+    user.nearest_bar_id = Bar.first
+  end
+
+  knnll = User.find_by(email: "knnll@gmail.com")
+  knnll.latitude = berthom.latitude
+  knnll.longitude = berthom.longitude
+  knnll.nearest_bar_id = berthom.id
+  knnll.save
+
+  romain = User.find_by(email: "romain@gmail.com")
+  romain.latitude = berthom.latitude
+  romain.longitude = berthom.longitude
+  romain.nearest_bar_id = berthom.id
+  romain.save
+
+  florian = User.find_by(email: "florian@gmail.com")
+  florian.latitude = berthom.latitude
+  florian.longitude = berthom.longitude
+  florian.nearest_bar_id = berthom.id
+  florian.save
+
+  marine = User.find_by(email: "marine@gmail.com")
+  marine.latitude = berthom.latitude
+  marine.longitude = berthom.longitude
+  marine.nearest_bar_id = berthom.id
+  marine.save
+
+  perrine = User.find_by(email: "perrine@gmail.com")
+  perrine.latitude = berthom.latitude
+  perrine.longitude = berthom.longitude
+  perrine.nearest_bar_id = berthom.id
+  perrine.save
+
+  mathieu = User.find_by(email: "mathieu@gmail.com")
+  mathieu.latitude = berthom.latitude
+  mathieu.longitude = berthom.longitude
+  mathieu.nearest_bar_id = berthom.id
+  mathieu.save
+
+  cedric = User.find_by(email: "cedric@gmail.com")
+  cedric.latitude = berthom.latitude
+  cedric.longitude = berthom.longitude
+  cedric.nearest_bar_id = berthom.id
+  cedric.save
+
+  jj = User.find_by(email: "jj@gmail.com")
+  jj.latitude = berthom.latitude
+  jj.longitude = berthom.longitude
+  jj.nearest_bar_id = berthom.id
+  jj.save
+
+  hugo = User.find_by(email: "hugo@gmail.com")
+  hugo.latitude = berthom.latitude
+  hugo.longitude = berthom.longitude
+  hugo.nearest_bar_id = berthom.id
+  hugo.save
+
+  lomig = User.find_by(email: "lomig@gmail.com")
+  lomig.latitude = berthom.latitude
+  lomig.longitude = berthom.longitude
+  lomig.nearest_bar_id = berthom.id
+  lomig.save
+
+  kevin = User.find_by(email: "kevin@gmail.com")
+  kevin.latitude = berthom.latitude
+  kevin.longitude = berthom.longitude
+  kevin.nearest_bar_id = berthom.id
+  kevin.save
+
+  jerome = User.find_by(email: "jerome@gmail.com")
+  jerome.latitude = berthom.latitude
+  jerome.longitude = berthom.longitude
+  jerome.nearest_bar_id = berthom.id
+  jerome.save
+
+  eva = User.find_by(email: "eva@gmail.com")
+  eva.latitude = berthom.latitude
+  eva.longitude = berthom.longitude
+  eva.nearest_bar_id = berthom.id
+  eva.save
+
+  maelie = User.find_by(email: "maelie@gmail.com")
+  maelie.latitude = berthom.latitude
+  maelie.longitude = berthom.longitude
+  maelie.nearest_bar_id = berthom.id
+  maelie.save
+
+  gwendal = User.find_by(email: "gwendal@gmail.com")
+  gwendal.latitude = berthom.latitude
+  gwendal.longitude = berthom.longitude
+  gwendal.nearest_bar_id = berthom.id
+  gwendal.save
+
+
+  louis = User.find_by(email: "louis@gmail.com")
+  louis.latitude = berthom.latitude
+  louis.longitude = berthom.longitude
+  louis.nearest_bar_id = berthom.id
+  louis.save
 end
 
 # ------------------------------------------------------------------------------
@@ -323,6 +676,9 @@ remove_seed()
 seed_images()
 seed_bars()
 seed_users()
+seed_wagon()
 seed_games()
-seed_scores()
-seed_challenges()
+seed_score()
+
+seed_rennes()
+#seed_nantes()
