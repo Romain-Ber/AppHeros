@@ -15,23 +15,25 @@ class BarsController < ApplicationController
 
   def show
     @bar = Bar.find(params[:id])
-    @users = User.all
-    @users_with_scores = @users.select('users.id, SUM(scores.score) AS total_score')
-      .joins(:scores)
-      .where('scores.bar_id = ?', @bar.id)
-      .group('users.id')
-      .order('total_score DESC')
-      .limit(3)
-    @user1 = User.find(@users_with_scores[0].id)
-    @user2 = User.find(@users_with_scores[1].id)
-    @user3 = User.find(@users_with_scores[2].id)
-
-    # @admin = @users.find_by(email: "admin@gmail.com")
-    # @admin.update(nearest_bar_id: @bar.id) if @admin
-    # @romain = @users.find_by(email: "romain@gmail.com")
-    # @romain.update(nearest_bar_id: @bar.id) if @romain
-    # @florian = @users.find_by(email: "florian@gmail.com")
-    # @florian.update(nearest_bar_id: @bar.id) if @florian
+    @users = User.where(nearest_bar_id: @bar.id)
+    @users = @users.sort_by(&:score).reverse
+    if @users.count >= 3
+      @player1 = @users[0]
+      @player2 = @users[1]
+      @player3 = @users[2]
+    elsif @users.count == 2
+      @player1 = @users[0]
+      @player2 = @users[1]
+      @player3 = nil
+    elsif @users.count == 1
+      @player1 = @users[0]
+      @player2 = nil
+      @player3 = nil
+    else
+      @player1 = nil
+      @player2 = nil
+      @player3 = nil
+    end
     current_user.update(nearest_bar_id: @bar.id)
   end
 end
