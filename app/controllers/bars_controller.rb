@@ -30,5 +30,7 @@ class BarsController < ApplicationController
     @admin.update(nearest_bar_id: @bar.id) if @admin
     @romain = @users.find_by(email: "romain@gmail.com")
     @romain.update(nearest_bar_id: @bar.id) if @romain
+    @florian = @users.find_by(email: "florian@gmail.com")
+    @florian.update(nearest_bar_id: @bar.id) if @florian
   end
 end
