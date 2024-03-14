@@ -84,6 +84,7 @@
   left: 14px;
   bottom: 0;
   width: 240px;
+  overflow:hidden;
 }
 
 
@@ -171,6 +172,7 @@
   position: absolute;
   bottom: 10px;
   transition:0.2s;
+  left:22px !important;
   left: -1px;
   transform: scale(1.1);
   z-index: 99;

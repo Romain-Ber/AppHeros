@@ -34,6 +34,19 @@
   </head>
 
   <body>
+    <% if controller_name == "bars" && action_name == "show" %>
+      <div class="appheros-content-subtitle-wrapper">
+        <div class="appheros-content-subtitle">
+          <%= @bar.bar_type %>
+        </div>
+      </div>
+    <% elsif controller_name == "profiles" && action_name == "show" %>
+      <div class="appheros-content-subtitle-wrapper">
+        <div class="appheros-content-subtitle">
+          15 points
+        </div>
+      </div>
+    <% end %>
    <div class="layout-grid">
     <% unless action_name == "login" || controller_name == "Result" %>
       <%= render "shared/appheros-layout" do %>
