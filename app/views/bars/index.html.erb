@@ -1,13 +1,17 @@
 <% content_for :title do %>
-  Les <span><%= Bar.count %></span> Tavernes
+  <% if params[:query] || params[:q] %>
+    Les <span><%= @bars.count %></span> Tavernes
+  <% else %>
+    Les <span><%= Bar.count %></span> Tavernes
+  <% end %>
 <% end %>
 
 
-<div data-controller="filters">
-  <div class="search-bar-index">
-    <%= render "bars/search"%>
-  </div>
-  <%= render "bars/category"%>
+<div class="search-bar-index">
+  <%= render "bars/search"%>
+</div>
+<%= render "bars/category"%>
+
 
   <div class="d-flex flex-column gap-2" data-controller="card-animate">
     <%# <div class="card-info-bar-index"> %>
@@ -15,9 +19,8 @@
         <%= link_to bar_path(bar), class:"bar-card", data: {filters_target: "bar", count: bar.player_count, id: bar.id}, data: {card_animate_target: "card"} do %>
           <%= render "card", bar: bar %>
         <% end %>
-      <% end %>
-    <%# </div> %>
-  </div>
+    <% end %>
+  <%# </div> %>
 </div>
 
 <%# style: "color: inherit;" %>

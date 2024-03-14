@@ -1,5 +1,8 @@
 <%# Posiiton absolute, 100vh, 100vw %>
-<div>
-  <h1><%= challenge.challenger.username %> vous défie !</h1>
-  <%= link_to "Relever le défi", challenge_path(challenge) %>
+<div class="defier">
+  <h2 class="title-accept-decline"><%= challenge.challenger.username %> vous défie !</h2>
+  <div class="btn-accept-decline">
+    <%= link_to "Accepter", challenge_path(challenge), class: "btn button w-100" %>
+    <%= link_to "Refuser", challenge_path(challenge), class: "btn button w-100" %>
+  </div>
 </div>
