@@ -720,99 +720,115 @@ def reset_demo_scores
   berthom = Bar.find_by(name: "Les BerThoM")
   knnll = User.find_by(email: "knnll@gmail.com")
   Score.where(user: knnll).destroy
+  knnll.score = 90
+  knll.save
   Score.create!(
     score: 90,
     bar: lapiste,
-    user: knnll
+    user: knnll.score
   )
   Score.create!(
     score: 90,
     bar: berthom,
-    user: knnll
+    user: knnll.score
   )
   romain = User.find_by(email: "romain@gmail.com")
   Score.where(user: romain).destroy
+  romain.score = 70
+  romain.save
   Score.create!(
     score: 70,
     bar: lapiste,
-    user: romain
+    user: romain.score
   )
   Score.create!(
     score: 70,
     bar: berthom,
-    user: romain
+    user: romain.score
   )
   florian = User.find_by(email: "florian@gmail.com")
   Score.where(user: florian).destroy
+  florian.score = 71
+  florian.save
   Score.create!(
     score: 71,
     bar: lapiste,
-    user: florian
+    user: florian.score
   )
   Score.create!(
     score: 71,
     bar: berthom,
-    user: florian
+    user: florian.score
   )
   User.find_by(email: "marine@gmail.com")
   Score.where(user: marine).destroy
+  marine.score = 50
+  marine.save
   Score.create!(
     score: 50,
     bar: lapiste,
-    user: marine
+    user: marine.score
   )
   Score.create!(
     score: 50,
     bar: berthom,
-    user: marine
+    user: marine.score
   )
   perrine = User.find_by(email: "perrine@gmail.com")
   Score.where(user: perrine).destroy
+  perrine.score = 74
+  perrine.save
   Score.create!(
     score: 74,
     bar: lapiste,
-    user: perrine
+    user: perrine.score
   )
   Score.create!(
     score: 74,
     bar: berthom,
-    user: perrine
+    user: perrine.score
   )
   mathieu = User.find_by(email: "mathieu@gmail.com")
   Score.where(user: mathieu).destroy
+  mathieu.score = 20
+  mathieu.save
   Score.create!(
     score: 20,
     bar: lapiste,
-    user: mathieu
+    user: mathieu.score
   )
   Score.create!(
     score: 20,
     bar: berthom,
-    user: mathieu
+    user: mathieu.score
   )
   cedric = User.find_by(email: "cedric@gmail.com")
   Score.where(user: cedric).destroy
+  cedric.score = 1
+  cedric.save
   Score.create!(
     score: 1,
     bar: lapiste,
-    user: cedric
+    user: cedric.score
   )
   Score.create!(
     score: 1,
     bar: berthom,
-    user: cedric
+    user: cedric.score
   )
   lomig = User.find_by(email: "lomig@gmail.com")
   Score.where(user: lomig).destroy
+  lomig.score = 40
+  lomig.save
   Score.create!(
     score: 40,
     bar: lapiste,
-    user: lomig
+    user: lomig.score
   )
   Score.create!(
     score: 40,
     bar: berthom,
-    user: lomig
+    user: lomig.score
   )
   jj = User.find_by(email: "jj@gmail.com")
   Score.where(user: jj).destroy
@@ -928,13 +944,13 @@ end
 # METHODS
 # ------------------------------------------------------------------------------
 
-remove_seed()
-seed_images()
-seed_bars()
-seed_users()
-seed_wagon()
-seed_games()
-seed_score()
+#remove_seed()
+#seed_images()
+#seed_bars()
+#seed_users()
+#seed_wagon()
+#seed_games()
+#seed_score()
 
 seed_rennes()
 #seed_nantes()
