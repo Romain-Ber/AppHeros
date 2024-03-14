@@ -9,10 +9,10 @@
   </div>
   <%= render "bars/category"%>
 
-  <div class="d-flex flex-column gap-2">
+  <div class="d-flex flex-column gap-2" data-controller="card-animate">
     <%# <div class="card-info-bar-index"> %>
       <% @bars.each do |bar| %>
-        <%= link_to bar_path(bar), class:"bar-card", data: {filters_target: "bar", count: bar.player_count, id: bar.id} do %>
+        <%= link_to bar_path(bar), class:"bar-card", data: {filters_target: "bar", count: bar.player_count, id: bar.id}, data: {card_animate_target: "card"} do %>
           <%= render "card", bar: bar %>
         <% end %>
       <% end %>
