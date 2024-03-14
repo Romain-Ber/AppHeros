@@ -12,6 +12,16 @@
   }
 }
 
+.bars-filters::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.bars-filters {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .bars-filters-btn {
   background-color: $primary-light;
   border: 1px solid $brown-ultradark;
