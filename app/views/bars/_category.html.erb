@@ -1,6 +1,23 @@
 <div class="bars-filters">
-  <div data-filters-target="button" data-action="click->filters#resetFilters" class="bars-filters-btn active">Toutes</div>
-  <div data-filters-target="button" data-proximity="<%= current_user.near_bars %>" data-action="click->filters#proximity" class="bars-filters-btn">Les plus proches</div>
-  <div data-filters-target="button" data-count="10" data-action="click->filters#maxPlayer" class="bars-filters-btn">Les plus animées</div>
-  <div data-filters-target="button" data-count="5" data-action="click->filters#minPlayer" class="bars-filters-btn">Les plus tranquilles</div>
+  <%= form_with url: bars_path, method: :get, class: "d-flex" do %>
+    <%= text_field_tag :q,
+                       "proximity",
+                       class: "d-none"
+    %>
+    <%= submit_tag "Les plus proches", name: "", class: params[:q] == "proximity" ? "bars-filters-btn active" : "bars-filters-btn" %>
+  <% end %>
+  <%= form_with url: bars_path, method: :get, class: "d-flex" do %>
+    <%= text_field_tag :q,
+                       "max_players",
+                       class: "d-none"
+    %>
+    <%= submit_tag "Les plus animés", name: "", class: params[:q] == "max_players" ? "bars-filters-btn active" : "bars-filters-btn" %>
+  <% end %>
+  <%= form_with url: bars_path, method: :get, class: "d-flex" do %>
+    <%= text_field_tag :q,
+                       "min_players",
+                       class: "d-none"
+    %>
+    <%= submit_tag "Les plus tranquilles", name: "", class: params[:q] == "min_players" ? "bars-filters-btn active" : "bars-filters-btn" %>
+  <% end %>
 </div>
