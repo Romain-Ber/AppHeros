@@ -9,7 +9,7 @@ Faker::Config.locale = :fr
 # ------------------------------------------------------------------------------
 
 def reset_seed
-  destroy_seed()
+  remove_seed()
   seed_images()
   seed_bars()
   seed_users()
@@ -24,7 +24,7 @@ reset_seed() #uncomment to reset seed /!\ WARNING THIS WILL TAKE 30+ mins /!\
 # DESTROY_ALL
 # ------------------------------------------------------------------------------
 
-def destroy_seed
+def remove_seed
   Message.destroy_all
   Challenge.destroy_all
   Score.destroy_all
