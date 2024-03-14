@@ -26,14 +26,30 @@
 }
 
 .search-bar-index {
-  padding: 5px 8px;
-  border-radius: 5px 0 0 5px;
+  border-radius:8px; 
+  overflow: hidden;
+}
 
+.search-bar-index-wrapper {
+  border-radius: 8px;
+  font-weight: 600;
+  border: solid 2px $brown-dark;
+  color: $gold !important;
+  
+  form {
+    font-family: $goudy-bold;
+    
+  }
+  overflow: hidden;
+  margin:8px 0;
+  input {
+    font-size: 22px;
+  }
   .btn {
     background-color: $primary;
-    border-radius: 0 5px 5px 0;
-    border: solid 1px $brown-dark;
+    border-radius: 0 8px 8px 0;
     padding-top: 12px;
+    border-left: solid 2px #634016;
   }
 }
 
