@@ -16,9 +16,9 @@ export default class extends Controller {
   }
 
   startCountdown() {
-    let count = 3;
+    this.count = 3;
     const countdownInterval = setInterval(() => {
-      if (count === 0) {
+      if (this.count === 0) {
         clearInterval(countdownInterval);
         this.countdownTarget.innerText = 'GO!';
         setTimeout(() => {
@@ -26,8 +26,8 @@ export default class extends Controller {
           this.startGame();
         }, 1000);
       } else {
-        this.countdownTarget.innerText = count;
-        count--;
+        this.countdownTarget.innerText = this.count;
+        this.count--;
       }
     }, 1000);
   }
