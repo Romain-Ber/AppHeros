@@ -9,11 +9,10 @@ export default class extends Controller {
 
   initialize() {
     this.startCountdown();
-    
   }
 
   connect() {
-    
+
   }
 
   startCountdown() {
@@ -52,7 +51,11 @@ export default class extends Controller {
 
     pageTitle.innerText = "Gagné !";
     this.titleTarget.innerText = 'Tu remplis ta chope avec une rapidité remarquable compagnon !';
-    this.continueButtonTarget.style.display = 'block'
+    setTimeout(() => {
+      // redirect to result of current challenge id
+      window.location.href = `/challenges/${this.challengeIdValue}/result`;
+    }, 2000);
+    //this.continueButtonTarget.style.display = 'block'
 
     // Update du challenge winner & loser en DB
     // Id du winner = userId
