@@ -1,15 +1,15 @@
 class BarsController < ApplicationController
   def index
-    if params[:query]
+    if params[:q] == "proximity"
+      @bars = Bar.near([current_user.latitude, current_user.longitude], 1).first(5)
+    elsif params[:q] == "max_players"
+      @bars = Bar.all.select { |bar| bar.player_count >= 10 }.sort_by(&:player_count).reverse.first(20)
+    elsif params[:q] == "min_players"
+      @bars = Bar.all.select { |bar| bar.player_count <= 5 }.sort_by(&:player_count).first(18)
+    elsif params[:query]
       @bars = Bar.where("name ILIKE ?", "%#{params[:query]}%")
     else
-      @bars = Bar.all
-    end
-    @markers = @bars.geocoded.map do |bar|
-      {
-        lat: bar.latitude,
-        lng: bar.longitude
-      }
+      @bars = Bar.all.first(50)
     end
   end
 
