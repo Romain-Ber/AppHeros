@@ -1,5 +1,5 @@
 <% content_for :title do %>
-  <% if params[:query] || params[:q] %>
+  <% if (params[:query] && !params[:query].empty?) || (params[:q] && !params[:q].empty?) %>
     Les <span><%= @bars.count %></span> Tavernes
   <% else %>
     Les <span><%= Bar.count %></span> Tavernes
