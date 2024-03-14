@@ -11,7 +11,7 @@
 
   <div class="d-flex flex-column gap-2">
     <%# <div class="card-info-bar-index"> %>
-      <% @bars.first(100).each do |bar| %>
+      <% @bars.each do |bar| %>
         <%= link_to bar_path(bar), class:"bar-card", data: {filters_target: "bar", count: bar.player_count, id: bar.id} do %>
           <%= render "card", bar: bar %>
         <% end %>
