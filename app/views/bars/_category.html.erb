@@ -1,4 +1,11 @@
 <div class="bars-filters">
+<%= form_with url: bars_path, method: :get, class: "d-flex" do %>
+    <%= text_field_tag params[:q] ? :q : :query,
+                      "",
+                      class: "d-none"
+    %>
+    <%= submit_tag "Toutes", name: "", class: (%w[proximity max_players min_players].include?(params[:q]) || (params[:query] && !params[:query].empty?) ) ? "bars-filters-btn" : "bars-filters-btn active" %>
+  <% end %>
   <%= form_with url: bars_path, method: :get, class: "d-flex" do %>
     <%= text_field_tag :q,
                        "proximity",
