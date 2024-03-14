@@ -1,5 +1,9 @@
 <% content_for :title do %>
-  Les <span><%= @bars.count %></span> Tavernes
+  <% if params[:query] || params[:q] %>
+    Les <span><%= @bars.count %></span> Tavernes
+  <% else %>
+    Les <span><%= Bar.count %></span> Tavernes
+  <% end %>
 <% end %>
 
 
