@@ -199,6 +199,7 @@ def seed_users
 end
 
 def seed_wagon
+  @bar = Bar.first
   User.create!(
     username: "Knnll",
     email: "knnll@gmail.com",
@@ -210,7 +211,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_female_users.sample,
-    gender: "female"
+    gender: "female",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Romain",
@@ -223,7 +225,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Florian",
@@ -236,7 +239,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Marine",
@@ -249,7 +253,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_female_users.sample,
-    gender: "female"
+    gender: "female",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Perrine",
@@ -262,7 +267,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_female_users.sample,
-    gender: "female"
+    gender: "female",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Mathieu",
@@ -275,7 +281,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Cédric",
@@ -288,7 +295,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "JJ",
@@ -301,7 +309,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Lomig",
@@ -314,7 +323,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Hugo",
@@ -327,7 +337,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Jerome",
@@ -340,7 +351,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Maelie",
@@ -353,7 +365,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_female_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Eva",
@@ -366,7 +379,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_female_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Kevin",
@@ -379,7 +393,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Louis",
@@ -392,7 +407,8 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
   User.create!(
     username: "Gwendal",
@@ -405,7 +421,22 @@ def seed_wagon
     first_login: false,
     status: "available",
     image_id: image_id = @img_male_users.sample,
-    gender: "male"
+    gender: "male",
+    nearest_bar_id: @bar.id
+  )
+  User.create!(
+    username: "Valentin THE Boss",
+    email: "valentin@gmail.com",
+    password: "123456",
+    age: 36,
+    description: "Demandez a vos ex si Le Wagon ca les interesse",
+    latitude: rand(48.094380..48.136752),
+    longitude: -rand(1.629610..1.703168),
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male",
+    nearest_bar_id: @bar.id
   )
 end
 
@@ -461,6 +492,7 @@ def seed_rennes
   lapisterUsers = User.where(nearest_bar_id: lapiste.id)
   lapisterUsers.each do |user|
     user.nearest_bar_id = Bar.first
+    user.save
   end
 
   knnll = User.find_by(email: "knnll@gmail.com")
@@ -553,12 +585,19 @@ def seed_rennes
   gwendal.nearest_bar_id = lapiste.id
   gwendal.save
 
-
   louis = User.find_by(email: "louis@gmail.com")
   louis.latitude = lapiste.latitude
   louis.longitude = lapiste.longitude
   louis.nearest_bar_id = lapiste.id
   louis.save
+
+  valentin = User.find_by(email: "valentin@gmail.com")
+  valentin.latitude = lapiste.latitude
+  valentin.longitude = lapiste.longitude
+  valentin.nearest_bar_id = lapiste.id
+  valentin.save
+
+  puts("Seeded Rennes")
 end
 
 def seed_nantes
@@ -568,6 +607,7 @@ def seed_nantes
   berthomrUsers = User.where(nearest_bar_id: berthom.id)
   berthomrUsers.each do |user|
     user.nearest_bar_id = Bar.first
+    user.save
   end
 
   knnll = User.find_by(email: "knnll@gmail.com")
@@ -660,12 +700,228 @@ def seed_nantes
   gwendal.nearest_bar_id = berthom.id
   gwendal.save
 
-
   louis = User.find_by(email: "louis@gmail.com")
   louis.latitude = berthom.latitude
   louis.longitude = berthom.longitude
   louis.nearest_bar_id = berthom.id
   louis.save
+
+  valentin = User.find_by(email: "valentin@gmail.com")
+  valentin.latitude = lapiste.latitude
+  valentin.longitude = lapiste.longitude
+  valentin.nearest_bar_id = lapiste.id
+  valentin.save
+
+  puts("Seeded Nantes")
+end
+
+def reset_demo_scores
+  lapiste = Bar.find_by(name: "La Piste")
+  berthom = Bar.find_by(name: "Les BerThoM")
+  knnll = User.find_by(email: "knnll@gmail.com")
+  Score.where(user: knnll).destroy
+  Score.create!(
+    score: 90,
+    bar: lapiste,
+    user: knnll
+  )
+  Score.create!(
+    score: 90,
+    bar: berthom,
+    user: knnll
+  )
+  romain = User.find_by(email: "romain@gmail.com")
+  Score.where(user: romain).destroy
+  Score.create!(
+    score: 70,
+    bar: lapiste,
+    user: romain
+  )
+  Score.create!(
+    score: 70,
+    bar: berthom,
+    user: romain
+  )
+  florian = User.find_by(email: "florian@gmail.com")
+  Score.where(user: florian).destroy
+  Score.create!(
+    score: 71,
+    bar: lapiste,
+    user: florian
+  )
+  Score.create!(
+    score: 71,
+    bar: berthom,
+    user: florian
+  )
+  User.find_by(email: "marine@gmail.com")
+  Score.where(user: marine).destroy
+  Score.create!(
+    score: 50,
+    bar: lapiste,
+    user: marine
+  )
+  Score.create!(
+    score: 50,
+    bar: berthom,
+    user: marine
+  )
+  perrine = User.find_by(email: "perrine@gmail.com")
+  Score.where(user: perrine).destroy
+  Score.create!(
+    score: 74,
+    bar: lapiste,
+    user: perrine
+  )
+  Score.create!(
+    score: 74,
+    bar: berthom,
+    user: perrine
+  )
+  mathieu = User.find_by(email: "mathieu@gmail.com")
+  Score.where(user: mathieu).destroy
+  Score.create!(
+    score: 20,
+    bar: lapiste,
+    user: mathieu
+  )
+  Score.create!(
+    score: 20,
+    bar: berthom,
+    user: mathieu
+  )
+  cedric = User.find_by(email: "cedric@gmail.com")
+  Score.where(user: cedric).destroy
+  Score.create!(
+    score: 1,
+    bar: lapiste,
+    user: cedric
+  )
+  Score.create!(
+    score: 1,
+    bar: berthom,
+    user: cedric
+  )
+  lomig = User.find_by(email: "lomig@gmail.com")
+  Score.where(user: lomig).destroy
+  Score.create!(
+    score: 40,
+    bar: lapiste,
+    user: lomig
+  )
+  Score.create!(
+    score: 40,
+    bar: berthom,
+    user: lomig
+  )
+  jj = User.find_by(email: "jj@gmail.com")
+  Score.where(user: jj).destroy
+  Score.create!(
+    score: 72,
+    bar: lapiste,
+    user: jj
+  )
+  Score.create!(
+    score: 72,
+    bar: berthom,
+    user: jj
+  )
+  hugo = User.find_by(email: "hugo@gmail.com")
+  Score.where(user: hugo).destroy
+  Score.create!(
+    score: 72,
+    bar: lapiste,
+    user: hugo
+  )
+  Score.create!(
+    score: 72,
+    bar: berthom,
+    user: hugo
+  )
+  kevin = User.find_by(email: "kevin@gmail.com")
+  Score.where(user: kevin).destroy
+  Score.create!(
+    score: 52,
+    bar: lapiste,
+    user: kevin
+  )
+  Score.create!(
+    score: 52,
+    bar: berthom,
+    user: kevin
+  )
+  jerome = User.find_by(email: "jerome@gmail.com")
+  Score.where(user: jerome).destroy
+  Score.create!(
+    score: 73,
+    bar: lapiste,
+    user: jerome
+  )
+  Score.create!(
+    score: 73,
+    bar: berthom,
+    user: jerome
+  )
+  eva = User.find_by(email: "eva@gmail.com")
+  Score.where(user: eva).destroy
+  Score.create!(
+    score: 68,
+    bar: lapiste,
+    user: eva
+  )
+  Score.create!(
+    score: 68,
+    bar: berthom,
+    user: eva
+  )
+  maelie = User.find_by(email: "maelie@gmail.com")
+  Score.where(user: maelie).destroy
+  Score.create!(
+    score: 37,
+    bar: lapiste,
+    user: maelie
+  )
+  Score.create!(
+    score: 37,
+    bar: berthom,
+    user: maelie
+  )
+  gwendal = User.find_by(email: "gwendal@gmail.com")
+  Score.where(user: gwendal).destroy
+  Score.create!(
+    score: 24,
+    bar: lapiste,
+    user: gwendal
+  )
+  Score.create!(
+    score: 24,
+    bar: berthom,
+    user: gwendal
+  )
+  louis = User.find_by(email: "louis@gmail.com")
+  Score.where(user: louis).destroy
+  Score.create!(
+    score: 51,
+    bar: lapiste,
+    user: louis
+  )
+  Score.create!(
+    score: 51,
+    bar: berthom,
+    user: louis
+  )
+  valentin = User.find_by(email: "valentin@gmail.com")
+  Score.where(user: valentin).destroy
+  Score.create!(
+    score: 99,
+    bar: lapiste,
+    user: valentin
+  )
+  Score.create!(
+    score: 99,
+    bar: berthom,
+    user: valentin
+  )
 end
 
 # ------------------------------------------------------------------------------
@@ -682,3 +938,5 @@ seed_score()
 
 seed_rennes()
 #seed_nantes()
+
+reset_demo_scores()
