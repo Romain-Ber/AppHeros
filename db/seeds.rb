@@ -944,13 +944,13 @@ end
 # METHODS
 # ------------------------------------------------------------------------------
 
-#remove_seed()
-#seed_images()
-#seed_bars()
-#seed_users()
-#seed_wagon()
-#seed_games()
-#seed_score()
+remove_seed()
+seed_images()
+seed_bars()
+seed_users()
+seed_wagon()
+seed_games()
+seed_score()
 
 seed_rennes()
 #seed_nantes()
