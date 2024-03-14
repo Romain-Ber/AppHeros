@@ -1,10 +1,11 @@
-.appheros-layout {
+.layout-grid {
   background:$brown-dark;
   background-image: asset-url('wood-texture.png');
   background-size: cover;
-  padding: 4px;
   width:100vw;
   height:100vh;
+  display: grid;
+  grid-template-rows: auto 60px;
 }
 
 .appheros-content-wrapper {
@@ -38,6 +39,12 @@
   overflow: hidden;
 }
 
+.appheros-layout {
+  background:$brown-ultradark;
+  padding: 8px;
+  width:100vw;
+}
+
 .appheros-content-head {
   background:$brown-dark;
   width:100%;
@@ -56,7 +63,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:24px 0;
+  padding:12px 0;
   position:relative;
   border-bottom: 1px solid $brown-ultradark;
   h1 {
