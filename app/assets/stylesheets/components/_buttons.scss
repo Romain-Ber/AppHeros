@@ -16,9 +16,10 @@
   display: flex;
   justify-content: center;
   width: 100%;
+
   &:hover {
-    color:inherit !important;
-    transform: scale(1.1);
+    color:$white !important;
+    transform: scale(1.05);
   }
 }
 
