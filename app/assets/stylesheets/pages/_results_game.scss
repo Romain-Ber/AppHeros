@@ -4,6 +4,7 @@
 
 .users-scores {
   perspective: 1000px;
+  margin-top: -50px;
 }
 
 .users-scores-chains {
@@ -81,7 +82,7 @@
 }
 .result-shader {
   left:0;
-  height:84vh !important;
+  height:100vh !important;
 }
 
 @keyframes balancingBoard {

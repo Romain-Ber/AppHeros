@@ -3,12 +3,17 @@ import JSConfetti from "js-confetti"
 
 export default class extends Controller {
   static values = {userId: Number, challengeId: Number}
-  static targets = ["beerLevel", "title", "foam", "continueButton", "countdown"]
+  static targets = ["beerLevel", "title", "foam", "continueButton", "countdown", "beerContainer"]
   score = 0;
   gameStarted = false;
 
   initialize() {
     this.startCountdown();
+    
+  }
+
+  connect() {
+    
   }
 
   startCountdown() {
@@ -30,13 +35,9 @@ export default class extends Controller {
 
   startGame() {
     this.titleTarget.innerHTML = "C'est parti !<br><br>";
-    this.gameStarted = true;
-  }
-
-  startGame() {
-    this.titleTarget.innerHTML = "C'est parti !<br><br>";
     this.score = 0;
     this.gameStarted = true;
+    this.beerContainerTarget.style.opacity = 1
   }
 
   endGame() {
