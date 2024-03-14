@@ -1,4 +1,7 @@
-<% content_for :title, "Les Tavernes" %>
+<% content_for :title do %>
+  Les <span><%= Bar.count %></span> Tavernes
+<% end %>
+
 
 <div data-controller="filters">
   <div class="search-bar-index">
@@ -8,18 +11,13 @@
 
   <div class="d-flex flex-column gap-2">
     <%# <div class="card-info-bar-index"> %>
-      <% @bars.first(100).each do |bar| %>
+      <% @bars.each do |bar| %>
         <%= link_to bar_path(bar), class:"bar-card", data: {filters_target: "bar", count: bar.player_count, id: bar.id} do %>
           <%= render "card", bar: bar %>
         <% end %>
       <% end %>
     <%# </div> %>
   </div>
-</div>
-<div style="width: 100%; height: 600px;"
-  data-controller="map"
-  data-map-markers-value="<%= @markers.to_json %>"
-  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
 </div>
 
 <%# style: "color: inherit;" %>

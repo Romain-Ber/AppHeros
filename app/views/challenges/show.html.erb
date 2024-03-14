@@ -17,11 +17,11 @@
   <div class="btn-games-choice gap-2" data-timer-target="gamesChoice">
     <%= link_to 'Memory', memory_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
     <%= link_to 'Tap ta Bière', taptabiere_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
-    <%= link_to 'Mon Jeu', customgame_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
+    <%#= link_to 'Mon Jeu', customgame_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
   </div>
 
   <div class="chat-challenge" data-controller="chatroom-subscription" data-chatroom-subscription-challenge-id-value="<%= @challenge.id %>">
-    <h1><%= @challenge.status %></h1>
+    <h1>Channel</h1>
     <div class="messages" data-chatroom-subscription-target="messages">
       <% @challenge.messages.each do |message| %>
         <%= render "messages/message", message: message %>

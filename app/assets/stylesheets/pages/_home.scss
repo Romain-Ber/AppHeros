@@ -8,7 +8,23 @@
 }
 
 .home-head {
+}
 
+.propal-value {
+  color: $white;
+  background: $brown-dark;
+  background-color:rgba(60, 42, 25, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 425px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  h1 {
+    color: $gold;
+  }
 }
 
 .home-head-title {

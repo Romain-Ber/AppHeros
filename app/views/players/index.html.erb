@@ -1,9 +1,9 @@
-<% content_for :title, "Challenges" %>
+<% content_for :title, "Provoquer En Duel" %>
   <div class="d-flex flex-column" data-controller="challenge-subscription" data-challenge-subscription-user-id-value="<%= current_user.id %>">
     <div class="messages" data-challenge-subscription-target="messages"></div>
 
-    <%= link_to "retour", bar_path(@bar), class: "btn btn-primary" %>
-    <div class="d-flex flex-column w-100">
+    <%#= link_to "retour", bar_path(@bar), class: "btn btn-primary" %>
+    <div class="d-flex flex-column w-100 py-3">
       <% @users.each do |user| %>
       <div class="d-flex">
         <%= render "player_card", user: user %>
