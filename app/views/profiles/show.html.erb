@@ -1,49 +1,45 @@
 <% content_for :title, "#{@profile.username}" %>
-<div class="appheros-content-subtitle-wrapper">
-  <div class="appheros-content-subtitle">
-    <p>15 points</p>
+<%= cl_image_tag(@profile.image_id, class:"bar-content-info-image", :width=>400, :height=>500, :gravity=>"face", :crop=>"thumb") %>
+<div class="bar-content-text profile-content-text">
+  <div class="badges badges-profile">
+    <div class="player-card-details-pills player-age-details">
+      <span><%= @profile.age %> ans</span>
+    </div>
+
+    <div class="player-card-details-pills", style="background-color: #4C9540;">
+      <div class="status-dot">
+        <div class="player-card-details-tags-online"></div>
+        <div class="player-card-details-tags-online-shine"></div>
+      </div>
+      <span>Héro Légendaire</span>
+    </div>
+  </div>
+  <p>
+    <%= @profile.description %>
+  </p>
+</div>
+<div class="achievment-text">
+  <h2>Vos triomphes</h2>
+  <div class="achievement-cards">
+    <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Héros de La Piste 15/03/2024</p>
   </div>
 </div>
-  <%= cl_image_tag(@profile.image_id, class:"bar-content-info-image", :width=>400, :height=>500, :gravity=>"face", :crop=>"thumb") %>
-  <div class="bar-content-text profile-content-text">
-    <div class="badges">
-      <div class="badge">
-        <div class="status-dot connected"></div>
-        <p>Héro Légendaire</p>
-        <%# 2 badges, en space between, position absolute, check la position relative du parent %>
-      </div>
-
-      <div class="badge">
-        <p><%= @profile.age %> ans</p>
-        <%# 2 badges, en space between, position absolute, check la position relative du parent %>
-      </div>
-    </div>
-    <p>
-      <%= @profile.description %>
-    </p>
-  </div>
+<div class="statistics">
+  <h2>La croissance de votre Légende</h2>
+  <p style="font-size: 24px;">Batailles engagées</p>
   <div class="achievment-text">
-    <h2>Vos triomphes</h2>
-    <div class="achievement-cards">
-      <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Héros de La Piste 15/03/2024</p>
-    </div>
+    <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Vous avez engagé 163 batailles !</p>
   </div>
-  <div class="statistics">
-    <h2>La croissance de votre Légende</h2>
-    <p style="font-size: 24px;">Batailles engagées</p>
-    <div class="achievment-text">
-      <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Vous avez engagé 163 batailles !</p>
-    </div>
-      <p style="font-size: 24px;">La somme de vos exploits</p>
-    <div class="achievment-text">
-      <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Vous avez gagné 302 points !</p>
-    </div>
-    <p style="font-size: 24px;">Vos exploits par taverne</p>
-    <div class="achievment-text">
-      <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Vous avez gagné 30 points à La Piste !</p>
-    </div>
-    <p style="font-size: 24px;">Donjons maîtrisés</p>
-    <div class="achievment-text">
-      <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Vous avez gagné 176 points à Tap ta Bière !</p>
-    </div>
+    <p style="font-size: 24px;">La somme de vos exploits</p>
+  <div class="achievment-text">
+    <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Vous avez gagné 302 points !</p>
   </div>
+  <p style="font-size: 24px;">Vos exploits par taverne</p>
+  <div class="achievment-text">
+    <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Vous avez gagné 30 points à La Piste !</p>
+  </div>
+  <p style="font-size: 24px;">Donjons maîtrisés</p>
+  <div class="achievment-text">
+    <p><%= image_tag("icons/trophy.svg", style:"width:20px") %> Vous avez gagné 176 points à Tap ta Bière !</p>
+  </div>
+</div>

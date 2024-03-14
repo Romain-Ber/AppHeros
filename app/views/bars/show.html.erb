@@ -1,9 +1,4 @@
 <% content_for :title, "#{@bar.name}" %>
-<div class="appheros-content-subtitle-wrapper">
-  <div class="appheros-content-subtitle">
-    <%= @bar.bar_type %>
-  </div>
-</div>
 <%= cl_image_tag(@bar.image_id, class:"bar-content-info-image") %>
 <div class="bar-content-text">
   <p class="px-4" style="font-size:22px; text-align:center;"><strong></strong><%= @bar.description %></p>
