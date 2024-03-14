@@ -20,3 +20,16 @@
     color: $primary
   }
 }
+
+.title-accept-decline {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.btn-accept-decline {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  
+}
