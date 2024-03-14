@@ -3,6 +3,7 @@
   bottom: 1px;
   left: 1px;
   width: 99%;
+  z-index: 999;
   background: #826645;
   border: solid #FFD363 3px;
   padding: 10px 24px;
@@ -15,5 +16,6 @@
   }
 }
 
-.map-icon {
+.mapboxgl-ctrl-attrib.mapboxgl-compact {
+  display: none !important;
 }

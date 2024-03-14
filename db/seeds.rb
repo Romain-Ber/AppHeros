@@ -5,10 +5,26 @@
 Faker::Config.locale = :fr
 
 # ------------------------------------------------------------------------------
-# DESTROY_ALL
+# METHODS
 # ------------------------------------------------------------------------------
 
 def reset_seed
+  destroy_seed()
+  seed_images()
+  seed_bars()
+  seed_users()
+  seed_games()
+  seed_scores()
+  seed_challenges()
+end
+
+reset_seed() #uncomment to reset seed /!\ WARNING THIS WILL TAKE 30+ mins /!\
+
+# ------------------------------------------------------------------------------
+# DESTROY_ALL
+# ------------------------------------------------------------------------------
+
+def destroy_seed
   Message.destroy_all
   Challenge.destroy_all
   Score.destroy_all
@@ -16,8 +32,6 @@ def reset_seed
   User.destroy_all
   Game.destroy_all
 end
-
-reset_seed()
 
 # ------------------------------------------------------------------------------
 # CLOUDINARY IMAGES SEED
@@ -73,8 +87,6 @@ def seed_images
   puts("Seeded #{@img_total} images")
 end
 
-seed_images()
-
 # ------------------------------------------------------------------------------
 # BARS SEED
 # ------------------------------------------------------------------------------
@@ -129,8 +141,6 @@ def seed_bars
   bar_builder()
 end
 
-seed_bars()
-
 # ------------------------------------------------------------------------------
 # FAKE USERS SEED
 # ------------------------------------------------------------------------------
@@ -168,7 +178,7 @@ def create_users
     first_name = Faker::Name.male_first_name
     image_id = @img_male_users.sample
     latitude = rand(48.094380..48.136752)
-    longitude = rand(-1.629610..-1.703168)
+    longitude = -rand(1.629610..1.703168)
     gender = "male"
     user_builder(first_name, gender, image_id, latitude, longitude)
   end
@@ -265,8 +275,6 @@ def seed_users
   create_admins()
 end
 
-seed_users()
-
 # ------------------------------------------------------------------------------
 # GAMES SEED
 # ------------------------------------------------------------------------------
@@ -287,7 +295,7 @@ def seed_games
   puts("Seeded #{Game.count} games")
 end
 
-seed_games()
+#seed_games()
 
 # ------------------------------------------------------------------------------
 # SCORES SEED
@@ -304,8 +312,6 @@ def seed_scores
   end
 end
 
-seed_scores()
-
 # ------------------------------------------------------------------------------
 # CHALLENGES SEED /!\ TESTING PURPOSES /!\
 # ------------------------------------------------------------------------------
@@ -321,5 +327,3 @@ def seed_challenges
   )
   puts("Seeded #{Challenge.count} challenges")
 end
-
-seed_challenges()

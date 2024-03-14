@@ -1,4 +1,7 @@
-<% content_for :title, "Les Tavernes" %>
+<% content_for :title do %>
+  Les <span><%= Bar.count %></span> Tavernes
+<% end %>
+
 
 <div data-controller="filters">
   <div class="search-bar-index">
@@ -15,11 +18,6 @@
       <% end %>
     <%# </div> %>
   </div>
-</div>
-<div style="width: 100%; height: 600px;"
-  data-controller="map"
-  data-map-markers-value="<%= @markers.to_json %>"
-  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
 </div>
 
 <%# style: "color: inherit;" %>
