@@ -1018,4 +1018,4 @@ def bartypes
   berthom.save
 end
 
-bartypes()
+#bartypes()
