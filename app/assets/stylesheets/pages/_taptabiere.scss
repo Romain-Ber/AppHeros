@@ -45,12 +45,6 @@
   font-size: 80px;
   font-weight: bold;
   margin: 0;
-  // font-size: 45px;
-  // position: absolute;
-  // top: 50%;
-  // left: 42%;
-  // transform: translate(-50%, -50%);
-  // animation: zoomCountdown 1s ease-in-out infinite;
 }
 
 /* NEW */
@@ -62,7 +56,7 @@
   position: relative;
   top: -20px;
   width: 260px;
-  opacity: 0;
+  opacity: 1; /* changed from 0 */
 }
 
 #beer-container div { position: absolute; }
@@ -93,10 +87,10 @@
   border: 10px solid #edaf32;
   border-radius: 0 0 20px 20px;
   bottom: 0;
-  height: 0px;
+  height: 100%; /* changed from 0px */
   overflow: hidden;
   width: 100%;
-  transition:0.2s;
+  transition: 0.2s;
 }
 
 #liquid:after {
@@ -106,8 +100,7 @@
   height: 140%;
   left: -40px;
   position: absolute;
-  transform: rotate(30deg);
-  transform: rotate(15deg);
+  transform: rotate(15deg); /* changed from 30deg */
   width: 110px;
 }
 
@@ -170,7 +163,7 @@
 
 .beer-foam {
   position: absolute;
-  bottom: 10px;
+  bottom: 400px;
   transition:0.2s;
   left:22px !important;
   left: -1px;

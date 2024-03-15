@@ -989,13 +989,33 @@ end
 # METHODS
 # ------------------------------------------------------------------------------
 
-remove_seed()
-seed_images()
-seed_bars()
-seed_users()
-seed_wagon()
-seed_games()
-seed_score()
-seed_rennes()
+#remove_seed()
+#seed_images()
+#seed_bars()
+#seed_users()
+#seed_wagon()
+#seed_games()
+#seed_score()
+#seed_rennes()
 #seed_nantes()
-reset_demo_scores()
+#reset_demo_scores()
+
+# ------------------------------------------------------------------------------
+# PATCH AREA /!\ BULLSHIT FOR DEMO /!\
+# ------------------------------------------------------------------------------
+
+def bartypes
+  @category = ["Bar", "Café", "Pub", "Bar à Bières", "Cave", "Bar à Cocktails"]
+  Bar.all.each do |bar|
+    bar.bar_type = @category.sample
+    bar.save
+  end
+  lapiste = Bar.find_by(name: "La Piste")
+  berthom = Bar.find_by(name: "Les BerThoM")
+  lapiste.bar_type = "Bar à Bières"
+  lapiste.save
+  berthom.bar_type = "Bar à Bières"
+  berthom.save
+end
+
+bartypes()

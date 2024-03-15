@@ -32,7 +32,7 @@ export default class extends Controller {
     setTimeout(() => {
       const secondPlayer = this.secondPlayerTarget.children[0]
       secondPlayer.style.backgroundColor="#008000"
-      pageTitle.innerText = "Soyez prêts !";
+      pageTitle.innerText = "Duel accepté !";
 
     }, 6000);
 

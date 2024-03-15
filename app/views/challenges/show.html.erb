@@ -1,4 +1,4 @@
-<% content_for :title, "Choisi un jeu" %>
+<% content_for :title, "Choisis un jeu" %>
 <div class="games-show" data-controller="timer" >
   <canvas id="glslCanvas" class="custom-game-shader" data-timer-target="glslCanvas" data-fragment-url="/fragment.glsl"></canvas>
   <div class="defier d-none" data-timer-target="duel">
@@ -14,9 +14,13 @@
   </div>
 
 
-  <div class="btn-games-choice gap-2" data-timer-target="gamesChoice">
-    <%= link_to 'Memory', memory_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
-    <%= link_to 'Tap ta Bière', taptabiere_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
+  <div class="btn-games-choice gap-4" data-timer-target="gamesChoice">
+    <%= link_to memory_challenge_game_path(@challenge, @game), class: 'btn button w-100 memory-button', style: 'background-image: url(' + cl_image_path("nud1hbtbbc51mcjeqhft", width: 512, height: 512, gravity: "auto", crop: "fill") + '); background-size: cover; background-position: center; height: 300px;', data: { action: "click->timer#buttonClick" } do %>
+      <div style="font-size: 30px; color: #FFC581;">Memory</div>
+    <% end %>
+    <%= link_to taptabiere_challenge_game_path(@challenge, @game), class: 'btn button w-100 tap-button', style: 'background-image: url(' + cl_image_path("cgm6gwnf2nhlep0qrboi", width: 512, height: 512, gravity: "auto", crop: "fill") + '); background-size: cover; background-position: center; height: 300px;', data: { action: "click->timer#buttonClick" } do %>
+      <div style="font-size: 30px; color: #FFC581;">Tap ta Bière</div>
+    <% end %>
     <%#= link_to 'Mon Jeu', customgame_challenge_game_path(@challenge, @game), class:'btn button w-100', data: { action: "click->timer#buttonClick" } %>
   </div>
 
