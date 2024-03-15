@@ -746,7 +746,7 @@ def reset_demo_scores
   berthom = Bar.find_by(name: "Les BerThoM")
   knnll = User.find_by(email: "knnll@gmail.com")
   Score.where(user_id: knnll).destroy_all
-  knnll.score = 70
+  knnll.score = 56
   knnll.save
   Score.create!(
     user_id: knnll.id,
