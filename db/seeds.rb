@@ -997,7 +997,7 @@ end
 #seed_games()
 #seed_score()
 #seed_rennes()
-#seed_nantes()
+seed_nantes()
 reset_demo_scores()
 
 # ------------------------------------------------------------------------------
