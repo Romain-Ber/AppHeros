@@ -729,9 +729,9 @@ def seed_nantes
   louis.save
 
   valentin = User.find_by(email: "valentin@gmail.com")
-  valentin.latitude = lapiste.latitude
-  valentin.longitude = lapiste.longitude
-  valentin.nearest_bar_id = lapiste.id
+  valentin.latitude = berthom.latitude
+  valentin.longitude = berthom.longitude
+  valentin.nearest_bar_id = berthom.id
   valentin.save
 
   puts("Seeded Nantes")
