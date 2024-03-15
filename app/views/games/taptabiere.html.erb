@@ -1,11 +1,10 @@
-<% content_for :title, "Tap Ta Bière!" %>
 <div id="game-container"
   data-controller="taptabiere"
   data-taptabiere-user-id-value="<%= current_user.id %>"
   data-taptabiere-challenge-id-value="<%= @challenge.id %>"
-
-><div id="countdown" data-taptabiere-target="countdown">3</div>
-  <h2 class="title-page" data-taptabiere-target="title">Rempli vite ta bière !</h2>
+>
+  <div id="countdown" data-taptabiere-target="countdown">3</div>
+  <h2 class="title-page" data-taptabiere-target="title">Bois vite ta bière !</h2>
 
   <div id="beer-container" data-taptabiere-target="beerContainer">
     <div class="pour"></div>
@@ -21,10 +20,7 @@
     </div>
 
     <div id="beaker" data-action="click->taptabiere#tap">
-
-
       <div id="liquid" data-taptabiere-target="beerLevel">
-
         <div class="bubble bubble1"></div>
         <div class="bubble bubble2"></div>
         <div class="bubble bubble3"></div>
@@ -33,5 +29,6 @@
       </div>
     </div>
   </div>
+
   <%= link_to "Voir le résultat", challenge_result_path(@challenge), class:'btn button w-100', 'data-taptabiere-target' => "continueButton", style: 'display: none;' %>
 </div>

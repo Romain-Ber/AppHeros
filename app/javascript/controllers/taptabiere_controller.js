@@ -1,18 +1,14 @@
-import { Controller } from "@hotwired/stimulus"
-import JSConfetti from "js-confetti"
+import { Controller } from "@hotwired/stimulus";
+import JSConfetti from "js-confetti";
 
 export default class extends Controller {
-  static values = {userId: Number, challengeId: Number}
-  static targets = ["beerLevel", "title", "foam", "continueButton", "countdown", "beerContainer"]
-  score = 0;
+  static values = { userId: Number, challengeId: Number };
+  static targets = ["beerLevel", "title", "foam", "continueButton", "countdown", "beerContainer"];
+  score = 400; // Start with full glass
   gameStarted = false;
 
   initialize() {
     this.startCountdown();
-  }
-
-  connect() {
-
   }
 
   startCountdown() {
@@ -34,13 +30,11 @@ export default class extends Controller {
 
   startGame() {
     this.titleTarget.innerHTML = "C'est parti !<br><br>";
-    this.score = 0;
     this.gameStarted = true;
-    this.beerContainerTarget.style.opacity = 1
   }
 
   endGame() {
-    var jsConfetti = new JSConfetti()
+    var jsConfetti = new JSConfetti();
     jsConfetti.addConfetti({
       confettiColors: [
         '#AB3B3A', '#7D2224', '#FFAC4A', '#FFD363', '#826645', '#45220A',
@@ -50,46 +44,42 @@ export default class extends Controller {
     this.gameStarted = false;
 
     pageTitle.innerText = "Gagné !";
-    this.titleTarget.innerText = 'Tu remplis ta chope avec une rapidité remarquable compagnon !';
+    this.titleTarget.innerText = 'Tu as vidé ta chope avec une rapidité remarquable compagnon !';
     setTimeout(() => {
       // redirect to result of current challenge id
       window.location.href = `/challenges/${this.challengeIdValue}/result`;
     }, 2000);
-    //this.continueButtonTarget.style.display = 'block'
 
     // Update du challenge winner & loser en DB
-    // Id du winner = userId
-    // Faire une requête HTTP (AJAX) avec fetch sur une route existante
-    const url = `/challenges/${this.challengeIdValue}/update_winner?winner_id=${this.userIdValue}`
+    const url = `/challenges/${this.challengeIdValue}/update_winner?winner_id=${this.userIdValue}`;
     fetch(url, {
-      headers: {"Accept": "text/plain"},
+      headers: { "Accept": "text/plain" },
       method: "GET"
     })
-    .then(response => response.text())
-    .then((data) => {
-      console.log(data)
-    })
+      .then(response => response.text())
+      .then((data) => {
+        console.log(data);
+      });
   }
 
   tap() {
     if (this.gameStarted) {
-      this.score += 1;
+      this.score -= 10; // Decrease by 10 pixels with each click
+      if (this.score <= 0) {
+        this.score = 0;
+        this.endGame();
+      }
       this.updateBeerGlass(this.score);
     }
   }
 
   updateBeerGlass(score) {
-    let increment = 10; // Augmenter de 20 pixels à chaque clic
-    let beerLevel = parseFloat(this.beerLevelTarget.style.height) || 0;
-    let newBeerLevel = beerLevel + increment;
-    let beerLevelMax = 400; // Hauteur maximale de la barre en pixels
-    if (newBeerLevel > beerLevelMax) {
-      newBeerLevel = beerLevelMax; // Limiter la hauteur maximale de la barre
+    let beerLevel = score; // Set beer level to current score
+    const beerLevelMax = 400; // Maximum height of the bar in pixels
+    if (beerLevel < 0) {
+      beerLevel = 0; // Ensure beer level doesn't go below 0
     }
-    this.beerLevelTarget.style.height = newBeerLevel + 'px';
-    this.foamTarget.style.bottom = newBeerLevel + 'px';
-    if (newBeerLevel === beerLevelMax) {
-      this.endGame()
-    }
+    this.beerLevelTarget.style.height = beerLevel + 'px';
+    this.foamTarget.style.bottom = beerLevel + 'px';
   }
 }
