@@ -746,7 +746,7 @@ def reset_demo_scores
   berthom = Bar.find_by(name: "Les BerThoM")
   knnll = User.find_by(email: "knnll@gmail.com")
   Score.where(user_id: knnll).destroy_all
-  knnll.score = 90
+  knnll.score = 70
   knnll.save
   Score.create!(
     user_id: knnll.id,
@@ -774,7 +774,7 @@ def reset_demo_scores
   )
   florian = User.find_by(email: "florian@gmail.com")
   Score.where(user_id: florian).destroy_all
-  florian.score = 71
+  florian.score = 73
   florian.save
   Score.create!(
     user_id: florian.id,
@@ -900,7 +900,7 @@ def reset_demo_scores
   )
   jerome = User.find_by(email: "jerome@gmail.com")
   Score.where(user_id: jerome).destroy_all
-  jerome.score = 73
+  jerome.score = 71
   jerome.save
   Score.create!(
     user_id: jerome.id,
@@ -998,7 +998,7 @@ end
 #seed_score()
 #seed_rennes()
 #seed_nantes()
-#reset_demo_scores()
+reset_demo_scores()
 
 # ------------------------------------------------------------------------------
 # PATCH AREA /!\ BULLSHIT FOR DEMO /!\
