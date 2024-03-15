@@ -34,6 +34,6 @@ class BarsController < ApplicationController
       @player2 = nil
       @player3 = nil
     end
-    current_user.update(nearest_bar_id: @bar.id)
+    #/!\ current_user.update(nearest_bar_id: @bar.id) LAISSEZ EN COMMENTAIRE POUR LA DEMO /!\
   end
 end

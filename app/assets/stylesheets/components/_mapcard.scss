@@ -26,7 +26,7 @@
 .barmap-card-count {
   margin-top: 10px !important;
   span {
-    font-size: 23px !important !important;
+    font-size: 23px !important;
     position: absolute !important;
     font-family: "GoudyBold" !important;
     color: #45220A !important;
@@ -62,8 +62,7 @@
   width: 100% !important;
   max-width: 100% !important;
   position: absolute !important;
-  bottom: 165px !important;
-  top: initial !important;
+  top: 60vh !important;
 }
 
 .mapboxgl-popup-tip {
