@@ -189,7 +189,7 @@ export default class extends Controller {
     this.cards.forEach(card => {
       frag += `<div class="card" data-id="${card.id}"><div class="inside">
       <div class="front"><img src="${card.img}" alt="${card.name}" /></div>
-      <div class="back"><img src="/assets/memoryimg/logo_appheros.png" /></div></div>
+      <div class="back"><img src="https://res.cloudinary.com/deetrshgq/image/upload/v1710511106/zy9uqbjv1qhgppho7xxs.png" width="200" height="200" /></div></div>
       </div>`;
     });
     return frag;
