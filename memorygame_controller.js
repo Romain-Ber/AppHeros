@@ -7,47 +7,47 @@ export default class extends Controller {
     this.cards = [
       {
         name: "logo_a",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/bewuwnxekpbj1fxxju3i",
+        img: cl_image_tag("memoryimg/logo_a.png", { width: 200, height: 200, crop: "fill" }),
         id: 1,
       },
       {
         name: "logo_bavaria",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/vg3zaqcikz8nwepjizgp",
+        img: cl_image_tag("memoryimg/logo_bavaria.png", { width: 200, height: 200, crop: "fill" }),
         id: 2
       },
       {
         name: "logo_efes",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/tdsapubbmaypcqbovrxu",
+        img: cl_image_tag("memoryimg/logo_efes.png", { width: 200, height: 200, crop: "fill" }),
         id: 3
       },
       {
         name: "logo_guinness",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/i7pcvyr7njjyiwffmn2q",
+        img: cl_image_tag("memoryimg/logo_guinness.png", { width: 200, height: 200, crop: "fill" }),
         id: 4
       },
       {
         name: "logo_kozel",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/nlrqjxlcdgpepiv9uezv",
+        img: cl_image_tag("memoryimg/logo_kozel.png", { width: 200, height: 200, crop: "fill" }),
         id: 5
       },
       {
         name: "logo_krusovice",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/c1unop3plskd13oi5dcn",
+        img: cl_image_tag("memoryimg/logo_krusovice.png", { width: 200, height: 200, crop: "fill" }),
         id: 6
       },
       {
         name: "logo_leffe",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/tghqjnyv8vmk2oisinxa",
+        img: cl_image_tag("memoryimg/logo_leffe.png", { width: 200, height: 200, crop: "fill" }),
         id: 7
       },
       {
         name: "logo_spaten",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/brnpsguyspdtzzqevjth",
+        img: cl_image_tag("memoryimg/logo_spaten.png", { width: 200, height: 200, crop: "fill" }),
         id: 8
       },
       {
         name: "logo_stella",
-        img: "https://res.cloudinary.com/deetrshgq/image/upload/w_200,h_200,c_fill/cbh3t1ijccrmab5sx9qn",
+        img: cl_image_tag("memoryimg/logo_stella.png", { width: 200, height: 200, crop: "fill" }),
         id: 9
       },
     ];
