@@ -8,7 +8,7 @@
       </div>
       <div class="user-scores-wodden-board">
 
-        <h1 class="users-scores-title">Gagné !</h1>
+        <h1 class="users-scores-title" style="text-align:center;">Victoire!</h1>
 
         <div class="users-avatars-results">
           <div class="users-avatars">
@@ -22,10 +22,10 @@
           </div>
           <div class="user-new-scores">
             <h2> Ton nouveau score </h2>
-            <h1> 302 </h1>
+            <h1> 100 </h1>
             <h2> points </h2>
             <br>
-            <h2>Vous avez reçu un nouveau badge !</h2>
+            <h2>Tu as reçu un nouveau badge !</h2>
           </div>
         </div>
 
@@ -33,7 +33,7 @@
       </div>
     </div>
     <%= link_to 'Voir ton profil', profile_path, class: 'btn button' %>
-    <%= link_to 'Retour aux joueurs', bar_players_path(@challenge.bar), class: 'btn button' %>
+    <%#= link_to 'Retour aux joueurs', bar_players_path(@challenge.bar), class: 'btn button' %>
   </div>
 </div>
 <!--% if @winner == @challenge.challenger %-->

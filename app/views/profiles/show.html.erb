@@ -2,16 +2,16 @@
 <%= cl_image_tag(@profile.image_id, class:"bar-content-info-image", :width=>400, :height=>500, :gravity=>"face", :crop=>"thumb") %>
 <div class="bar-content-text profile-content-text">
   <div class="badges badges-profile">
-    <div class="player-card-details-pills player-age-details">
+    <div class="player-card-details-pills player-age-details" style="background-color: #FFAC4A;">
       <span><%= @profile.age %> ans</span>
     </div>
 
-    <div class="player-card-details-pills", style="background-color: #4C9540;">
+    <div class="player-card-details-pills", style="background-color: #ED1818;">
       <div class="status-dot">
         <div class="player-card-details-tags-online"></div>
         <div class="player-card-details-tags-online-shine"></div>
       </div>
-      <span>Héro Légendaire</span>
+      <span>Héros de Bar</span>
     </div>
   </div>
   <p>

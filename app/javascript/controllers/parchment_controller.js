@@ -12,13 +12,13 @@ export default class extends Controller {
     clearInterval(this.intervalId);
   }
 
-  // adjustScrollHeight() {
-  //   const content = this.element.querySelector('#parchment');
-  //   const container = this.element.querySelector('#contain');
-  //   const newHeight = container.offsetHeight + 16;
-  //   content.style.transition = 'height 0.1s ease';
-  //   content.style.height = newHeight + 'px';
-  // }
+  adjustScrollHeight() {
+    const content = this.element.querySelector('#parchment');
+    const container = this.element.querySelector('#contain');
+    const newHeight = container.offsetHeight + 16;
+    content.style.transition = 'height 0.1s ease';
+    content.style.height = newHeight + 'px';
+  }
 
   checkForChanges() {
     // Check if the content size has changed
