@@ -760,7 +760,7 @@ def reset_demo_scores
   )
   romain = User.find_by(email: "romain@gmail.com")
   Score.where(user_id: romain).destroy_all
-  romain.score = 70
+  romain.score = 78
   romain.save
   Score.create!(
     user_id: romain.id,
@@ -970,7 +970,7 @@ def reset_demo_scores
   )
   valentin = User.find_by(email: "valentin@gmail.com")
   Score.where(user_id: valentin).destroy_all
-  valentin.score = 99
+  valentin.score = 1
   valentin.save
   Score.create!(
     user_id: valentin.id,
