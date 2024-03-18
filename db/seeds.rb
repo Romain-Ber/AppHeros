@@ -738,6 +738,143 @@ def seed_nantes
 end
 
 # ------------------------------------------------------------------------------
+# EPITECH DEMO SEED /!\ NO TESTING /!\
+# ------------------------------------------------------------------------------
+
+def seed_epitech
+  yermat = Bar.find_by(name: "Yermat")
+  yermat.description = "Quand on aime on ne compte pas ! Et nous, on aime beaucoup vous accueillir dans nos établissements. Depuis 1994 on oeuvre à créer une jolie petite famille. Chaque établissement a sa propre identité et est à l'image des gens qui y travaillent et de ceux qui le font exister (on parle de vous là)."
+  yermat.save
+  yermatrUsers = User.where(nearest_bar_id: yermat.id)
+  yermatrUsers.each do |user|
+    user.nearest_bar_id = Bar.first
+    user.save
+  end
+
+  romain = User.find_by(email: "romain@gmail.com")
+  romain.latitude = yermat.latitude
+  romain.longitude = yermat.longitude
+  romain.nearest_bar_id = yermat.id
+  romain.score = 56
+  romain.save
+  Score.create!(
+    user_id: romain.id,
+    bar: yermat,
+    score: romain.score
+  )
+
+  florian = User.find_by(email: "florian@gmail.com")
+  florian.latitude = yermat.latitude
+  florian.longitude = yermat.longitude
+  florian.nearest_bar_id = yermat.id
+  florian.score = 78
+  florian.save
+  Score.create!(
+    user_id: florian.id,
+    bar: yermat,
+    score: florian.score
+  )
+
+  marine = User.find_by(email: "marine@gmail.com")
+  marine.latitude = yermat.latitude
+  marine.longitude = yermat.longitude
+  marine.nearest_bar_id = yermat.id
+  marine.score = 50
+  marine.save
+  Score.create!(
+    user_id: marine.id,
+    bar: yermat,
+    score: marine.score
+  )
+
+  christelle = User.create!(
+    username: "Christelle",
+    email: "christelle@gmail.com",
+    password: "123456",
+    age: 36,
+    description: "Directrice Epitech",
+    latitude: yermat.latitude,
+    longitude: yermat.longitude,
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_female_users.sample,
+    gender: "female",
+    nearest_bar_id: yermat.id,
+    score: rand(1..110)
+  )
+  Score.create!(
+    user_id: christelle.id,
+    bar: yermat,
+    score: christelle.score
+  )
+
+  pascal = User.create!(
+    username: "Pascal",
+    email: "pascal@gmail.com",
+    password: "123456",
+    age: 24,
+    description: "Directrice Epitech",
+    latitude: yermat.latitude,
+    longitude: yermat.longitude,
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male",
+    nearest_bar_id: yermat.id,
+    score: 76
+  )
+  Score.create!(
+    user_id: pascal.id,
+    bar: yermat,
+    score: pascal.score
+  )
+
+  marvin = User.create!(
+    username: "Marvin",
+    email: "marvin@gmail.com",
+    password: "123456",
+    age: 25,
+    description: "Directrice Epitech",
+    latitude: yermat.latitude,
+    longitude: yermat.longitude,
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male",
+    nearest_bar_id: yermat.id,
+    score: 62
+  )
+  Score.create!(
+    user_id: marvin.id,
+    bar: yermat,
+    score: marvin.score
+  )
+
+  curtis = User.create!(
+    username: "Curtis",
+    email: "curtis@gmail.com",
+    password: "123456",
+    age: 30,
+    description: "Directrice Epitech",
+    latitude: yermat.latitude,
+    longitude: yermat.longitude,
+    first_login: false,
+    status: "available",
+    image_id: image_id = @img_male_users.sample,
+    gender: "male",
+    nearest_bar_id: yermat.id,
+    score: 64
+  )
+  Score.create!(
+    user_id: curtis.id,
+    bar: yermat,
+    score: curtis.score
+  )
+
+  puts("Seeded Epitech")
+end
+
+# ------------------------------------------------------------------------------
 # SCORE DEMO SEED /!\ NO TESTING /!\
 # ------------------------------------------------------------------------------
 
@@ -986,19 +1123,47 @@ def reset_demo_scores
 end
 
 # ------------------------------------------------------------------------------
+# IMG EPITECH
+# ------------------------------------------------------------------------------
+
+def seed_epitech_img
+  christelle = User.find_by(email: "christelle@gmail.com")
+  christelle.image_id = @img_female_users.sample
+  christelle.description = "Directrice Epitech"
+  christelle.save
+
+  curtis = User.find_by(email: "curtis@gmail.com")
+  curtis.image_id = @img_male_users.sample
+  curtis.description = "Intervenant Epitech"
+  curtis.save
+
+  pascal = User.find_by(email: "pascal@gmail.com")
+  pascal.image_id = @img_male_users.sample
+  pascal.description = "Enseignant Epitech"
+  pascal.save
+
+  marvin = User.find_by(email: "marvin@gmail.com")
+  marvin.image_id = @img_male_users.sample
+  marvin.description = "Directeur Epitech"
+  marvin.save
+end
+
+# ------------------------------------------------------------------------------
 # METHODS
 # ------------------------------------------------------------------------------
 
 #remove_seed()
-#seed_images()
+seed_images()
 #seed_bars()
 #seed_users()
 #seed_wagon()
 #seed_games()
 #seed_score()
-seed_rennes()
+#seed_rennes()
 #seed_nantes()
-reset_demo_scores()
+seed_epitech()
+seed_epitech_img()
+#reset_demo_scores()
 
 # ------------------------------------------------------------------------------
 # PATCH AREA /!\ BULLSHIT FOR WAGON DEMO RENNES/NANTES /!\
