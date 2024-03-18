@@ -813,7 +813,7 @@ def seed_epitech
     email: "pascal@gmail.com",
     password: "123456",
     age: 24,
-    description: "Directrice Epitech",
+    description: "Enseignant Epitech",
     latitude: yermat.latitude,
     longitude: yermat.longitude,
     first_login: false,
@@ -834,7 +834,7 @@ def seed_epitech
     email: "marvin@gmail.com",
     password: "123456",
     age: 25,
-    description: "Directrice Epitech",
+    description: "Directeur Epitech",
     latitude: yermat.latitude,
     longitude: yermat.longitude,
     first_login: false,
@@ -855,7 +855,7 @@ def seed_epitech
     email: "curtis@gmail.com",
     password: "123456",
     age: 30,
-    description: "Directrice Epitech",
+    description: "Intervenant Epitech",
     latitude: yermat.latitude,
     longitude: yermat.longitude,
     first_login: false,
@@ -1129,22 +1129,18 @@ end
 def seed_epitech_img
   christelle = User.find_by(email: "christelle@gmail.com")
   christelle.image_id = @img_female_users.sample
-  christelle.description = "Directrice Epitech"
   christelle.save
 
   curtis = User.find_by(email: "curtis@gmail.com")
   curtis.image_id = @img_male_users.sample
-  curtis.description = "Intervenant Epitech"
   curtis.save
 
   pascal = User.find_by(email: "pascal@gmail.com")
   pascal.image_id = @img_male_users.sample
-  pascal.description = "Enseignant Epitech"
   pascal.save
 
   marvin = User.find_by(email: "marvin@gmail.com")
   marvin.image_id = @img_male_users.sample
-  marvin.description = "Directeur Epitech"
   marvin.save
 end
 
