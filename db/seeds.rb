@@ -996,12 +996,12 @@ end
 #seed_wagon()
 #seed_games()
 #seed_score()
-#seed_rennes()
-seed_nantes()
+seed_rennes()
+#seed_nantes()
 reset_demo_scores()
 
 # ------------------------------------------------------------------------------
-# PATCH AREA /!\ BULLSHIT FOR DEMO /!\
+# PATCH AREA /!\ BULLSHIT FOR WAGON DEMO RENNES/NANTES /!\
 # ------------------------------------------------------------------------------
 
 def bartypes
